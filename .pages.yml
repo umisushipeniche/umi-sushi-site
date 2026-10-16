@@ -1,0 +1,62 @@
+media:
+  input: assets
+  output: /assets
+content:
+  - name: settings
+    label: Restaurante / Restaurant
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - {name: brand, label: Nome, type: string}
+      - {name: phone, label: Telefone, type: string}
+      - {name: whatsapp, label: WhatsApp com indicativo (351...), type: string}
+      - {name: takeaway_url, label: URL encomendas takeaway, type: string}
+      - {name: address, label: Morada, type: string}
+      - {name: maps_url, label: Google Maps URL, type: string}
+      - {name: instagram_url, label: Instagram URL, type: string}
+      - {name: hero_image, label: Foto principal, type: image}
+      - {name: hero_title_pt, label: Título PT, type: string}
+      - {name: hero_title_en, label: Title EN, type: string}
+      - {name: hero_subtitle_pt, label: Subtítulo PT, type: text}
+      - {name: hero_subtitle_en, label: Subtitle EN, type: text}
+      - {name: intro_pt, label: Experiência PT, type: text}
+      - {name: intro_en, label: Experience EN, type: text}
+      - {name: hours_pt, label: Horário PT, type: text}
+      - {name: hours_en, label: Hours EN, type: text}
+      - {name: price_pt, label: Preços PT, type: text}
+      - {name: price_en, label: Prices EN, type: text}
+      - name: lunch_times
+        label: Horas almoço
+        type: string
+        list: true
+      - name: dinner_times
+        label: Horas jantar
+        type: string
+        list: true
+      - name: gallery
+        label: Fotografias do espaço
+        type: object
+        list: true
+        fields:
+          - {name: image, label: Foto, type: image}
+          - {name: caption_pt, label: Legenda PT, type: string}
+          - {name: caption_en, label: Caption EN, type: string}
+      - name: categories
+        label: Categorias da carta
+        type: object
+        list: true
+        fields:
+          - {name: id, label: Identificador, type: string}
+          - {name: pt, label: Categoria PT, type: string}
+          - {name: en, label: Category EN, type: string}
+      - name: dishes
+        label: Pratos da carta
+        type: object
+        list: true
+        fields:
+          - {name: category, label: ID categoria, type: string}
+          - {name: number, label: Número, type: string}
+          - {name: pt, label: Nome PT, type: string}
+          - {name: en, label: Name EN, type: string}
+          - {name: image, label: Foto, type: image}
