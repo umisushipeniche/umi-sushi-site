@@ -3,3 +3,19 @@
 .heroImage{background-position:center 42%;background-color:#211c18}
 .shade{background:linear-gradient(90deg,rgba(15,13,12,.85),rgba(15,13,12,.58) 43%,rgba(15,13,12,.14))}
 @media(max-width:600px){.heroImage{background-position:50% 37%}}
+
+/* UMI V3 visual refinement: true transparent circular brand and cinematic hero */
+.top .logo img{width:68px;height:68px;border-radius:50%;background:transparent;object-fit:contain;filter:drop-shadow(0 3px 9px rgba(0,0,0,.3))}
+.footerBrand img{border-radius:50%;background:transparent;object-fit:contain}
+.hero{isolation:isolate;background:#16110e;min-height:560px;height:min(720px,80vh)}
+.heroImage{background-size:cover;background-position:50% 45%;transform:scale(1.055);animation:umiHeroBreath 19s ease-in-out infinite alternate;will-change:transform}
+.shade{background:linear-gradient(90deg,rgba(14,10,8,.87) 0%,rgba(18,12,9,.70) 31%,rgba(18,12,9,.29) 63%,rgba(18,12,9,.12) 100%),linear-gradient(0deg,rgba(10,8,7,.38),transparent 35%)}
+.heroCopy{padding-top:clamp(105px,13vh,160px);padding-bottom:100px;text-shadow:0 2px 20px rgba(0,0,0,.35)}
+.hero h1{font-size:clamp(66px,8.5vw,124px);letter-spacing:.015em;text-shadow:0 3px 25px rgba(0,0,0,.5)}
+.hero .eyebrow{font-size:13px;line-height:1.8;letter-spacing:.24em}
+.heroCopy p{line-height:1.8;letter-spacing:.04em;font-size:16px;max-width:440px}
+.hero:after{content:'';position:absolute;z-index:0;inset:0;pointer-events:none;background:radial-gradient(ellipse at 75% 20%,rgba(229,178,103,.13),transparent 40%);mix-blend-mode:screen}
+.heroCopy{z-index:1}
+@keyframes umiHeroBreath{0%{transform:scale(1.055) translate3d(0,0,0)}100%{transform:scale(1.13) translate3d(-1.2%,.7%,0)}}
+@media(max-width:760px){.hero{height:650px;min-height:560px}.heroImage{background-position:51% 45%}.heroCopy{padding:145px 7% 70px}.hero h1{font-size:clamp(55px,12vw,82px)}.shade{background:linear-gradient(90deg,rgba(12,9,8,.83),rgba(12,9,8,.43)),linear-gradient(0deg,rgba(12,9,8,.5),transparent 35%)}}
+@media(prefers-reduced-motion:reduce){.heroImage{animation:none;transform:none}.btn{transition:none}}
