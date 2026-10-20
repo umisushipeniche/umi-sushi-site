@@ -15,6 +15,7 @@ content:
       - {name: address, label: Morada, type: string}
       - {name: maps_url, label: Google Maps URL, type: string}
       - {name: instagram_url, label: Instagram URL, type: string}
+      - {name: facebook_url, label: Facebook URL, type: string}
       - {name: hero_image, label: Foto principal, type: image}
       - {name: hero_title_pt, label: Título PT, type: string}
       - {name: hero_title_en, label: Title EN, type: string}
@@ -26,6 +27,17 @@ content:
       - {name: hours_en, label: Hours EN, type: text}
       - {name: price_pt, label: Preços PT, type: text}
       - {name: price_en, label: Prices EN, type: text}
+      - {name: tasting_weekday_lunch_adult, label: "Dias úteis almoço adulto (€)", type: string}
+      - {name: tasting_weekday_dinner_adult, label: "Dias úteis jantar adulto (€)", type: string}
+      - {name: tasting_weekday_lunch_child, label: "Dias úteis almoço criança (€)", type: string}
+      - {name: tasting_weekday_dinner_child, label: "Dias úteis jantar criança (€)", type: string}
+      - {name: tasting_weekend_lunch_adult, label: "Fim de semana almoço adulto (€)", type: string}
+      - {name: tasting_weekend_dinner_adult, label: "Fim de semana jantar adulto (€)", type: string}
+      - {name: tasting_weekend_lunch_child, label: "Fim de semana almoço criança (€)", type: string}
+      - {name: tasting_weekend_dinner_child, label: "Fim de semana jantar criança (€)", type: string}
+      - {name: tasting_child_height, label: "Altura criança (cm)", type: string}
+      - {name: tasting_notice_pt, label: "Notas preços PT", type: text}
+      - {name: tasting_notice_en, label: "Price notes EN", type: text}
       - name: lunch_times
         label: Horas almoço
         type: string

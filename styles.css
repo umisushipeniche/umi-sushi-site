@@ -19,3 +19,39 @@
 @keyframes umiHeroBreath{0%{transform:scale(1.055) translate3d(0,0,0)}100%{transform:scale(1.13) translate3d(-1.2%,.7%,0)}}
 @media(max-width:760px){.hero{height:650px;min-height:560px}.heroImage{background-position:51% 45%}.heroCopy{padding:145px 7% 70px}.hero h1{font-size:clamp(55px,12vw,82px)}.shade{background:linear-gradient(90deg,rgba(12,9,8,.83),rgba(12,9,8,.43)),linear-gradient(0deg,rgba(12,9,8,.5),transparent 35%)}}
 @media(prefers-reduced-motion:reduce){.heroImage{animation:none;transform:none}.btn{transition:none}}
+
+/* UMI SUSHI V3 — design aligned to supplied visual reference */
+:root{--dark:#141413;--dark2:#1b1918;--gold:#c9a361;--goldlight:#f0cf91;--cream:#f4ecdf}
+.top{height:76px;background:rgba(16,16,15,.97);padding:0 4%;gap:20px}
+.top .logo img{width:82px;height:82px;filter:drop-shadow(0 4px 12px #0008)}
+.top nav a{font-size:10px}.navOrder{border-radius:4px;padding:13px 15px;font-size:10px}.navOrder.delivery{background:transparent}
+.hero{height:590px;min-height:540px}.heroImage{background-position:50% 48%;filter:saturate(1.08) contrast(1.06)}
+.shade{background:linear-gradient(90deg,rgba(12,10,9,.88),rgba(12,10,9,.65) 35%,rgba(12,10,9,.13) 80%)}
+.heroCopy{padding:125px 8% 60px;max-width:820px}.hero h1{font-size:clamp(70px,9vw,124px);color:#f0d3a0}
+.heroPlace{font-size:22px}.heroCopy p{font-family:Georgia,serif;font-size:13px;letter-spacing:.15em;text-transform:uppercase}
+.qualities{padding:27px 7%;background-color:#f6ebdb}.qualities>div{font-size:26px}
+.section{padding-top:48px;padding-bottom:50px}.darkSection{background-color:#151514;background-image:radial-gradient(ellipse at 70% 10%,#6b543020,transparent 55%),repeating-linear-gradient(120deg,transparent 0 185px,#c6a16616 186px,transparent 188px)}
+.sectionHead{margin-bottom:18px}.sectionHead h2{font-size:clamp(38px,4.2vw,58px);letter-spacing:.04em}
+.menuEmpty{border:1px solid #c3a06a55;padding:22px;color:#d8c7aa;font-size:14px}
+.prices{min-height:340px}.priceVisual{height:285px;background-color:#241d18}
+.gallery figure{min-width:calc(33.33% - 8px)}.gallery img{height:255px}
+.booking{background-color:#f6ecdc}.booking form{background:#ffffff44;border-radius:7px}
+.footerBrand img{width:65px;height:65px}
+@media(max-width:1100px){.top{gap:9px;padding:0 2%}.top nav{gap:10px}.top nav a{font-size:9px}.navOrder{padding:10px 9px}}
+@media(max-width:800px){.top{height:auto;min-height:78px;flex-wrap:wrap;padding:7px 4%}.top nav{order:3;width:100%;flex:auto;overflow-x:auto;padding:8px 0}.top .logo img{width:58px;height:58px}.topActions{margin-left:auto}.hero{height:610px}.heroCopy{padding:135px 6% 55px}.gallery figure{min-width:48%}}
+@media(max-width:600px){.topActions .delivery{display:none}.hero{height:590px}.heroCopy{padding:145px 6% 35px}.hero h1{font-size:clamp(59px,13vw,82px)}.heroPlace{font-size:15px}.gallery figure{min-width:84%}}
+@media(prefers-reduced-motion:reduce){.heroImage{animation:none}}
+
+/* V3 2026-10-20: compact logo, floating reservation and editable tasting prices */
+.top .logo img{width:66px!important;height:66px!important;max-width:66px!important;object-fit:contain}
+.top .logo{flex-shrink:0}
+.floatingReserva{position:fixed;right:18px;top:50%;transform:translateY(-50%);z-index:110;background:#d8b374;color:#19140e;text-decoration:none;padding:16px 12px;border:1px solid #f0d39a;border-radius:9px;box-shadow:0 8px 28px #0008;font-weight:700;letter-spacing:.1em;writing-mode:vertical-rl;transition:background .2s,box-shadow .2s}
+.floatingReserva:hover,.floatingReserva:focus-visible{background:#f0d39a;box-shadow:0 10px 30px #000a}
+.tastingPrices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:20px;max-width:720px}
+.tastingPriceCard{padding:18px;background:rgba(255,255,255,.74);border:1px solid rgba(151,106,48,.34);border-radius:12px;color:#28201a}
+.tastingPriceCard h3{font-size:1.2rem;color:#8c5d27;margin:0 0 12px}
+.tastingPriceRow{display:flex;flex-direction:column;gap:3px;padding:10px 0;border-top:1px solid #c5a57955;font-size:.91rem}
+.tastingPriceRow strong{font-size:1rem}
+.tastingNotice{grid-column:1/-1;line-height:1.6;font-size:.92rem}
+#hoursText{white-space:pre-line}
+@media(max-width:750px){.top .logo img{width:48px!important;height:48px!important;max-width:48px!important}.floatingReserva{right:9px;padding:12px 9px;font-size:12px}.tastingPrices{grid-template-columns:1fr}}
