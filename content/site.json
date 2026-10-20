@@ -1,5 +1,46 @@
 {
-  "takeaway_url": "https://maps.app.goo.gl/YWFvCZhDVTTmF6eE6",
+  "brand": "Umi Sushi Peniche",
+  "takeaway_url": "https://pud.gostar.pro/go/?rid=52742&tid=-2&h5sty=5&preview=1&tpl_id=537",
+  "address": "Rua dos Airinhos, nº6 2520-348 Peniche",
   "maps_url": "https://maps.app.goo.gl/YWFvCZhDVTTmF6eE6",
-  "hero_title_pt": "Bem vindo Umi Sushi Peniche"
+  "instagram_url": "https://www.instagram.com/umisushipeniche/",
+  "hero_title_pt": "UMI SUSHI",
+  "hero_title_en": "UMI SUSHI",
+  "hero_subtitle_pt": "TRADIÇÃO · QUALIDADE · EXPERIÊNCIA ÚNICA",
+  "hero_subtitle_en": "TRADITION · QUALITY · A UNIQUE EXPERIENCE",
+  "hero_image": "assets/umi-hero.jpg",
+  "intro_pt": "Uma experiência completa com uma grande variedade de sushi, sashimi, pratos quentes e muito mais.",
+  "intro_en": "Enjoy a varied selection of sushi, sashimi, hot dishes and much more.",
+  "price_pt": "",
+  "price_en": "",
+  "hours_pt": "Terça-feira a domingo: 12h–15h e 19h–23h.\nEncerrado à segunda-feira. Exceto em datas especiais.",
+  "hours_en": "Tuesday to Sunday: 12:00–15:00 and 19:00–23:00.\nClosed on Mondays. Except on special dates.",
+  "gallery": [
+    {
+      "image": "assets/umi-hero.jpg",
+      "caption_pt": "O nosso espaço",
+      "caption_en": "Our restaurant"
+    },
+    {
+      "image": "assets/umi-space-02.jpg",
+      "caption_pt": "Ambiente UMI",
+      "caption_en": "UMI atmosphere"
+    }
+  ],
+  "categories": [],
+  "dishes": [],
+  "phone": "+351 965 777 779",
+  "whatsapp": "351965777779",
+  "facebook_url": "https://www.facebook.com/p/Umi-Sushi-Peniche-61571923571435/",
+  "tasting_weekday_lunch_adult": "16.95",
+  "tasting_weekday_dinner_adult": "20.95",
+  "tasting_weekday_lunch_child": "9.95",
+  "tasting_weekday_dinner_child": "11.95",
+  "tasting_weekend_lunch_adult": "20.95",
+  "tasting_weekend_dinner_adult": "20.95",
+  "tasting_weekend_lunch_child": "11.95",
+  "tasting_weekend_dinner_child": "11.95",
+  "tasting_child_height": "110–130 cm",
+  "tasting_notice_pt": "Bebidas e sobremesas não incluídas. Não é permitido trazer bebidas ou alimentos do exterior.",
+  "tasting_notice_en": "Drinks and desserts are not included. Outside food and drinks are not permitted."
 }
