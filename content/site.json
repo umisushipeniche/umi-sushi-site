@@ -27,8 +27,1233 @@
       "caption_en": "UMI atmosphere"
     }
   ],
-  "categories": [],
-  "dishes": [],
+  "categories": [
+    {
+      "id": "cat01",
+      "pt": "Salteadas",
+      "en": "Stir-fried"
+    },
+    {
+      "id": "cat02",
+      "pt": "Acompanhamentos",
+      "en": "Sides"
+    },
+    {
+      "id": "cat03",
+      "pt": "Entradas",
+      "en": "Starters"
+    },
+    {
+      "id": "cat04",
+      "pt": "Fritos",
+      "en": "Fried dishes"
+    },
+    {
+      "id": "cat05",
+      "pt": "Combinados",
+      "en": "Platters"
+    },
+    {
+      "id": "cat06",
+      "pt": "Sashimi",
+      "en": "Sashimi"
+    },
+    {
+      "id": "cat07",
+      "pt": "Nigiri",
+      "en": "Nigiri"
+    },
+    {
+      "id": "cat08",
+      "pt": "Maki",
+      "en": "Maki"
+    },
+    {
+      "id": "cat09",
+      "pt": "Uramaki",
+      "en": "Uramaki"
+    },
+    {
+      "id": "cat10",
+      "pt": "Gunkan",
+      "en": "Gunkan"
+    },
+    {
+      "id": "cat11",
+      "pt": "Hot Rolls",
+      "en": "Hot rolls"
+    },
+    {
+      "id": "cat12",
+      "pt": "Temaki",
+      "en": "Temaki"
+    },
+    {
+      "id": "cat13",
+      "pt": "Carpaccio",
+      "en": "Carpaccio"
+    },
+    {
+      "id": "cat14",
+      "pt": "Taco E Outros",
+      "en": "Tacos and more"
+    },
+    {
+      "id": "cat15",
+      "pt": "Chapa Quente",
+      "en": "Hot plate"
+    },
+    {
+      "id": "cat16",
+      "pt": "Espetadas",
+      "en": "Skewers"
+    }
+  ],
+  "dishes": [
+    {
+      "category": "cat01",
+      "number": "C01",
+      "pt": "GAMBAS SALTEADOS",
+      "en": "Stir-Fried Prawns",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6137-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6137-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C02",
+      "pt": "CAMARÃO COM SAL E PIMENTA",
+      "en": "Salt and Pepper Shrimp",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6138-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6138-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C03",
+      "pt": "LEGUMES",
+      "en": "Stir-Fried Vegetables",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6139-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6139-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C04",
+      "pt": "VACA PICANTE SALTEADA",
+      "en": "Spicy Stir-Fried Beef",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6140-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6140-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C05",
+      "pt": "FRANGO TERIYAKI",
+      "en": "Teriyaki Chicken",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6141-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6141-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C07",
+      "pt": "VIEIRA 2PCS",
+      "en": "Scallops (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6143-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6143-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C08",
+      "pt": "PORCO AGRIDOCE",
+      "en": "Sweet and Sour Pork",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6157-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6157-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "C51",
+      "pt": "GYOZAS 3PCS",
+      "en": "Gyoza Dumplings (3 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6051-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6051-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "C52",
+      "pt": "HAKUMAI",
+      "en": "Steamed White Rice",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6159-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6159-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "C53",
+      "pt": "RAISUNSOBA (Massa Fina)",
+      "en": "Stir-Fried Thin Rice Noodles",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6160-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6160-1.png"
+    },
+    {
+      "category": "cat02",
+      "number": "C54",
+      "pt": "CHAHAN",
+      "en": "Japanese Fried Rice",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6161-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6161-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "C55",
+      "pt": "YAKISOBA",
+      "en": "Yakisoba Stir-Fried Noodles",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6162-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6162-1.png"
+    },
+    {
+      "category": "cat02",
+      "number": "E11",
+      "pt": "PÃO DOCE (RECHEIO DE OVO) 2PCS",
+      "en": "Sweet Egg Custard Buns (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6033-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6033-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "E12",
+      "pt": "MANTOU 2PCS",
+      "en": "Steamed Mantou Buns (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6034-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6034-1.jpg"
+    },
+    {
+      "category": "cat03",
+      "number": "E13",
+      "pt": "EDAMAME",
+      "en": "Edamame Soybeans",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6035-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6035-1.jpg"
+    },
+    {
+      "category": "cat03",
+      "number": "E14",
+      "pt": "WAKAME",
+      "en": "Wakame Seaweed Salad",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6036-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6036-1.png"
+    },
+    {
+      "category": "cat02",
+      "number": "E21",
+      "pt": "CRYSTAL DUMPLING",
+      "en": "Crystal Dumplings",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6057-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6057-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "E22",
+      "pt": "SHUMAI 2PCS",
+      "en": "Shumai Dumplings (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6058-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6058-1.jpg"
+    },
+    {
+      "category": "cat03",
+      "number": "E31",
+      "pt": "SOPA DE MISO",
+      "en": "Miso Soup",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6061-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6061-1.jpg"
+    },
+    {
+      "category": "cat03",
+      "number": "E32",
+      "pt": "SOPA DE WONTON",
+      "en": "Wonton Soup",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6062-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6062-1.png"
+    },
+    {
+      "category": "cat03",
+      "number": "E41",
+      "pt": "SALADA DE EBI",
+      "en": "Shrimp Salad",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6063-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6063-1.png"
+    },
+    {
+      "category": "cat03",
+      "number": "E42",
+      "pt": "SALADA DE SALMÃO",
+      "en": "Salmon Salad",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6064-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6064-1.png"
+    },
+    {
+      "category": "cat04",
+      "number": "F01",
+      "pt": "TEMPURA EBI AMENDOAS 3PCS",
+      "en": "Almond-Crusted Shrimp Tempura (3 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6052-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6052-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F02",
+      "pt": "TEMPURA EBI 3PCS",
+      "en": "Shrimp Tempura (3 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6053-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6053-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F04",
+      "pt": "GAMBAS PANADAS 3PCS",
+      "en": "Breaded Prawns (3 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6056-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6056-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F05",
+      "pt": "LULAS FRITAS 4PCS",
+      "en": "Fried Squid (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6059-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6059-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F06",
+      "pt": "FRANGO FRITO C/AMENDOAS",
+      "en": "Almond-Crusted Fried Chicken",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6060-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6060-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F07",
+      "pt": "PORCO PANADO",
+      "en": "Breaded Pork",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6144-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6144-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F08",
+      "pt": "RISSÓIS DE ABÓBORA 2PCS",
+      "en": "Pumpkin Pastries (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6147-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6147-1.png"
+    },
+    {
+      "category": "cat04",
+      "number": "F09",
+      "pt": "CREPES DE VEGETAIS 2PCS",
+      "en": "Vegetable Spring Rolls (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6150-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6150-1.png"
+    },
+    {
+      "category": "cat04",
+      "number": "F10",
+      "pt": "TAKOYAKI 3PCS",
+      "en": "Takoyaki (3 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6151-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6151-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F11",
+      "pt": "CREPES DE GAMBAS 2PCS",
+      "en": "Shrimp Spring Rolls (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6152-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6152-1.png"
+    },
+    {
+      "category": "cat04",
+      "number": "F12",
+      "pt": "BOLINHAS DE SÉSAMO 3PCS",
+      "en": "Sesame Balls (3 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6153-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6153-1.jpg"
+    },
+    {
+      "category": "cat03",
+      "number": "F13",
+      "pt": "HÓSTIAS DE CAMARÃO",
+      "en": "Prawn Crackers",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6154-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6154-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F14",
+      "pt": "ESPETADA DE SALSICHA",
+      "en": "Sausage Skewer",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6155-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6155-1.png"
+    },
+    {
+      "category": "cat04",
+      "number": "F15",
+      "pt": "BATATA FRITA",
+      "en": "French Fries",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6156-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6156-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F16",
+      "pt": "PATO À HOISIN",
+      "en": "Hoisin Duck",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6158-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6158-1.jpg"
+    },
+    {
+      "category": "cat05",
+      "number": "S01",
+      "pt": "SUSHI MIX *(18PCS)",
+      "en": "Mixed Sushi Platter (18 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6008-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6008-1.png"
+    },
+    {
+      "category": "cat05",
+      "number": "S02",
+      "pt": "SUSHI TOSTADO *(12PCS)",
+      "en": "Seared Sushi Platter (12 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6065-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6065-1.png"
+    },
+    {
+      "category": "cat05",
+      "number": "S03",
+      "pt": "SALMÃO TRADICIONAL *(20PCS)",
+      "en": "Traditional Salmon Sushi Platter (20 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6066-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6066-1.jpg"
+    },
+    {
+      "category": "cat05",
+      "number": "S04",
+      "pt": "VEGAN MIX *(15PCS)",
+      "en": "Vegan Sushi Platter (15 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6364-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6364-1.png"
+    },
+    {
+      "category": "cat06",
+      "number": "S11",
+      "pt": "SASHIMI SALMÃO 4PCS",
+      "en": "Sashimi Salmon (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6067-1.jpg",
+      "fallback_image": "assets/menu-sashimi.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6067-1.jpg"
+    },
+    {
+      "category": "cat06",
+      "number": "S12",
+      "pt": "SASHIMI SALMÃO BRASEADO 4PCS",
+      "en": "Sashimi Seared Salmon (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6068-1.jpg",
+      "fallback_image": "assets/menu-sashimi.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6068-1.jpg"
+    },
+    {
+      "category": "cat06",
+      "number": "S13",
+      "pt": "SASHIMI ATUM 4PCS",
+      "en": "Sashimi Tuna (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6069-1.jpg",
+      "fallback_image": "assets/menu-sashimi.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6069-1.jpg"
+    },
+    {
+      "category": "cat06",
+      "number": "S14",
+      "pt": "SASHIMI ATUM BRASEADO 4PCS",
+      "en": "Sashimi Seared Tuna (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6070-1.jpg",
+      "fallback_image": "assets/menu-sashimi.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6070-1.jpg"
+    },
+    {
+      "category": "cat06",
+      "number": "S15",
+      "pt": "SASHIMI POLVO 4PCS",
+      "en": "Sashimi Octopus (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6071-1.jpg",
+      "fallback_image": "assets/menu-sashimi.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6071-1.jpg"
+    },
+    {
+      "category": "cat06",
+      "number": "S16",
+      "pt": "SASHIMI ROBALO 4PCS",
+      "en": "Sashimi Sea Bass (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6072-1.jpg",
+      "fallback_image": "assets/menu-sashimi.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6072-1.jpg"
+    },
+    {
+      "category": "cat06",
+      "number": "S17",
+      "pt": "SASHIMI PEIXE BRANCO 4PCS",
+      "en": "Sashimi White Fish (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6073-1.png",
+      "fallback_image": "assets/menu-sashimi.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6073-1.png"
+    },
+    {
+      "category": "cat06",
+      "number": "S18",
+      "pt": "SASHIMI OKOKU 16PCS",
+      "en": "Okoku Sashimi Platter (16 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6234-1.png",
+      "fallback_image": "assets/menu-sashimi.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6234-1.png"
+    },
+    {
+      "category": "cat07",
+      "number": "S21",
+      "pt": "NIGIRI SALMÃO 2PCS",
+      "en": "Nigiri Salmon (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6074-1.jpg",
+      "fallback_image": "assets/menu-nigiri.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6074-1.jpg"
+    },
+    {
+      "category": "cat07",
+      "number": "S22",
+      "pt": "NIGIRI SALMÃO BRASEADO 2PCS",
+      "en": "Nigiri Seared Salmon (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6075-1.jpg",
+      "fallback_image": "assets/menu-nigiri.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6075-1.jpg"
+    },
+    {
+      "category": "cat07",
+      "number": "S23",
+      "pt": "NIGIRI ATUM 2PCS",
+      "en": "Nigiri Tuna (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6076-1.jpg",
+      "fallback_image": "assets/menu-nigiri.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6076-1.jpg"
+    },
+    {
+      "category": "cat07",
+      "number": "S24",
+      "pt": "NIGIRI ROBALO 2PCS",
+      "en": "Nigiri Sea Bass (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6077-1.jpg",
+      "fallback_image": "assets/menu-nigiri.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6077-1.jpg"
+    },
+    {
+      "category": "cat07",
+      "number": "S25",
+      "pt": "NIGIRI CAMARÃO 2PCS",
+      "en": "Nigiri Shrimp (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6078-1.jpg",
+      "fallback_image": "assets/menu-nigiri.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6078-1.jpg"
+    },
+    {
+      "category": "cat07",
+      "number": "S27",
+      "pt": "NIGIRI SALMÃO GRELHADO 2PCS",
+      "en": "Nigiri Grilled Salmon (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6080-1.jpg",
+      "fallback_image": "assets/menu-nigiri.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6080-1.jpg"
+    },
+    {
+      "category": "cat07",
+      "number": "S28",
+      "pt": "NIGIRI POLVO 2PCS",
+      "en": "Nigiri Octopus (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6081-1.jpg",
+      "fallback_image": "assets/menu-nigiri.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6081-1.jpg"
+    },
+    {
+      "category": "cat07",
+      "number": "S29",
+      "pt": "NIGIRI PEIXE MANTEIGA 2PCS",
+      "en": "Nigiri Butterfish (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6232-1.png",
+      "fallback_image": "assets/menu-nigiri.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6232-1.png"
+    },
+    {
+      "category": "cat07",
+      "number": "S30",
+      "pt": "NIGIRI ABACATE 2PCS",
+      "en": "Nigiri Avocado (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6239-1.png",
+      "fallback_image": "assets/menu-nigiri.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6239-1.png"
+    },
+    {
+      "category": "cat08",
+      "number": "S31",
+      "pt": "HOSOMAKI SALMÃO 4PCS",
+      "en": "Hosomaki Salmon (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6082-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6082-1.jpg"
+    },
+    {
+      "category": "cat08",
+      "number": "S32",
+      "pt": "HOSOMAKI ATUM 4PCS",
+      "en": "Hosomaki Tuna (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6083-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6083-1.png"
+    },
+    {
+      "category": "cat08",
+      "number": "S33",
+      "pt": "HOSOMAKI TEMPURA 4PCS",
+      "en": "Hosomaki Tempura (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6084-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6084-1.jpg"
+    },
+    {
+      "category": "cat08",
+      "number": "S34",
+      "pt": "HOSOMAKI ABACATE 4PCS",
+      "en": "Hosomaki Avocado (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6085-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6085-1.jpg"
+    },
+    {
+      "category": "cat08",
+      "number": "S35",
+      "pt": "HOSOMAKI GAMBA 4PCS",
+      "en": "Hosomaki Prawn (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6086-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6086-1.jpg"
+    },
+    {
+      "category": "cat08",
+      "number": "S36",
+      "pt": "HOSOMAKI PEPINO 4PCS",
+      "en": "Hosomaki Cucumber (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6087-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6087-1.jpg"
+    },
+    {
+      "category": "cat08",
+      "number": "S37",
+      "pt": "HOSOMAKI PELE DE SALMAO GRELHADO 4PCS",
+      "en": "Hosomaki Grilled Salmon Skin (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6088-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6088-1.png"
+    },
+    {
+      "category": "cat08",
+      "number": "S38",
+      "pt": "MAKI OVO SALMÃO 4PCS",
+      "en": "Maki Egg Salmon (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6089-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6089-1.jpg"
+    },
+    {
+      "category": "cat08",
+      "number": "S39",
+      "pt": "CALIFORNIA ROLLS GRANDE 2PCS",
+      "en": "Large California Rolls (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6090-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6090-1.jpg"
+    },
+    {
+      "category": "cat08",
+      "number": "S40",
+      "pt": "FUTOMAKI 2PCS",
+      "en": "Futomaki (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6092-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6092-1.jpg"
+    },
+    {
+      "category": "cat08",
+      "number": "S41",
+      "pt": "ROLLS DE FRUTA 2PCS",
+      "en": "Fruit Rolls (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6091-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6091-1.jpg"
+    },
+    {
+      "category": "cat08",
+      "number": "S42",
+      "pt": "COENTRO E SALMÃO 2PCS",
+      "en": "Coriander and Salmon Rolls (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6270-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6270-1.jpg"
+    },
+    {
+      "category": "cat09",
+      "number": "S51",
+      "pt": "URAMAKI ABACATE 4PCS",
+      "en": "Uramaki Avocado (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6093-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6093-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S52",
+      "pt": "URAMAKI MORANGO COM SALMÃO 4PCS",
+      "en": "Uramaki Strawberry And Salmon (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6094-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6094-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S53",
+      "pt": "URAMAKI CRUSH 4PCS",
+      "en": "Crunch Uramaki (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6095-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6095-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S54",
+      "pt": "URAMAKI CRISPY CHEESE 4PCS",
+      "en": "Crispy Cheese Uramaki (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6096-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6096-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S55",
+      "pt": "URAMAKI MASAGO 4PCS",
+      "en": "Uramaki Masago (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6097-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6097-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S56",
+      "pt": "URAMAKI EBI 4PCS",
+      "en": "Uramaki Ebi (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6098-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6098-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S57",
+      "pt": "URAMAKI TOP SALMÃO E ABACATE ESPECIAL 4PCS",
+      "en": "Uramaki Topped With Salmon And Avocado Special (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6099-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6099-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S58",
+      "pt": "URAMAKI TOFU JAPONÊS 4PCS",
+      "en": "Uramaki Japanese Tofu (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6100-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6100-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S59",
+      "pt": "UMI ROLLS 4PCS",
+      "en": "UMI Rolls (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6101-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6101-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S60",
+      "pt": "URAMAKI ATUM E ABACATE 4PCS",
+      "en": "Uramaki Tuna And Avocado (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6102-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6102-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S61",
+      "pt": "URAMAKI TEMPURA 4PCS",
+      "en": "Uramaki Tempura (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6103-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6103-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S62",
+      "pt": "URAMAKI SALMÃO E ABACATE 4PCS",
+      "en": "Uramaki Salmon And Avocado (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6104-1.jpg",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6104-1.jpg"
+    },
+    {
+      "category": "cat09",
+      "number": "S63",
+      "pt": "URAMAKI MORANGO 4CPS",
+      "en": "Uramaki Strawberry (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6105-1.jpg",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6105-1.jpg"
+    },
+    {
+      "category": "cat09",
+      "number": "S64",
+      "pt": "URAMAKI SALMÃO 4PCS",
+      "en": "Uramaki Salmon (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6106-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6106-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S65",
+      "pt": "URAMAKI SALMÃO BRASEADO 4PCS",
+      "en": "Uramaki Seared Salmon (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6107-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6107-1.png"
+    },
+    {
+      "category": "cat09",
+      "number": "S66",
+      "pt": "URAMAKI MANGA 4PCS",
+      "en": "Uramaki Mango (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6402-1.png",
+      "fallback_image": "assets/menu-uramaki.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6402-1.png"
+    },
+    {
+      "category": "cat10",
+      "number": "S71",
+      "pt": "GUNKAN SALMÃO 2PCS",
+      "en": "Gunkan Salmon (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6108-1.png",
+      "fallback_image": "assets/menu-gunkan.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6108-1.png"
+    },
+    {
+      "category": "cat10",
+      "number": "S72",
+      "pt": "GUNKAN BRASEADO 2PCS",
+      "en": "Gunkan Seared (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6109-1.png",
+      "fallback_image": "assets/menu-gunkan.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6109-1.png"
+    },
+    {
+      "category": "cat10",
+      "number": "S73",
+      "pt": "GUNKAN PEPINO 2PCS",
+      "en": "Gunkan Cucumber (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6110-1.png",
+      "fallback_image": "assets/menu-gunkan.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6110-1.png"
+    },
+    {
+      "category": "cat10",
+      "number": "S74",
+      "pt": "GUNKAN YUBA 2PCS",
+      "en": "Gunkan Yuba (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6111-1.png",
+      "fallback_image": "assets/menu-gunkan.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6111-1.png"
+    },
+    {
+      "category": "cat10",
+      "number": "S74A",
+      "pt": "GUNKAN YUBA WAKAME 2PCS",
+      "en": "Gunkan Yuba Wakame (2 pcs)",
+      "image": "assets/menu-gunkan.jpeg",
+      "fallback_image": "assets/menu-gunkan.jpeg",
+      "reference_image_url": ""
+    },
+    {
+      "category": "cat10",
+      "number": "S74B",
+      "pt": "GUNKAN YUBA CRAB STICKS 2PCS",
+      "en": "Gunkan Yuba Crab Sticks (2 pcs)",
+      "image": "assets/menu-gunkan.jpeg",
+      "fallback_image": "assets/menu-gunkan.jpeg",
+      "reference_image_url": ""
+    },
+    {
+      "category": "cat10",
+      "number": "S75",
+      "pt": "GUNKAN-MAKI SALMÃO BRASEADO 2PCS",
+      "en": "Gunkan-Maki Seared Salmon (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6114-1.png",
+      "fallback_image": "assets/menu-gunkan.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6114-1.png"
+    },
+    {
+      "category": "cat10",
+      "number": "S75A",
+      "pt": "GUNKAN-MAKI ATUM 2PCS",
+      "en": "Gunkan-Maki Tuna (2 pcs)",
+      "image": "assets/menu-gunkan.jpeg",
+      "fallback_image": "assets/menu-gunkan.jpeg",
+      "reference_image_url": ""
+    },
+    {
+      "category": "cat10",
+      "number": "S75B",
+      "pt": "GUNKAN-MAKI WAKAME 2PCS",
+      "en": "Gunkan-Maki Wakame (2 pcs)",
+      "image": "assets/menu-gunkan.jpeg",
+      "fallback_image": "assets/menu-gunkan.jpeg",
+      "reference_image_url": ""
+    },
+    {
+      "category": "cat10",
+      "number": "S75C",
+      "pt": "GUNKAN-MAKI OVAS 2PCS",
+      "en": "Gunkan-Maki Fish Roe (2 pcs)",
+      "image": "assets/menu-gunkan.jpeg",
+      "fallback_image": "assets/menu-gunkan.jpeg",
+      "reference_image_url": ""
+    },
+    {
+      "category": "cat11",
+      "number": "S81",
+      "pt": "HOT HOSOMAKI FRUTA 4PCS",
+      "en": "Hot Hosomaki Fruit (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6115-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6115-1.jpg"
+    },
+    {
+      "category": "cat11",
+      "number": "S82",
+      "pt": "HOT URAMAKI SALMÃO 4PCS",
+      "en": "Hot Uramaki Salmon (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6116-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6116-1.jpg"
+    },
+    {
+      "category": "cat11",
+      "number": "S83",
+      "pt": "HOT HOSOMAKI CREME DE QUEIJO 4PCS",
+      "en": "Hot Hosomaki Cream Cheese (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6117-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6117-1.jpg"
+    },
+    {
+      "category": "cat11",
+      "number": "S84",
+      "pt": "FUTOMAKI FRITO 2PCS",
+      "en": "Futomaki Fried (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6118-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6118-1.jpg"
+    },
+    {
+      "category": "cat11",
+      "number": "S86",
+      "pt": "ROLO CALIFORNIA FRITO 4PCS",
+      "en": "Rolo California Fried (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6120-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6120-1.jpg"
+    },
+    {
+      "category": "cat12",
+      "number": "S91",
+      "pt": "TEMAKI SALMÃO",
+      "en": "Temaki Salmon",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6122-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6122-1.jpg"
+    },
+    {
+      "category": "cat12",
+      "number": "S92",
+      "pt": "TEMAKI ATUM",
+      "en": "Temaki Tuna",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6231-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6231-1.jpg"
+    },
+    {
+      "category": "cat12",
+      "number": "S93",
+      "pt": "TEMAKI EBI",
+      "en": "Temaki Ebi",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6124-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6124-1.jpg"
+    },
+    {
+      "category": "cat12",
+      "number": "S94",
+      "pt": "TEMAKI TEMPURA",
+      "en": "Temaki Tempura",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6125-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6125-1.jpg"
+    },
+    {
+      "category": "cat12",
+      "number": "S95",
+      "pt": "TEMAKI VEGETAL",
+      "en": "Temaki Vegetable",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6230-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6230-1.png"
+    },
+    {
+      "category": "cat13",
+      "number": "S101",
+      "pt": "CARPACCIO SALMÃO",
+      "en": "Carpaccio Salmon",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6412-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6412-1.png"
+    },
+    {
+      "category": "cat13",
+      "number": "S102",
+      "pt": "CARPACCIO MIX",
+      "en": "Carpaccio Mix",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6413-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6413-1.png"
+    },
+    {
+      "category": "cat14",
+      "number": "S121",
+      "pt": "TACO SALMÃO",
+      "en": "Taco Salmon",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6416-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6416-1.jpg"
+    },
+    {
+      "category": "cat14",
+      "number": "S122",
+      "pt": "TACO ATUM",
+      "en": "Taco Tuna",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6417-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6417-1.jpg"
+    },
+    {
+      "category": "cat14",
+      "number": "S123",
+      "pt": "TACO GAMBAS",
+      "en": "Taco Prawns",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6418-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6418-1.jpg"
+    },
+    {
+      "category": "cat14",
+      "number": "S131",
+      "pt": "PANI-PURI BALL",
+      "en": "Pani Puri Ball",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6421-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6421-1.png"
+    },
+    {
+      "category": "cat15",
+      "number": "T01",
+      "pt": "COGUMELOS",
+      "en": "Mushrooms",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6126-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6126-1.jpg"
+    },
+    {
+      "category": "cat15",
+      "number": "T02",
+      "pt": "CAMARÃO",
+      "en": "Shrimp",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6127-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6127-1.png"
+    },
+    {
+      "category": "cat15",
+      "number": "T03",
+      "pt": "CAMARÃO GRANDE",
+      "en": "King Prawns",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6128-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6128-1.jpg"
+    },
+    {
+      "category": "cat15",
+      "number": "T04",
+      "pt": "AMEIJOAS",
+      "en": "Clams",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6129-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6129-1.jpg"
+    },
+    {
+      "category": "cat15",
+      "number": "T05",
+      "pt": "MEXILHÃO",
+      "en": "Mussels",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6130-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6130-1.jpg"
+    },
+    {
+      "category": "cat15",
+      "number": "T06",
+      "pt": "FRANGO",
+      "en": "Chicken",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6131-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6131-1.jpg"
+    },
+    {
+      "category": "cat15",
+      "number": "T07",
+      "pt": "LULA",
+      "en": "Squid",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6132-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6132-1.jpg"
+    },
+    {
+      "category": "cat15",
+      "number": "T08",
+      "pt": "SALMÃO GRELHADO",
+      "en": "Grilled Salmon",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6133-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6133-1.jpg"
+    },
+    {
+      "category": "cat15",
+      "number": "T09",
+      "pt": "COURGETE E CEBOLA",
+      "en": "Zucchini and Onion",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6134-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6134-1.jpg"
+    },
+    {
+      "category": "cat15",
+      "number": "T10",
+      "pt": "PORCO",
+      "en": "Pork",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6135-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6135-1.jpg"
+    },
+    {
+      "category": "cat15",
+      "number": "T11",
+      "pt": "VACA",
+      "en": "Beef",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6136-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6136-1.jpg"
+    },
+    {
+      "category": "cat16",
+      "number": "T31",
+      "pt": "ESPETADA DE COGUMELOS 2PCS",
+      "en": "Skewer Of Mushroom (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6145-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6145-1.jpg"
+    },
+    {
+      "category": "cat16",
+      "number": "T32",
+      "pt": "ESPETADA DE PORCO 2PCS",
+      "en": "Skewer Of Pork (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6146-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6146-1.jpg"
+    },
+    {
+      "category": "cat16",
+      "number": "T33",
+      "pt": "ESPETADA FRANGO PICANTE 2PCS",
+      "en": "Skewer Of Spicy Chicken (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6148-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6148-1.jpg"
+    },
+    {
+      "category": "cat16",
+      "number": "T34",
+      "pt": "ESPETADA DE CAMARAO 2PCS",
+      "en": "Skewer Of Shrimp (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6149-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6149-1.jpg"
+    }
+  ],
   "phone": "+351 965 777 779",
   "whatsapp": "351965777779",
   "facebook_url": "https://www.facebook.com/p/Umi-Sushi-Peniche-61571923571435/",
