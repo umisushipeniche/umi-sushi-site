@@ -81,3 +81,5 @@ content:
           - {name: pt, label: Nome PT, type: string}
           - {name: en, label: Name EN, type: string}
           - {name: image, label: Foto, type: image}
+          - {name: fallback_image, label: Foto alternativa (quando a imagem externa falha), type: image}
+          - {name: reference_image_url, label: URL da foto original (referência), type: string}
