@@ -17,6 +17,15 @@ content:
       - {name: instagram_url, label: Instagram URL, type: string}
       - {name: facebook_url, label: Facebook URL, type: string}
       - {name: hero_image, label: Foto principal, type: image}
+      - {name: tasting_image, label: Foto Menu Tasting, type: image}
+      - name: featured_menu
+        label: Fotos em destaque do Menu
+        type: object
+        list: true
+        fields:
+          - {name: title_pt, label: Título PT, type: string}
+          - {name: title_en, label: Title EN, type: string}
+          - {name: image, label: Foto, type: image}
       - {name: hero_title_pt, label: Título PT, type: string}
       - {name: hero_title_en, label: Title EN, type: string}
       - {name: hero_subtitle_pt, label: Subtítulo PT, type: text}
