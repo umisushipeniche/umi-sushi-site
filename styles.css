@@ -104,3 +104,7 @@ footer{align-items:flex-start;gap:24px;padding:40px 6%;}
 
 /* Use crisp original logo; avoid blurry shadow/filters */
 .top .logo img,.umiCompactFooter .footerBrand img,.footerBrand img{filter:none!important;image-rendering:auto;object-fit:contain;background:transparent}
+
+/* Homepage: four featured dishes only; full catalog stays in menu.html */
+#menu .dishGrid>.dish:nth-child(n+5){display:none!important}
+#menu #categoryTabs{display:none!important}
