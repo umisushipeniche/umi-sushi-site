@@ -42,5 +42,28 @@
   "tasting_weekend_dinner_child": "11.95",
   "tasting_child_height": "110–130 cm",
   "tasting_notice_pt": "*Bebidas e sobremesas não incluídas.",
-  "tasting_notice_en": "*Drinks and desserts are not included."
+  "tasting_notice_en": "*Drinks and desserts are not included.",
+  "tasting_image": "assets/menu-tasting.jpeg",
+  "featured_menu": [
+    {
+      "title_pt": "SASHIMI",
+      "title_en": "SASHIMI",
+      "image": "assets/menu-sashimi.jpeg"
+    },
+    {
+      "title_pt": "NIGIRI",
+      "title_en": "NIGIRI",
+      "image": "assets/menu-nigiri.jpeg"
+    },
+    {
+      "title_pt": "URAMAKI",
+      "title_en": "URAMAKI",
+      "image": "assets/menu-uramaki.jpeg"
+    },
+    {
+      "title_pt": "GUNKAN",
+      "title_en": "GUNKAN",
+      "image": "assets/menu-gunkan.jpeg"
+    }
+  ]
 }
