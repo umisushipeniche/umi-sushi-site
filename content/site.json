@@ -111,132 +111,6 @@
   ],
   "dishes": [
     {
-      "category": "cat01",
-      "number": "C01",
-      "pt": "GAMBAS SALTEADOS",
-      "en": "Stir-Fried Prawns",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6137-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6137-1.jpg"
-    },
-    {
-      "category": "cat01",
-      "number": "C02",
-      "pt": "CAMARÃO COM SAL E PIMENTA",
-      "en": "Salt and Pepper Shrimp",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6138-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6138-1.jpg"
-    },
-    {
-      "category": "cat01",
-      "number": "C03",
-      "pt": "LEGUMES",
-      "en": "Stir-Fried Vegetables",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6139-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6139-1.jpg"
-    },
-    {
-      "category": "cat01",
-      "number": "C04",
-      "pt": "VACA PICANTE SALTEADA",
-      "en": "Spicy Stir-Fried Beef",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6140-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6140-1.jpg"
-    },
-    {
-      "category": "cat01",
-      "number": "C05",
-      "pt": "FRANGO TERIYAKI",
-      "en": "Teriyaki Chicken",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6141-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6141-1.jpg"
-    },
-    {
-      "category": "cat01",
-      "number": "C07",
-      "pt": "VIEIRA 2PCS",
-      "en": "Scallops (2 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6143-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6143-1.jpg"
-    },
-    {
-      "category": "cat01",
-      "number": "C08",
-      "pt": "PORCO AGRIDOCE",
-      "en": "Sweet and Sour Pork",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6157-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6157-1.jpg"
-    },
-    {
-      "category": "cat02",
-      "number": "C51",
-      "pt": "GYOZAS 3PCS",
-      "en": "Gyoza Dumplings (3 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6051-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6051-1.jpg"
-    },
-    {
-      "category": "cat02",
-      "number": "C52",
-      "pt": "HAKUMAI",
-      "en": "Steamed White Rice",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6159-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6159-1.jpg"
-    },
-    {
-      "category": "cat02",
-      "number": "C53",
-      "pt": "RAISUNSOBA (Massa Fina)",
-      "en": "Stir-Fried Thin Rice Noodles",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6160-1.png",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6160-1.png"
-    },
-    {
-      "category": "cat02",
-      "number": "C54",
-      "pt": "CHAHAN",
-      "en": "Japanese Fried Rice",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6161-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6161-1.jpg"
-    },
-    {
-      "category": "cat02",
-      "number": "C55",
-      "pt": "YAKISOBA",
-      "en": "Yakisoba Stir-Fried Noodles",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6162-1.png",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6162-1.png"
-    },
-    {
-      "category": "cat02",
-      "number": "E11",
-      "pt": "PÃO DOCE (RECHEIO DE OVO) 2PCS",
-      "en": "Sweet Egg Custard Buns (2 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6033-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6033-1.jpg"
-    },
-    {
-      "category": "cat02",
-      "number": "E12",
-      "pt": "MANTOU 2PCS",
-      "en": "Steamed Mantou Buns (2 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6034-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6034-1.jpg"
-    },
-    {
       "category": "cat03",
       "number": "E13",
       "pt": "EDAMAME",
@@ -253,24 +127,6 @@
       "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6036-1.png",
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6036-1.png"
-    },
-    {
-      "category": "cat02",
-      "number": "E21",
-      "pt": "CRYSTAL DUMPLING",
-      "en": "Crystal Dumplings",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6057-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6057-1.jpg"
-    },
-    {
-      "category": "cat02",
-      "number": "E22",
-      "pt": "SHUMAI 2PCS",
-      "en": "Shumai Dumplings (2 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6058-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6058-1.jpg"
     },
     {
       "category": "cat03",
@@ -309,105 +165,6 @@
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6064-1.png"
     },
     {
-      "category": "cat04",
-      "number": "F01",
-      "pt": "TEMPURA EBI AMENDOAS 3PCS",
-      "en": "Almond-Crusted Shrimp Tempura (3 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6052-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6052-1.jpg"
-    },
-    {
-      "category": "cat04",
-      "number": "F02",
-      "pt": "TEMPURA EBI 3PCS",
-      "en": "Shrimp Tempura (3 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6053-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6053-1.jpg"
-    },
-    {
-      "category": "cat04",
-      "number": "F04",
-      "pt": "GAMBAS PANADAS 3PCS",
-      "en": "Breaded Prawns (3 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6056-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6056-1.jpg"
-    },
-    {
-      "category": "cat04",
-      "number": "F05",
-      "pt": "LULAS FRITAS 4PCS",
-      "en": "Fried Squid (4 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6059-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6059-1.jpg"
-    },
-    {
-      "category": "cat04",
-      "number": "F06",
-      "pt": "FRANGO FRITO C/AMENDOAS",
-      "en": "Almond-Crusted Fried Chicken",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6060-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6060-1.jpg"
-    },
-    {
-      "category": "cat04",
-      "number": "F07",
-      "pt": "PORCO PANADO",
-      "en": "Breaded Pork",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6144-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6144-1.jpg"
-    },
-    {
-      "category": "cat04",
-      "number": "F08",
-      "pt": "RISSÓIS DE ABÓBORA 2PCS",
-      "en": "Pumpkin Pastries (2 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6147-1.png",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6147-1.png"
-    },
-    {
-      "category": "cat04",
-      "number": "F09",
-      "pt": "CREPES DE VEGETAIS 2PCS",
-      "en": "Vegetable Spring Rolls (2 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6150-1.png",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6150-1.png"
-    },
-    {
-      "category": "cat04",
-      "number": "F10",
-      "pt": "TAKOYAKI 3PCS",
-      "en": "Takoyaki (3 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6151-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6151-1.jpg"
-    },
-    {
-      "category": "cat04",
-      "number": "F11",
-      "pt": "CREPES DE GAMBAS 2PCS",
-      "en": "Shrimp Spring Rolls (2 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6152-1.png",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6152-1.png"
-    },
-    {
-      "category": "cat04",
-      "number": "F12",
-      "pt": "BOLINHAS DE SÉSAMO 3PCS",
-      "en": "Sesame Balls (3 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6153-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6153-1.jpg"
-    },
-    {
       "category": "cat03",
       "number": "F13",
       "pt": "HÓSTIAS DE CAMARÃO",
@@ -415,33 +172,6 @@
       "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6154-1.jpg",
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6154-1.jpg"
-    },
-    {
-      "category": "cat04",
-      "number": "F14",
-      "pt": "ESPETADA DE SALSICHA",
-      "en": "Sausage Skewer",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6155-1.png",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6155-1.png"
-    },
-    {
-      "category": "cat04",
-      "number": "F15",
-      "pt": "BATATA FRITA",
-      "en": "French Fries",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6156-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6156-1.jpg"
-    },
-    {
-      "category": "cat04",
-      "number": "F16",
-      "pt": "PATO À HOISIN",
-      "en": "Hoisin Duck",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6158-1.jpg",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6158-1.jpg"
     },
     {
       "category": "cat05",
@@ -1252,6 +982,276 @@
       "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6149-1.jpg",
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6149-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C01",
+      "pt": "GAMBAS SALTEADOS",
+      "en": "Stir-Fried Prawns",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6137-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6137-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C02",
+      "pt": "CAMARÃO COM SAL E PIMENTA",
+      "en": "Salt and Pepper Shrimp",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6138-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6138-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C03",
+      "pt": "LEGUMES",
+      "en": "Stir-Fried Vegetables",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6139-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6139-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C04",
+      "pt": "VACA PICANTE SALTEADA",
+      "en": "Spicy Stir-Fried Beef",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6140-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6140-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C05",
+      "pt": "FRANGO TERIYAKI",
+      "en": "Teriyaki Chicken",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6141-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6141-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C07",
+      "pt": "VIEIRA 2PCS",
+      "en": "Scallops (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6143-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6143-1.jpg"
+    },
+    {
+      "category": "cat01",
+      "number": "C08",
+      "pt": "PORCO AGRIDOCE",
+      "en": "Sweet and Sour Pork",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6157-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6157-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F01",
+      "pt": "TEMPURA EBI AMENDOAS 3PCS",
+      "en": "Almond-Crusted Shrimp Tempura (3 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6052-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6052-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F02",
+      "pt": "TEMPURA EBI 3PCS",
+      "en": "Shrimp Tempura (3 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6053-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6053-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F04",
+      "pt": "GAMBAS PANADAS 3PCS",
+      "en": "Breaded Prawns (3 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6056-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6056-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F05",
+      "pt": "LULAS FRITAS 4PCS",
+      "en": "Fried Squid (4 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6059-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6059-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F06",
+      "pt": "FRANGO FRITO C/AMENDOAS",
+      "en": "Almond-Crusted Fried Chicken",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6060-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6060-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F07",
+      "pt": "PORCO PANADO",
+      "en": "Breaded Pork",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6144-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6144-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F08",
+      "pt": "RISSÓIS DE ABÓBORA 2PCS",
+      "en": "Pumpkin Pastries (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6147-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6147-1.png"
+    },
+    {
+      "category": "cat04",
+      "number": "F09",
+      "pt": "CREPES DE VEGETAIS 2PCS",
+      "en": "Vegetable Spring Rolls (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6150-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6150-1.png"
+    },
+    {
+      "category": "cat04",
+      "number": "F10",
+      "pt": "TAKOYAKI 3PCS",
+      "en": "Takoyaki (3 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6151-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6151-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F11",
+      "pt": "CREPES DE GAMBAS 2PCS",
+      "en": "Shrimp Spring Rolls (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6152-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6152-1.png"
+    },
+    {
+      "category": "cat04",
+      "number": "F12",
+      "pt": "BOLINHAS DE SÉSAMO 3PCS",
+      "en": "Sesame Balls (3 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6153-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6153-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F14",
+      "pt": "ESPETADA DE SALSICHA",
+      "en": "Sausage Skewer",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6155-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6155-1.png"
+    },
+    {
+      "category": "cat04",
+      "number": "F15",
+      "pt": "BATATA FRITA",
+      "en": "French Fries",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6156-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6156-1.jpg"
+    },
+    {
+      "category": "cat04",
+      "number": "F16",
+      "pt": "PATO À HOISIN",
+      "en": "Hoisin Duck",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6158-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6158-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "C51",
+      "pt": "GYOZAS 3PCS",
+      "en": "Gyoza Dumplings (3 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6051-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6051-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "C52",
+      "pt": "HAKUMAI",
+      "en": "Steamed White Rice",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6159-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6159-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "C53",
+      "pt": "RAISUNSOBA (Massa Fina)",
+      "en": "Stir-Fried Thin Rice Noodles",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6160-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6160-1.png"
+    },
+    {
+      "category": "cat02",
+      "number": "C54",
+      "pt": "CHAHAN",
+      "en": "Japanese Fried Rice",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6161-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6161-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "C55",
+      "pt": "YAKISOBA",
+      "en": "Yakisoba Stir-Fried Noodles",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6162-1.png",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6162-1.png"
+    },
+    {
+      "category": "cat02",
+      "number": "E11",
+      "pt": "PÃO DOCE (RECHEIO DE OVO) 2PCS",
+      "en": "Sweet Egg Custard Buns (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6033-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6033-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "E12",
+      "pt": "MANTOU 2PCS",
+      "en": "Steamed Mantou Buns (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6034-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6034-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "E21",
+      "pt": "CRYSTAL DUMPLING",
+      "en": "Crystal Dumplings",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6057-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6057-1.jpg"
+    },
+    {
+      "category": "cat02",
+      "number": "E22",
+      "pt": "SHUMAI 2PCS",
+      "en": "Shumai Dumplings (2 pcs)",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6058-1.jpg",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6058-1.jpg"
     }
   ],
   "phone": "+351 965 777 779",
