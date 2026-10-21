@@ -29,24 +29,9 @@
   ],
   "categories": [
     {
-      "id": "cat01",
-      "pt": "Salteadas",
-      "en": "Stir-fried"
-    },
-    {
-      "id": "cat02",
-      "pt": "Acompanhamentos",
-      "en": "Sides"
-    },
-    {
       "id": "cat03",
       "pt": "Entradas",
       "en": "Starters"
-    },
-    {
-      "id": "cat04",
-      "pt": "Fritos",
-      "en": "Fried dishes"
     },
     {
       "id": "cat05",
@@ -107,6 +92,21 @@
       "id": "cat16",
       "pt": "Espetadas",
       "en": "Skewers"
+    },
+    {
+      "id": "cat01",
+      "pt": "Salteadas",
+      "en": "Stir-fried"
+    },
+    {
+      "id": "cat04",
+      "pt": "Fritos",
+      "en": "Fried dishes"
+    },
+    {
+      "id": "cat02",
+      "pt": "Acompanhamentos",
+      "en": "Sides"
     }
   ],
   "dishes": [
