@@ -8,7 +8,7 @@
   "hero_title_en": "UMI SUSHI",
   "hero_subtitle_pt": "TRADIÇÃO · QUALIDADE · EXPERIÊNCIA ÚNICA",
   "hero_subtitle_en": "TRADITION · QUALITY · A UNIQUE EXPERIENCE",
-  "hero_image": "assets/umi-hero.jpg",
+  "hero_image": "assets/umi-hero.png",
   "intro_pt": "Uma experiência completa com uma grande variedade de sushi, sashimi, pratos quentes e muito mais.",
   "intro_en": "Enjoy a varied selection of sushi, sashimi, hot dishes and much more.",
   "price_pt": "",
@@ -17,12 +17,12 @@
   "hours_en": "Tuesday to Sunday: 12:00–15:00 and 19:00–23:00.\nClosed on Mondays. Except on special dates.",
   "gallery": [
     {
-      "image": "assets/umi-hero.jpg",
+      "image": "assets/umi-hero.png",
       "caption_pt": "O nosso espaço",
       "caption_en": "Our restaurant"
     },
     {
-      "image": "assets/umi-space-02.jpg",
+      "image": "assets/umi-space-02.jpeg",
       "caption_pt": "Ambiente UMI",
       "caption_en": "UMI atmosphere"
     }
@@ -41,6 +41,6 @@
   "tasting_weekend_lunch_child": "11.95",
   "tasting_weekend_dinner_child": "11.95",
   "tasting_child_height": "110–130 cm",
-  "tasting_notice_pt": "Bebidas e sobremesas não incluídas. Não é permitido trazer bebidas ou alimentos do exterior.",
-  "tasting_notice_en": "Drinks and desserts are not included. Outside food and drinks are not permitted."
+  "tasting_notice_pt": "*Bebidas e sobremesas não incluídas.",
+  "tasting_notice_en": "*Drinks and desserts are not included."
 }
