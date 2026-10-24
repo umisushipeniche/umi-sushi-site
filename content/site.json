@@ -655,8 +655,8 @@
       "number": "S74A",
       "pt": "GUNKAN YUBA WAKAME 2PCS",
       "en": "Gunkan Yuba Wakame (2 pcs)",
-      "image": "assets/menu-gunkan.jpeg",
-      "fallback_image": "assets/menu-gunkan.jpeg",
+      "image": "assets/dishes/S74A.svg",
+      "fallback_image": "assets/dishes/S74A.svg",
       "reference_image_url": ""
     },
     {
@@ -664,8 +664,8 @@
       "number": "S74B",
       "pt": "GUNKAN YUBA CRAB STICKS 2PCS",
       "en": "Gunkan Yuba Crab Sticks (2 pcs)",
-      "image": "assets/menu-gunkan.jpeg",
-      "fallback_image": "assets/menu-gunkan.jpeg",
+      "image": "assets/dishes/S74B.svg",
+      "fallback_image": "assets/dishes/S74B.svg",
       "reference_image_url": ""
     },
     {
@@ -682,8 +682,8 @@
       "number": "S75A",
       "pt": "GUNKAN-MAKI ATUM 2PCS",
       "en": "Gunkan-Maki Tuna (2 pcs)",
-      "image": "assets/menu-gunkan.jpeg",
-      "fallback_image": "assets/menu-gunkan.jpeg",
+      "image": "assets/dishes/S75A.svg",
+      "fallback_image": "assets/dishes/S75A.svg",
       "reference_image_url": ""
     },
     {
@@ -691,8 +691,8 @@
       "number": "S75B",
       "pt": "GUNKAN-MAKI WAKAME 2PCS",
       "en": "Gunkan-Maki Wakame (2 pcs)",
-      "image": "assets/menu-gunkan.jpeg",
-      "fallback_image": "assets/menu-gunkan.jpeg",
+      "image": "assets/dishes/S75B.svg",
+      "fallback_image": "assets/dishes/S75B.svg",
       "reference_image_url": ""
     },
     {
@@ -700,8 +700,8 @@
       "number": "S75C",
       "pt": "GUNKAN-MAKI OVAS 2PCS",
       "en": "Gunkan-Maki Fish Roe (2 pcs)",
-      "image": "assets/menu-gunkan.jpeg",
-      "fallback_image": "assets/menu-gunkan.jpeg",
+      "image": "assets/dishes/S75C.svg",
+      "fallback_image": "assets/dishes/S75C.svg",
       "reference_image_url": ""
     },
     {
