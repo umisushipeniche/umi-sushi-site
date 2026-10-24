@@ -655,7 +655,7 @@
       "number": "S74A",
       "pt": "GUNKAN YUBA WAKAME 2PCS",
       "en": "Gunkan Yuba Wakame (2 pcs)",
-      "image": "assets/menu-gunkan.jpeg",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/%7BB3160416-D50A-11EF-9745-CC28AA44B9FC%7D/6112-1.png?x-oss-process=image%2Fresize%2Cm_lfit%2Cw_430%2Climit_1%2Fquality%2CQ_80%2Fformat%2Cwebp",
       "fallback_image": "assets/menu-gunkan.jpeg",
       "reference_image_url": ""
     },
@@ -664,7 +664,7 @@
       "number": "S74B",
       "pt": "GUNKAN YUBA CRAB STICKS 2PCS",
       "en": "Gunkan Yuba Crab Sticks (2 pcs)",
-      "image": "assets/menu-gunkan.jpeg",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/%7BB3160416-D50A-11EF-9745-CC28AA44B9FC%7D/6113-1.png?x-oss-process=image%2Fresize%2Cm_lfit%2Cw_430%2Climit_1%2Fquality%2CQ_80%2Fformat%2Cwebp",
       "fallback_image": "assets/menu-gunkan.jpeg",
       "reference_image_url": ""
     },
@@ -682,7 +682,7 @@
       "number": "S75A",
       "pt": "GUNKAN-MAKI ATUM 2PCS",
       "en": "Gunkan-Maki Tuna (2 pcs)",
-      "image": "assets/menu-gunkan.jpeg",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/%7BB3160416-D50A-11EF-9745-CC28AA44B9FC%7D/6233-1.png?x-oss-process=image%2Fresize%2Cm_lfit%2Cw_430%2Climit_1%2Fquality%2CQ_80%2Fformat%2Cwebp",
       "fallback_image": "assets/menu-gunkan.jpeg",
       "reference_image_url": ""
     },
@@ -691,7 +691,7 @@
       "number": "S75B",
       "pt": "GUNKAN-MAKI WAKAME 2PCS",
       "en": "Gunkan-Maki Wakame (2 pcs)",
-      "image": "assets/menu-gunkan.jpeg",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/%7BB3160416-D50A-11EF-9745-CC28AA44B9FC%7D/6290-1.jpg?x-oss-process=image%2Fresize%2Cm_lfit%2Cw_430%2Climit_1%2Fquality%2CQ_80%2Fformat%2Cwebp",
       "fallback_image": "assets/menu-gunkan.jpeg",
       "reference_image_url": ""
     },
@@ -700,7 +700,7 @@
       "number": "S75C",
       "pt": "GUNKAN-MAKI OVAS 2PCS",
       "en": "Gunkan-Maki Fish Roe (2 pcs)",
-      "image": "assets/menu-gunkan.jpeg",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/%7BB3160416-D50A-11EF-9745-CC28AA44B9FC%7D/6291-1.jpg?x-oss-process=image%2Fresize%2Cm_lfit%2Cw_430%2Climit_1%2Fquality%2CQ_80%2Fformat%2Cwebp",
       "fallback_image": "assets/menu-gunkan.jpeg",
       "reference_image_url": ""
     },
