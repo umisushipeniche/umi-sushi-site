@@ -109,21 +109,22 @@ footer{align-items:flex-start;gap:24px;padding:40px 6%;}
 #menu .dishGrid>.dish:nth-child(n+5){display:none!important}
 #menu #categoryTabs{display:none!important}
 
-/* Unified test-v3 update, 2026-10-25 */
-.top{position:absolute;top:0;left:0;width:100%;background:transparent;backdrop-filter:none;border-bottom:1px solid #c4a06b33}
-.hero h1{color:rgba(240,211,160,.82);background:transparent}
-.floatingReserva{top:20vh;bottom:auto;right:18px;transform:none;min-width:148px;padding:15px 24px;font-size:13px;writing-mode:horizontal-tb!important}
-.priceVisual{height:auto;min-height:300px;aspect-ratio:4/3;background-position:center;background-size:cover}
-.priceDetails summary{display:inline-flex;align-items:center;gap:16px;cursor:pointer;border:1px solid #866338;padding:15px 25px;font-size:12px;letter-spacing:.08em;color:#463219;list-style:none}
-.priceDetails summary::-webkit-details-marker{display:none}.priceDetails summary::after{content:'+';font-size:18px}.priceDetails[open] summary::after{content:'−'}.priceDetails[open] .tastingPrices{margin-top:22px}
-.priceDetails summary:focus-visible,.instagramCard:focus-visible{outline:3px solid #c4a06b;outline-offset:5px}
-.instagramSection{background:#171716;color:#ead6b4;display:grid;grid-template-columns:1fr minmax(220px,360px);align-items:center;gap:32px;border-top:1px solid #c4a06b44}
-.instagramSection h2{font-size:clamp(25px,4vw,48px);overflow-wrap:anywhere}.instagramSection p{line-height:1.7;color:#d1c4b0}
-.instagramCard{aspect-ratio:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:18px;padding:24px;border:1px solid #c4a06b88;background:radial-gradient(circle at 50% 40%,#c4a06b18,transparent 70%);color:#e6c78f}
-.instagramMark{font-size:70px;line-height:1}.instagramCard small{max-width:230px;line-height:1.6;color:#c9bdab}.instagramCard:hover{border-color:#e6c78f;background-color:#c4a06b0a}
-@media(max-width:750px){.floatingReserva{top:20vh;bottom:auto;right:10px;min-width:126px;padding:13px 18px;font-size:12px}.instagramSection{grid-template-columns:minmax(0,1fr)}.instagramCard{width:100%;max-width:360px;justify-self:center}.priceVisual{min-height:220px}.heroCopy{padding-top:175px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-@media(max-width:750px){.prices{grid-template-columns:minmax(0,1fr);gap:26px}.priceVisual{width:100%;max-height:360px}.priceDetails{min-width:0}.tastingPriceCard{min-width:0}}
+/* UMI homepage refinements 2026-10-25 */
+.top{background:rgba(20,18,17,.22);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid rgba(230,199,143,.22)}
+.heroCopy{background:transparent!important;box-shadow:none!important}
+.floatingReserva{position:fixed!important;top:20vh!important;right:16px!important;bottom:auto!important;transform:none!important;writing-mode:horizontal-tb!important;min-width:128px!important;padding:15px 24px!important;text-align:center;white-space:nowrap;z-index:110}
+#priceDetails[hidden]{display:none!important}.umiPriceToggle{margin:18px 0 6px;background:#2c251e;color:#f5d59f;border-color:#bd945c;min-width:165px}.umiPriceToggle:focus-visible{outline:3px solid #b58b50;outline-offset:3px}
+.prices{background-image:linear-gradient(100deg,rgba(243,236,223,.96),rgba(243,236,223,.90)),url('assets/menu-tasting.jpeg');background-size:cover;background-position:center}.priceVisual{min-height:310px;background-position:center;background-size:cover;box-shadow:0 20px 45px rgba(36,27,17,.23)}
+.footerSocial a{display:inline-flex;align-items:center;justify-content:center}.footerSocial svg{display:block}
+@media(max-width:600px){.floatingReserva{top:20vh!important;right:8px!important;bottom:auto!important;min-width:106px!important;padding:12px 13px!important;font-size:11px!important}.priceVisual{min-height:230px}}
 
-/* Instagram camera mark follows the footer gold colour. */
-.footerSocial a{display:inline-flex;align-items:center;justify-content:center}.instagramIcon{display:block;flex-shrink:0;width:24px;height:24px}
+/* UMI 2026-10-25: compact price teaser, immersive independent modal */
+#prices.prices{position:relative;min-height:360px;height:clamp(350px,37vw,465px);overflow:hidden;display:flex;align-items:center;background:linear-gradient(90deg,rgba(14,12,11,.92) 0%,rgba(14,12,11,.68) 53%,rgba(14,12,11,.18) 100%),url('assets/menu-tasting.jpeg') center/cover no-repeat;color:#f4e4c9}
+#prices.prices>div:first-child{position:relative;z-index:2;max-width:560px}
+#prices.prices h2,#prices.prices p,#prices.prices .eyebrow{color:#f4e4c9}
+#prices.prices .priceVisual{position:absolute;inset:0;z-index:0;opacity:.16;pointer-events:none;box-shadow:none;min-height:0;background-size:cover;background-position:center}
+#prices .umiPriceToggle{background:#d6ac65;color:#17120d;border:1px solid #e3be7e;font-weight:700;min-width:190px;text-transform:none}
+.umiPriceOverlay[hidden]{display:none!important}.umiPriceOverlay{position:fixed;inset:0;z-index:10000;display:grid;place-items:center;padding:22px}.umiPriceBackdrop{position:absolute;inset:0;background:rgba(0,0,0,.78);backdrop-filter:blur(5px)}
+.umiPriceDialog{position:relative;z-index:1;width:min(860px,100%);max-height:min(88dvh,850px);overflow:auto;border:1px solid #d4a85f;border-radius:14px;background:linear-gradient(90deg,rgba(9,9,9,.97) 0%,rgba(10,10,10,.94) 53%,rgba(10,10,10,.55) 100%),url('assets/menu-tasting.jpeg') center right/cover no-repeat;box-shadow:0 24px 85px rgba(0,0,0,.72);color:#f8e7c9}
+.umiPriceContent{padding:clamp(25px,4vw,52px);max-width:660px}.umiPriceContent .eyebrow{color:#d7b16e}.umiPriceContent h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(36px,5vw,60px);margin:8px 0 10px;color:#f1d39d}.umiPriceContent>p{color:#e5d7c4}.umiPriceContent .tastingPrices{display:grid;grid-template-columns:1fr;gap:10px;max-width:540px}.umiPriceContent .tastingPriceCard{background:rgba(0,0,0,.58);border:1px solid rgba(212,168,95,.6);border-radius:8px;padding:12px 16px;color:#f5ebdd}.umiPriceContent .tastingPriceCard h3{color:#e7bc73}.umiPriceContent .tastingPriceRow{color:#f5ebdd}.umiPriceContent .tastingNotice{color:#e5d7c4}.umiPriceClose{position:absolute;right:13px;top:9px;border:0;background:rgba(0,0,0,.45);color:#fff;font-size:31px;line-height:1;width:42px;height:42px;cursor:pointer;border-radius:50%}.umiPriceClose:focus-visible{outline:2px solid #f0d39e}.umiModalOpen{overflow:hidden}
+@media(max-width:650px){#prices.prices{height:370px;min-height:370px;padding:36px 7%}#prices.prices>div:first-child{max-width:100%}.umiPriceOverlay{padding:12px}.umiPriceDialog{max-height:90dvh;background:linear-gradient(rgba(9,9,9,.87),rgba(9,9,9,.91)),url('assets/menu-tasting.jpeg') center/cover}.umiPriceContent{padding:46px 17px 20px}.umiPriceContent .tastingPriceCard{padding:10px}.floatingReserva{max-width:120px}}
