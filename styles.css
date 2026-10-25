@@ -139,3 +139,18 @@ html body .umiPriceDialog .tastingPrices{display:grid;grid-template-columns:1fr;
 html body .umiPriceDialog .tastingPriceRow{display:grid;grid-template-columns:1fr;gap:3px;margin-top:8px}
 html body .umiPriceDialog .tastingPriceRow strong{color:#e7bc73}
 @media(max-width:700px){html body .top{background:rgba(14,12,12,.38)!important}html body main#home>.hero{min-height:520px}}
+
+/* UMI V3 focused repair: genuinely transparent overlay navigation and compact side-by-side prices */
+html body header.top{position:absolute!important;top:0!important;left:0!important;right:0!important;width:100%!important;background:transparent!important;background-color:transparent!important;background-image:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-shadow:none!important;border-bottom:1px solid rgba(224,192,139,.23)!important;z-index:1000!important}
+html body main#home{padding-top:0!important}
+html body main#home>.hero{margin-top:0!important}
+html body .umiPriceDialog{width:min(720px,calc(100vw - 30px))!important;max-height:86dvh!important}
+html body .umiPriceContent{max-width:none!important;padding:30px 30px 24px!important}
+html body .umiPriceContent h2{font-size:clamp(32px,4vw,46px)!important;margin-bottom:4px!important}
+html body .umiPriceContent>p{margin-bottom:12px!important}
+html body .umiPriceDialog .tastingPrices{display:grid!important;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr)!important;gap:12px!important;max-width:none!important;align-items:stretch!important}
+html body .umiPriceDialog .tastingPriceCard{padding:14px!important;min-width:0!important}
+html body .umiPriceDialog .tastingPriceCard h3{font-size:18px!important;margin-bottom:6px!important}
+html body .umiPriceDialog .tastingPriceRow{display:grid!important;grid-template-columns:1fr!important;gap:2px!important;margin-top:4px!important;padding:7px 0!important}
+html body .umiPriceDialog .tastingNotice{grid-column:1/-1;margin:0!important;font-size:12px}
+@media(max-width:580px){html body header.top{background:transparent!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}html body .umiPriceContent{padding:45px 15px 18px!important}html body .umiPriceDialog .tastingPrices{grid-template-columns:1fr 1fr!important;gap:8px!important}html body .umiPriceDialog .tastingPriceCard{padding:10px 8px!important}html body .umiPriceDialog .tastingPriceCard h3{font-size:15px!important}html body .umiPriceDialog .tastingPriceRow{font-size:11px!important}html body .umiPriceDialog .tastingPriceRow strong{font-size:12px!important}}
