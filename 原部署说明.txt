@@ -1,0 +1,37 @@
+UMI SUSHI Peniche 官网 · Cloudflare Pages + GitHub + Pages CMS
+
+一、预览
+1. 将 ZIP 解压。
+2. 在解压文件夹打开命令行，执行 python -m http.server 8000（Windows）或 python3 -m http.server 8000（Mac）。
+3. 浏览器访问 http://localhost:8000 。不要直接双击 index.html，因为浏览器可能阻止读取 content/site.json。
+
+二、发布到 Cloudflare，获得免费临时域名
+1. 注册 GitHub：https://github.com/ ，创建一个新公开仓库，例如 umi-sushi-site。
+2. 选择 Add file → Upload files，把本压缩包解压后的文件和文件夹上传到仓库根目录。注意 .pages.yml 是隐藏文件，必须上传。
+3. 注册/登录 Cloudflare：https://dash.cloudflare.com/ 。
+4. 进入 Workers & Pages → Create application → Pages → Connect to Git（界面名称可能调整），授权 GitHub，选择刚创建的仓库。
+5. 框架选择 None / 无；Build command 留空；Build output directory 填 / 或按界面选择仓库根目录（静态站点无需编译）。
+6. 部署完成后获得 Cloudflare 实际分配的 https://项目名.pages.dev 。这是可分享的临时网址；项目名可能已被占用。
+7. 以后推送 GitHub 更新，Cloudflare 会自动重新部署。
+
+三、可视化内容后台
+1. 打开 https://pagescms.org/ ，通过 GitHub 登录并授权。
+2. 选择 umi-sushi-site 仓库；Pages CMS 将读取仓库根目录 .pages.yml。
+3. 打开 Restaurante / Restaurant，编辑标题、地址、营业时间、价格、预约时间、环境照片、菜单类别和菜品。
+4. 保存并提交后，Cloudflare 会重新发布。请先测试修改一条文案，再确认公开页面自动更新。
+5. 这是字段式可视化编辑后台，不是 WordPress 式直接拖动网页模块的编辑器。
+
+四、正式上线前必须填写
+- 电话及 WhatsApp 号码（WhatsApp 需国家码，例如 351...）。
+- 外卖下单真实网址 takeaway_url（必须以 https:// 开头）。
+- 完整地址、Google Maps 链接、实际营业时间、预约时段、真实价格及儿童规则。
+- 餐厅实拍照片、完整菜品图片/名称/编号。当前均为演示内容，不代表真实菜单。
+- 隐私政策和条款的经营主体、NIPC、联系邮箱等法律信息；根据实际数据处理情况复核。
+- 请确认所有照片拥有使用权。演示用第三方图片不能默认视为正式商用素材。
+
+五、域名及迁移
+在 Cloudflare Pages 项目 → Custom domains 添加购买的域名，按界面完成 DNS 配置。
+GitHub 仓库中保存全部网站源文件，日后可以迁移至 Netlify、其他静态托管平台。
+
+六、预约规则
+固定时间仅供客人提出申请，不代表实时座位空余；点击 WhatsApp 后仍需客人发送消息；仅餐厅回复确认后预约才成立。电话方式打开拨号界面，网站不会自动记录订单。
