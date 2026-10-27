@@ -102,6 +102,7 @@ footer{align-items:flex-start;gap:24px;padding:40px 6%;}
 @media(max-width:900px){.umiFooterMain{flex-wrap:wrap;justify-content:center;gap:16px 24px}.umiCompactFooter{padding:15px 4%!important}.umiCompactFooter .footerItem{flex:0 1 auto}.umiCompactFooter .umiFooterBottom{justify-content:center}}
 @media(max-width:600px){.umiFooterMain{display:grid;grid-template-columns:1fr 1fr;gap:15px 12px;align-items:start}.umiCompactFooter .footerBrand{grid-column:1/2}.umiCompactFooter .footerSocial{justify-content:flex-end}.umiCompactFooter .footerItem{font-size:10px}.umiCompactFooter .footerIcon{font-size:20px}.umiCompactFooter .footerHours{grid-column:1/3}.umiCompactFooter .umiFooterBottom{flex-direction:column;gap:6px;text-align:center}.umiCompactFooter .umiFooterBottom small{margin-right:0}}
 
+
 /* Use crisp original logo; avoid blurry shadow/filters */
 .top .logo img,.umiCompactFooter .footerBrand img,.footerBrand img{filter:none!important;image-rendering:auto;object-fit:contain;background:transparent}
 
@@ -154,3 +155,13 @@ html body .umiPriceDialog .tastingPriceCard h3{font-size:18px!important;margin-b
 html body .umiPriceDialog .tastingPriceRow{display:grid!important;grid-template-columns:1fr!important;gap:2px!important;margin-top:4px!important;padding:7px 0!important}
 html body .umiPriceDialog .tastingNotice{grid-column:1/-1;margin:0!important;font-size:12px}
 @media(max-width:580px){html body header.top{background:transparent!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}html body .umiPriceContent{padding:45px 15px 18px!important}html body .umiPriceDialog .tastingPrices{grid-template-columns:1fr 1fr!important;gap:8px!important}html body .umiPriceDialog .tastingPriceCard{padding:10px 8px!important}html body .umiPriceDialog .tastingPriceCard h3{font-size:15px!important}html body .umiPriceDialog .tastingPriceRow{font-size:11px!important}html body .umiPriceDialog .tastingPriceRow strong{font-size:12px!important}}
+
+/* Merged from main: booking date visibility and responsive layout */
+body{overflow-x:hidden}
+#bookingDate{display:block!important;width:100%!important;max-width:100%!important;min-width:0!important;box-sizing:border-box!important;color:#29231d!important;background-color:#fffaf2!important;color-scheme:light!important;opacity:1!important;-webkit-text-fill-color:#29231d!important;line-height:1.4!important;height:46px!important}
+#bookingDate::-webkit-date-and-time-value{text-align:left;min-height:1.2em}
+#bookingDate::-webkit-calendar-picker-indicator{opacity:1;display:block;cursor:pointer}
+.bookingFields,.bookingFields label,.booking form{min-width:0}
+.gallery img{display:block;object-fit:cover}
+@media(max-width:600px){#bookingDate{font-size:15px!important;padding:8px 4px!important}.bookingFields{grid-template-columns:minmax(0,1fr)!important}.bookingFields label{width:100%;max-width:100%}}
+
