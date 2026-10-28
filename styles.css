@@ -165,3 +165,9 @@ body{overflow-x:hidden}
 .gallery img{display:block;object-fit:cover}
 @media(max-width:600px){#bookingDate{font-size:15px!important;padding:8px 4px!important}.bookingFields{grid-template-columns:minmax(0,1fr)!important}.bookingFields label{width:100%;max-width:100%}}
 
+
+/* UMI hero height refinement — desktop 90vh, mobile 80vh (2026-10-28) */
+html body main#home>.hero{height:90vh;height:90svh;min-height:680px;max-height:1100px}
+html body main#home>.hero .heroCopy{padding-top:clamp(130px,17vh,210px);padding-bottom:65px}
+@media(max-width:800px){html body main#home>.hero{height:85vh;height:85svh;min-height:600px;max-height:900px}html body main#home>.hero .heroCopy{padding-top:clamp(145px,17vh,190px)}}
+@media(max-width:600px){html body main#home>.hero{height:80vh;height:80svh;min-height:600px;max-height:820px}html body main#home>.hero .heroCopy{padding-top:145px;padding-bottom:35px}}
