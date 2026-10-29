@@ -1273,22 +1273,22 @@
     {
       "title_pt": "SASHIMI",
       "title_en": "SASHIMI",
-      "image": "assets/menu-sashimi.jpeg"
+      "image": "assets/sashimi-blend.webp"
     },
     {
       "title_pt": "NIGIRI",
       "title_en": "NIGIRI",
-      "image": "assets/menu-nigiri.jpeg"
+      "image": "assets/nigiri-blend.webp"
     },
     {
       "title_pt": "URAMAKI",
       "title_en": "URAMAKI",
-      "image": "assets/menu-uramaki.jpeg"
+      "image": "assets/uramaki-blend.webp"
     },
     {
       "title_pt": "GUNKAN",
       "title_en": "GUNKAN",
-      "image": "assets/menu-gunkan.jpeg"
+      "image": "assets/gunkan-blend.webp"
     }
   ],
   "lunch_times": [
