@@ -460,7 +460,7 @@ html body #space.space{background:#111312 url('assets/umi-black-marble.svg') cen
 }
 
 /* Featured menu: photographic JPEG cards, identical crop and aligned baselines */
-html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{background:#171411!important}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{background-color:#171411!important}
 html body #menu .dishGrid>.dish.featuredDish .umiDishVisual img{
  position:static!important;display:block!important;width:100%!important;height:100%!important;
  object-fit:cover!important;object-position:center 50%!important;max-width:none!important;
@@ -491,3 +491,8 @@ html body #menu .dishGrid>.dish.featuredDish .umiDishVisual.umiPosterCrop img{
 html body #menu .dishGrid>.dish.featuredDish .umiDishVisual:not(.umiPosterCrop) img{
  opacity:1!important;visibility:visible!important;object-fit:cover!important;object-position:center!important;
 }
+
+/* Fix v10: explicit photo background wins, with visible image fallback. */
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual.umiPosterCrop{background-color:#171411!important;background-repeat:no-repeat!important}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual.umiPosterCrop img{opacity:1!important;visibility:visible!important;object-fit:cover!important;object-position:center 53%!important}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual.umiPosterCrop{background-image:none!important}
