@@ -24,6 +24,7 @@
       fetch('/api/event',{method:'POST',headers:{'Content-Type':'application/json'},body:payload,keepalive:true,credentials:'omit'}).catch(()=>{});
     }catch(_){}
   }
+  send('page_view');
   document.addEventListener('click',e=>{
     if(!(e.target instanceof Element))return;
     const el=e.target;
