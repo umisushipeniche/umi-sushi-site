@@ -368,3 +368,28 @@ html body .umiCompactFooter .umiMapPin svg{display:block}
  html body .umiContactOverlay .umiContactIntro p{font-size:12px}
 }
 @media(max-width:360px){html body .umiPriceDialog .tastingPrices{grid-template-columns:1fr!important}html body .umiPriceDialog .tastingPriceCard h3{min-height:0}}
+
+/* Takeaway navigation: gold-outline action separated from Contactos. */
+html body .top nav .umiNavTakeaway{
+ position:relative;display:inline-flex!important;align-items:center;justify-content:center;gap:8px;
+ margin-left:clamp(14px,1.7vw,26px);
+ padding:9px 15px!important;min-height:39px;
+ border:1px solid #d6b575!important;border-radius:5px;
+ background:rgba(15,13,12,.38)!important;color:#f7e8d2!important;
+ font-weight:500!important;text-decoration:none!important;white-space:nowrap;
+}
+html body .top nav .umiNavTakeaway::before{
+ content:"";position:absolute;left:calc(-1 * clamp(13px,1.4vw,22px));top:5px;bottom:5px;
+ width:1px;background:rgba(225,194,143,.64);pointer-events:none;
+}
+html body .top nav .umiNavTakeaway .umiTakeawayIcon{
+ display:block;flex:none;color:#d6b575;stroke:currentColor;
+}
+html body .top nav .umiNavTakeaway:hover,html body .top nav .umiNavTakeaway:focus-visible{
+ background:rgba(214,181,117,.18)!important;border-color:#f0d39e!important;color:#fff3db!important;
+}
+@media(max-width:800px){
+ html body .top nav .umiNavTakeaway{margin-left:13px;padding:8px 10px!important;gap:6px;min-height:36px;font-size:11px!important}
+ html body .top nav .umiNavTakeaway::before{left:-12px;top:5px;bottom:5px}
+ html body .top nav .umiNavTakeaway .umiTakeawayIcon{width:16px;height:16px}
+}
