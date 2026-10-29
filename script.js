@@ -5,12 +5,12 @@ let umiDesktopHeroFailed=false;
 function applyDesktopHero(fallback){
   const el=$('heroImage');if(!el)return;
   const desktop=window.matchMedia('(min-width: 901px)').matches;
-  el.style.backgroundImage='url('+JSON.stringify(desktop&&umiDesktopHeroLoaded?'assets/umi-home-desktop.webp':fallback)+')';
+  el.style.backgroundImage='url('+JSON.stringify(desktop&&umiDesktopHeroLoaded?'https://raw.githubusercontent.com/umisushipeniche/umi-sushi-site/main/assets/umi-home-desktop.webp':fallback)+')';
   if(desktop&&!umiDesktopHeroLoaded&&!umiDesktopHeroImage&&!umiDesktopHeroFailed){
     umiDesktopHeroImage=new Image();
     umiDesktopHeroImage.onload=()=>{umiDesktopHeroLoaded=true;applyDesktopHero(image(d.hero_image))};
     umiDesktopHeroImage.onerror=()=>{umiDesktopHeroFailed=true;umiDesktopHeroImage=null};
-    umiDesktopHeroImage.src='assets/umi-home-desktop.webp';
+    umiDesktopHeroImage.src='https://raw.githubusercontent.com/umisushipeniche/umi-sushi-site/main/assets/umi-home-desktop.webp';
   }
 }
 window.addEventListener('resize',()=>applyDesktopHero(image(d.hero_image)),{passive:true});
