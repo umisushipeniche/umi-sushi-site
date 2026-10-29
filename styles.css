@@ -242,3 +242,15 @@ html body #menu .dishGrid>.dish.featuredDish h3{font-size:clamp(13px,1.25vw,18px
 html body #menu .dishGrid>.dish.featuredDish h3:after{margin:8px auto 0}
 @media(max-width:800px){html body #menu.menu{height:auto}html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{height:clamp(205px,35vw,270px)}html body #menu .dishGrid>.dish.featuredDish{grid-template-rows:minmax(0,1fr) 38px}}
 @media(max-width:480px){html body #menu .dishGrid{gap:12px 10px}html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{height:clamp(170px,46vw,225px)}html body #menu .dishGrid>.dish.featuredDish{grid-template-rows:minmax(0,1fr) 34px}}
+
+/* Menu v6: equal image stage and restrained food scale, with integrated ambient lighting */
+html body #menu.menu{height:clamp(450px,39vw,540px);background:radial-gradient(ellipse 60% 65% at 52% 63%,rgba(88,60,37,.30),transparent 82%),radial-gradient(ellipse 48% 58% at 95% 10%,rgba(127,89,53,.18),transparent 85%),linear-gradient(115deg,#100f0e 0%,#211b16 55%,#12100f 100%)}
+html body #menu .dishGrid{grid-template-columns:repeat(4,minmax(0,1fr));align-items:end;gap:clamp(10px,1.6vw,22px)}
+html body #menu .dishGrid>.dish.featuredDish{height:auto;min-width:0;grid-template-rows:220px 38px;align-items:end;transition:none}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{height:220px;width:100%;overflow:hidden;position:relative;background:transparent;-webkit-mask-image:radial-gradient(ellipse 75% 50% at 50% 52%,#000 54%,transparent 100%);mask-image:radial-gradient(ellipse 75% 50% at 50% 52%,#000 54%,transparent 100%)}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual img{position:absolute;left:0;top:-72%;width:100%;height:auto;max-width:none;object-fit:initial;object-position:initial;transform:none!important;filter:brightness(1.07) saturate(1.05)}
+html body #menu .dishGrid>.dish.featuredDish .umiDishLabel{height:38px;align-items:center;justify-content:flex-start;padding:0;margin:0}
+html body #menu .dishGrid>.dish.featuredDish h3{margin:0;font-size:clamp(13px,1.3vw,17px)}
+@media(min-width:1100px){html body #menu .dishGrid>.dish.featuredDish{grid-template-rows:245px 38px}html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{height:245px}}
+@media(max-width:800px){html body #menu.menu{height:auto}html body #menu .dishGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 12px}html body #menu .dishGrid>.dish.featuredDish{grid-template-rows:clamp(155px,30vw,215px) 35px}html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{height:clamp(155px,30vw,215px)}}
+@media(max-width:480px){html body #menu .dishGrid>.dish.featuredDish{grid-template-rows:clamp(145px,39vw,180px) 32px}html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{height:clamp(145px,39vw,180px)}html body #menu .dishGrid>.dish.featuredDish .umiDishVisual img{top:-67%}}
