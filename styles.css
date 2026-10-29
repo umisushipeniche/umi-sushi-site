@@ -458,3 +458,12 @@ html body #space.space{background:#111312 url('assets/umi-black-marble.svg') cen
  html body #menu .dishGrid>.dish.featuredDish h3{font-size:14px!important}
  html body #menu .dishGrid>.dish.featuredDish .umiDishDescription{font-size:10px!important}
 }
+
+/* Featured menu: photographic JPEG cards, identical crop and aligned baselines */
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{background:#171411!important}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual img{
+ position:static!important;display:block!important;width:100%!important;height:100%!important;
+ object-fit:cover!important;object-position:center 50%!important;max-width:none!important;
+ filter:none!important;transform:none!important;
+}
+html body #menu .dishGrid>.dish.featuredDish:nth-child(3) .umiDishVisual img{transform:none!important}
