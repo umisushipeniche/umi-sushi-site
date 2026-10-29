@@ -26,12 +26,14 @@ function paintMenu(){
   const tabs=$('categoryTabs');if(tabs){tabs.replaceChildren();tabs.hidden=true;}
   for(const item of items){
     const card=document.createElement('article');card.className='dish featuredDish';
+    const visual=document.createElement('div');visual.className='umiDishVisual';
     const img=document.createElement('img');img.src=item.image||'assets/menu-tasting.jpeg';
     img.loading='lazy';img.alt=item['title_'+lang]||'';
     img.onerror=function(){this.onerror=null;this.src='assets/menu-tasting.jpeg'};
-    const copy=document.createElement('div'),title=document.createElement('h3');
+    visual.append(img);
+    const copy=document.createElement('div');copy.className='umiDishLabel';const title=document.createElement('h3');
     title.textContent=item['title_'+lang]||item.title_pt||'';
-    copy.append(title);card.append(img,copy);grid.append(card);
+    copy.append(title);card.append(visual,copy);grid.append(card);
   }
 }
 // Restaurant-local clock: Europe/Lisbon, including DST, regardless of visitor device timezone.
