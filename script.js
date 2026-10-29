@@ -33,10 +33,10 @@ function paintMenu(){
   grid.replaceChildren();
   const featured=(d.featured_menu||[]).slice(0,4);
   const defaults=[
-    {title_pt:'SASHIMI',title_en:'SASHIMI',image:'assets/sashimi-blend.webp'},
-    {title_pt:'NIGIRI',title_en:'NIGIRI',image:'assets/nigiri-blend.webp'},
-    {title_pt:'URAMAKI',title_en:'URAMAKI',image:'assets/uramaki-blend.webp'},
-    {title_pt:'GUNKAN',title_en:'GUNKAN',image:'assets/gunkan-blend.webp'}
+    {title_pt:'SASHIMI',title_en:'SASHIMI',image:'assets/menu-sashimi.jpeg'},
+    {title_pt:'NIGIRI',title_en:'NIGIRI',image:'assets/menu-nigiri.jpeg'},
+    {title_pt:'URAMAKI',title_en:'URAMAKI',image:'assets/menu-uramaki.jpeg'},
+    {title_pt:'GUNKAN',title_en:'GUNKAN',image:'assets/menu-gunkan.jpeg'}
   ];
   const items=featured.length?featured:defaults;
   const empty=$('menuEmpty');if(empty)empty.hidden=items.length>0;
