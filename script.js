@@ -21,9 +21,9 @@ let d,lang=localStorage.getItem('umi-lang')==='en'?'en':'pt',category='all';cons
 function renderTastingPrices(){
  const el=$('tastingPrices');if(!el||!d)return;
  const pt=lang==='pt',price=k=>{const raw=String(d[k]??'').trim();const n=Number(raw.replace(',','.'));return raw&&Number.isFinite(n)?n.toLocaleString(pt?'pt-PT':'en-IE',{style:'currency',currency:'EUR'}):'—'};
- const title=pt?['Dias úteis','Fim de semana','Almoço','Jantar','Adulto','Criança']:['Weekdays','Weekend','Lunch','Dinner','Adult','Child'];
+ const title=pt?['Dias úteis','Fim de semana e Feriados','Almoço','Jantar','Adulto','Criança']:['Weekdays','Weekends & Public Holidays','Lunch','Dinner','Adult','Child'];
  const groups=[['weekday',title[0]],['weekend',title[1]]];el.replaceChildren();
- for(const [key,label] of groups){const card=document.createElement('div');card.className='tastingPriceCard';const h=document.createElement('h3');h.textContent=label;card.append(h);
+ for(const [key,label] of groups){const card=document.createElement('div');card.className='tastingPriceCard'+(key==='weekend'?' tastingPriceWeekend':'');const h=document.createElement('h3');h.textContent=label;card.append(h);
  for(const [meal,mealLabel] of (key==='weekend'?[['lunch',pt?'Almoço e jantar':'Lunch & dinner']]:[['lunch',title[2]],['dinner',title[3]]])){const row=document.createElement('div');row.className='tastingPriceRow';const name=document.createElement('strong');name.textContent=mealLabel;const adult=document.createElement('span');adult.textContent=title[4]+': '+price('tasting_'+key+'_'+meal+'_adult');const child=document.createElement('span');child.textContent=title[5]+' ('+(d.tasting_child_height||'110–130 cm')+'): '+price('tasting_'+key+'_'+meal+'_child');row.append(name,adult,child);card.append(row)}el.append(card)}
  const notice=document.createElement('p');notice.className='tastingNotice';notice.textContent=d['tasting_notice_'+lang]||'';el.append(notice);
 }
