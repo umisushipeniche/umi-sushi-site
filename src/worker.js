@@ -1,6 +1,6 @@
 
 // Anonymous click counters: Cloudflare Analytics Engine dataset; no visitor identifiers.
-const ALLOWED_EVENTS=new Set(['takeaway','view_prices','call_phone','contact_submit_attempt','footer_phone','directions','instagram','facebook','gallery_previous','gallery_next','full_menu','booking_section','menu_section','contact_dialog','booking_whatsapp_attempt']);
+const ALLOWED_EVENTS=new Set(['page_view','takeaway','view_prices','call_phone','contact_submit_attempt','footer_phone','directions','instagram','facebook','gallery_previous','gallery_next','full_menu','booking_section','menu_section','contact_dialog','booking_whatsapp_attempt']);
 async function trackClick(request,env,url){
   if(request.method!=='POST')return json({error:'Method not allowed'},405);
   const origin=request.headers.get('Origin');
