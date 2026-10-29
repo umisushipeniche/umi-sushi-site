@@ -265,3 +265,35 @@ html body #menu .dishGrid>.dish.featuredDish .umiDishLabel{height:40px;display:f
 html body #menu .dishGrid>.dish.featuredDish h3{font-size:clamp(13px,1.4vw,18px);letter-spacing:.11em;color:#e5c18b}
 @media(max-width:800px){html body #menu.menu{min-height:0;padding:44px 5% 48px}html body #menu .dishGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 14px}html body #menu .dishGrid>.dish.featuredDish{grid-template-rows:200px 36px}html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{height:200px}}
 @media(max-width:480px){html body #menu.menu{padding:35px 4% 40px}html body #menu .dishGrid{gap:12px 8px}html body #menu .dishGrid>.dish.featuredDish{grid-template-rows:155px 32px}html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{height:155px}}
+
+/* Menu v8 — subtle Japanese gold linework; align URAMAKI with neighboring dishes */
+html body #menu.menu{
+  position:relative;isolation:isolate;overflow:hidden;
+  background:
+    radial-gradient(ellipse 54% 62% at 51% 67%,rgba(104,72,40,.27),transparent 75%),
+    radial-gradient(ellipse 32% 48% at 92% 16%,rgba(151,102,44,.15),transparent 77%),
+    radial-gradient(ellipse 37% 46% at 8% 88%,rgba(105,73,38,.13),transparent 78%),
+    linear-gradient(115deg,#0c0b0b 0%,#201913 52%,#0c0c0b 100%);
+}
+html body #menu.menu::before{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.85;
+  background:
+    radial-gradient(ellipse 56% 27% at -9% 65%,transparent 92%,rgba(184,131,64,.34) 93%,transparent 94%,transparent 96%,rgba(198,148,82,.18) 97%,transparent 98%),
+    radial-gradient(ellipse 57% 30% at 105% 28%,transparent 91%,rgba(198,148,82,.4) 92%,transparent 93%,transparent 96%,rgba(198,148,82,.18) 97%,transparent 98%),
+    linear-gradient(90deg,transparent 8%,rgba(177,133,70,.11) 45%,transparent 88%);
+}
+html body #menu.menu::after{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.35;
+  background:repeating-linear-gradient(145deg,transparent 0 48px,rgba(207,169,105,.012) 49px,transparent 50px 96px);
+}
+html body #menu .sectionHead,html body #menu .dishGrid,html body #menu .menuEmpty{position:relative;z-index:1}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{overflow:visible}
+html body #menu .dishGrid>.dish.featuredDish:nth-child(3) .umiDishVisual img{
+  transform:translateY(15px)!important;
+}
+@media(max-width:800px){
+  html body #menu .dishGrid>.dish.featuredDish:nth-child(3) .umiDishVisual img{transform:translateY(10px)!important}
+}
+@media(max-width:480px){
+  html body #menu .dishGrid>.dish.featuredDish:nth-child(3) .umiDishVisual img{transform:translateY(7px)!important}
+}
