@@ -2,6 +2,18 @@
   "name": "umi-sushi-site",
   "compatibility_date": "2026-10-17",
   "main": "src/worker.js",
-  "assets": { "directory": "./", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
-  "previews": {}
+  "assets": {
+    "directory": "./",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "previews": {},
+  "analytics_engine_datasets": [
+    {
+      "binding": "UMI_CLICK_ANALYTICS",
+      "dataset": "umi_site_clicks"
+    }
+  ]
 }
