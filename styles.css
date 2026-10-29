@@ -297,3 +297,29 @@ html body #menu .dishGrid>.dish.featuredDish:nth-child(3) .umiDishVisual img{
 @media(max-width:480px){
   html body #menu .dishGrid>.dish.featuredDish:nth-child(3) .umiDishVisual img{transform:translateY(7px)!important}
 }
+
+/* UI refinement: headings, CTAs, footer home link, compact contact heading and centered weekend prices */
+html body .top nav a{font-size:clamp(12px,1vw,15px)!important;font-weight:700;letter-spacing:.045em;text-shadow:0 1px 7px #0009;transition:color .2s ease}
+html body .top nav a:hover,html body .top nav a:focus-visible{color:#efd29e;text-decoration:underline;text-decoration-color:#d8af72;text-underline-offset:6px}
+html body .top #lang{font-size:13px;font-weight:700;border:1px solid rgba(229,194,142,.7);border-radius:5px;padding:9px 13px}
+html body .heroCopy h1{font-weight:600;letter-spacing:.06em;text-shadow:0 3px 18px rgba(0,0,0,.58)}
+html body h2{letter-spacing:.012em}
+html body .heroActions{display:flex;align-items:center;flex-wrap:wrap;gap:12px}
+html body .heroActions .btn,html body #menu .sectionHead .btn,html body .umiPriceToggle{font-size:clamp(12px,1vw,15px);font-weight:700;letter-spacing:.055em;min-height:45px;display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;transition:transform .2s ease,background-color .2s ease,box-shadow .2s ease}
+html body .heroActions .btn:hover,html body #menu .sectionHead .btn:hover,html body .umiPriceToggle:hover{transform:translateY(-2px);box-shadow:0 9px 23px #0005}
+html body .heroActions .umiHeroTakeaway{background:linear-gradient(115deg,#dfbc7e,#c89b55);color:#20160e;border:1px solid #f0d39d;box-shadow:0 5px 20px #0005}
+html body .heroActions .umiHeroTakeaway:hover,html body .heroActions .umiHeroTakeaway:focus-visible{background:#f1d49b;color:#17110b}
+html body .umiCompactFooter .umiFooterHome{display:inline-flex;align-items:center;text-decoration:none;color:inherit;border-radius:4px;cursor:pointer;transition:opacity .2s ease,transform .2s ease}
+html body .umiCompactFooter .umiFooterHome:hover{opacity:.82;transform:translateY(-2px)}
+html body .umiCompactFooter .umiFooterHome:focus-visible{outline:2px solid #e9c48b;outline-offset:4px}
+html body .umiContactIntro .umiContactBrand{display:flex;align-items:center;gap:12px;margin:0 0 14px}
+html body .umiContactIntro .umiContactBrand img{width:52px;height:52px;object-fit:contain;flex:none}
+html body .umiContactIntro .umiContactBrand .eyebrow{font-size:11px;letter-spacing:.13em}
+html body .umiContactOverlay .umiContactIntro h2{font-size:clamp(27px,3vw,40px)!important;line-height:1.1;margin:8px 0 18px!important}
+html body .umiPriceDialog .tastingPriceWeekend{text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}
+html body .umiPriceDialog .tastingPriceWeekend .tastingPriceRow{width:100%;display:flex!important;flex-direction:column;align-items:center;justify-content:center;gap:8px!important;margin-top:8px!important}
+html body .umiPriceDialog .tastingPriceWeekend .tastingPriceRow strong{font-size:15px!important;color:#f0d39d}
+html body .umiPriceDialog .tastingPriceWeekend .tastingPriceRow span{display:block;font-size:clamp(13px,1.5vw,17px);line-height:1.5}
+@media(max-width:800px){html body .top nav a{font-size:13px!important}html body .heroActions{gap:9px}html body .heroActions .btn{min-height:42px;padding:11px 14px}}
+@media(max-width:480px){html body .heroActions{max-width:100%;gap:8px}html body .heroActions .btn{font-size:11px;padding:10px 12px;min-height:41px}html body .umiContactIntro .umiContactBrand img{width:42px;height:42px}html body .umiContactOverlay .umiContactIntro h2{font-size:28px!important}html body .umiPriceDialog .tastingPriceWeekend .tastingPriceRow span{font-size:12px}}
+@media(prefers-reduced-motion:reduce){html body .heroActions .btn,html body .umiCompactFooter .umiFooterHome{transition:none}}
