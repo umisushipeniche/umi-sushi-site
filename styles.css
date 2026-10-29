@@ -467,3 +467,27 @@ html body #menu .dishGrid>.dish.featuredDish .umiDishVisual img{
  filter:none!important;transform:none!important;
 }
 html body #menu .dishGrid>.dish.featuredDish:nth-child(3) .umiDishVisual img{transform:none!important}
+
+/* Real photo vs promotional poster: use a calibrated visual crop for vertical posters.
+   When later supplied a normal landscape photo, it displays normally without poster crop. */
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{
+ background-color:#181615!important;background-repeat:no-repeat!important;
+}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual.umiPosterCrop{
+ background-size:150% auto!important;background-position:center 58%!important;
+}
+html body #menu .dishGrid>.dish.featuredDish:nth-child(2) .umiDishVisual.umiPosterCrop{
+ background-size:150% auto!important;background-position:center 60%!important;
+}
+html body #menu .dishGrid>.dish.featuredDish:nth-child(3) .umiDishVisual.umiPosterCrop{
+ background-size:150% auto!important;background-position:center 62%!important;
+}
+html body #menu .dishGrid>.dish.featuredDish:nth-child(4) .umiDishVisual.umiPosterCrop{
+ background-size:190% auto!important;background-position:center 58%!important;
+}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual.umiPosterCrop img{
+ opacity:0!important;visibility:hidden!important;
+}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual:not(.umiPosterCrop) img{
+ opacity:1!important;visibility:visible!important;object-fit:cover!important;object-position:center!important;
+}
