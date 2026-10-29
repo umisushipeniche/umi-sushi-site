@@ -393,3 +393,68 @@ html body .top nav .umiNavTakeaway:hover,html body .top nav .umiNavTakeaway:focu
  html body .top nav .umiNavTakeaway::before{left:-12px;top:5px;bottom:5px}
  html body .top nav .umiNavTakeaway .umiTakeawayIcon{width:16px;height:16px}
 }
+
+/* UMI menu gallery reference layout, editable food cards, black marble. 2026-10-29 */
+html body #menu.menu{
+  display:block!important;height:auto!important;min-height:0!important;
+  padding:clamp(38px,4.8vw,66px) max(5%,calc((100% - 1300px)/2)) clamp(42px,4.5vw,65px)!important;
+  background:#111312 url('assets/umi-black-marble.svg') center center / cover no-repeat!important;
+  isolation:isolate;
+}
+html body #menu.menu::before{
+ content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,7,7,.36),rgba(6,7,7,.04) 48%,rgba(6,7,7,.4));opacity:1!important;z-index:0;pointer-events:none
+}
+html body #menu.menu::after{display:none!important}
+html body #menu .sectionHead{display:flex;justify-content:space-between;align-items:center;margin-bottom:25px!important;gap:20px;position:relative;z-index:1}
+html body #menu .sectionHead .eyebrow{color:#d7b17c;letter-spacing:.22em}
+html body #menu .sectionHead h2{color:#f4ead9;font-size:clamp(39px,4.1vw,58px);font-weight:400;margin:4px 0 5px}
+html body #menu .sectionHead p{font-size:14px;line-height:1.45}
+html body #menu .sectionHead .btn{border:1px solid #c6a16a!important;color:#eac894!important;background:rgba(8,8,8,.48);white-space:nowrap;font-weight:500!important}
+html body #menu .dishGrid{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;align-items:stretch!important;gap:clamp(12px,1.5vw,22px)!important;position:relative;z-index:1}
+html body #menu .dishGrid>.dish.featuredDish{
+ display:flex!important;flex-direction:column;align-items:stretch!important;justify-content:flex-start;
+ min-width:0;height:100%!important;overflow:hidden!important;border:1px solid rgba(205,163,99,.75)!important;
+ border-radius:6px!important;background:#141414!important;
+ box-shadow:0 15px 24px rgba(0,0,0,.24)!important;transform:none!important;transition:border-color .2s ease,box-shadow .2s ease!important
+}
+html body #menu .dishGrid>.dish.featuredDish:hover{border-color:#edc58a!important;box-shadow:0 16px 26px rgba(0,0,0,.45)!important}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{
+ position:relative;display:flex!important;justify-content:center!important;align-items:flex-end!important;overflow:hidden!important;
+ width:100%!important;height:clamp(160px,17vw,224px)!important;flex:none;
+ background:radial-gradient(ellipse 80% 80% at 50% 73%,rgba(104,76,50,.45),transparent 80%),linear-gradient(150deg,#25211d,#151515 70%)!important;
+ mask-image:none!important;-webkit-mask-image:none!important;
+}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual::after{content:"";position:absolute;bottom:0;left:0;right:0;height:24px;background:linear-gradient(transparent,rgba(8,8,8,.34));pointer-events:none}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual img{
+ position:static!important;display:block!important;height:100%!important;width:100%!important;
+ max-width:100%!important;object-fit:contain!important;object-position:center bottom!important;
+ transform:none!important;filter:drop-shadow(0 9px 9px rgba(0,0,0,.3))!important;
+ mask-image:none!important;-webkit-mask-image:none!important;
+}
+html body #menu .dishGrid>.dish.featuredDish:nth-child(3) .umiDishVisual img{transform:none!important}
+html body #menu .dishGrid>.dish.featuredDish .umiDishLabel{
+ margin:0!important;padding:13px 9px 14px!important;height:auto!important;min-height:76px;
+ background:linear-gradient(180deg,#191918,#101110)!important;display:flex!important;flex-direction:column;
+ align-items:center;justify-content:center!important;text-align:center;border-top:1px solid rgba(189,147,87,.30)
+}
+html body #menu .dishGrid>.dish.featuredDish h3{margin:0 0 7px!important;color:#f1e7d7!important;font-size:clamp(14px,1.4vw,17px)!important;font-weight:500!important;letter-spacing:.10em!important;line-height:1.15}
+html body #menu .dishGrid>.dish.featuredDish h3::after{display:none!important}
+html body #menu .dishGrid>.dish.featuredDish .umiDishDescription{display:block;margin:0!important;font-size:clamp(10px,.95vw,12px)!important;line-height:1.4;color:#d5c8b8!important;font-weight:400}
+html body #space.space{background:#111312 url('assets/umi-black-marble.svg') center center / cover no-repeat}
+@media(max-width:800px){
+ html body #menu.menu{padding:42px 5% 48px!important}
+ html body #menu .dishGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px!important}
+ html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{height:clamp(165px,28vw,235px)!important}
+ html body #menu .dishGrid>.dish.featuredDish .umiDishDescription{font-size:12px!important}
+}
+@media(max-width:480px){
+ html body #menu.menu{padding:35px 4% 42px!important}
+ html body #menu .sectionHead{align-items:flex-start;flex-direction:column;gap:13px;margin-bottom:18px!important}
+ html body #menu .sectionHead h2{font-size:38px}
+ html body #menu .sectionHead .btn{font-size:12px;padding:10px 15px}
+ html body #menu .dishGrid{gap:10px!important}
+ html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{height:clamp(125px,39vw,190px)!important}
+ html body #menu .dishGrid>.dish.featuredDish .umiDishLabel{min-height:76px;padding:12px 6px!important}
+ html body #menu .dishGrid>.dish.featuredDish h3{font-size:14px!important}
+ html body #menu .dishGrid>.dish.featuredDish .umiDishDescription{font-size:10px!important}
+}
