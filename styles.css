@@ -216,3 +216,16 @@ html body #booking.booking{padding-top:clamp(48px,5vw,70px);padding-bottom:clamp
 html body #prices.prices{height:clamp(340px,34vw,440px);min-height:340px}
 @media(max-width:800px){html body #menu.menu,html body #space.space,html body #booking.booking{padding-top:46px;padding-bottom:48px}html body #menu .dishGrid>.dish.featuredDish img{height:clamp(205px,38vw,295px)}html body #space .gallery img{height:220px}html body #prices.prices{height:auto;min-height:350px}}
 @media(max-width:480px){html body #menu.menu,html body #space.space,html body #booking.booking{padding-top:38px;padding-bottom:42px}html body #menu .dishGrid>.dish.featuredDish img{height:clamp(190px,55vw,245px)}html body #menu .sectionHead{margin-bottom:12px}html body #space .gallery img{height:190px}html body #prices.prices{height:auto;min-height:340px}}
+
+/* UMI menu v4 — deliberate crop to dish-only part of original photographs; no embedded heading/logo */
+html body #menu.menu{height:clamp(410px,42vw,590px);min-height:0;display:flex;flex-direction:column;justify-content:center;padding:35px max(5%,calc((100% - 1300px)/2));background:radial-gradient(ellipse at 50% 80%,#32251b 0%,#1b1714 55%,#141210 100%)}
+html body #menu .sectionHead{width:100%;margin:0 0 16px;flex-shrink:0}
+html body #menu .dishGrid{width:100%;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(8px,1.7vw,25px);align-items:end}
+html body #menu .dishGrid>.dish.featuredDish{height:auto;display:flex;flex-direction:column;align-items:stretch;border:0!important;background:none!important;overflow:visible!important}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{position:relative;height:clamp(205px,22vw,315px);width:100%;overflow:hidden;background:transparent;isolation:isolate;-webkit-mask-image:radial-gradient(ellipse 73% 57% at 50% 55%,#000 51%,transparent 99%);mask-image:radial-gradient(ellipse 73% 57% at 50% 55%,#000 51%,transparent 99%)}
+html body #menu .dishGrid>.dish.featuredDish .umiDishVisual img{position:absolute;display:block;max-width:none;width:100%;height:260%;top:-98%;left:0;object-fit:cover;object-position:center center;filter:brightness(1.12) contrast(1.05) saturate(1.1);-webkit-mask-image:none;mask-image:none}
+html body #menu .dishGrid>.dish.featuredDish .umiDishLabel{margin:0;padding:0 0 8px;background:none!important;text-align:center}
+html body #menu .dishGrid>.dish.featuredDish h3{font-size:clamp(13px,1.4vw,19px);color:#e7c28d;letter-spacing:.13em;margin:0}
+html body #menu .dishGrid>.dish.featuredDish h3:after{margin:9px auto 0}
+@media(max-width:800px){html body #menu.menu{height:auto;min-height:0;padding:45px 5% 48px}html body #menu .dishGrid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:12px}html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{height:clamp(190px,35vw,270px)}}
+@media(max-width:480px){html body #menu.menu{padding:38px 4% 40px}html body #menu .dishGrid{gap:8px}html body #menu .dishGrid>.dish.featuredDish .umiDishVisual{height:clamp(150px,45vw,205px)}html body #menu .dishGrid>.dish.featuredDish h3{font-size:12px}}
