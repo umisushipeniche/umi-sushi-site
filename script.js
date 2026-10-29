@@ -46,6 +46,11 @@ function paintMenu(){
     const visual=document.createElement('div');visual.className='umiDishVisual';
     const img=document.createElement('img');img.src=item.image||'assets/menu-tasting.jpeg';
     img.loading='lazy';img.alt=item['title_'+lang]||'';
+    img.onload=function(){
+      const poster=this.naturalHeight>this.naturalWidth*1.15;
+      visual.classList.toggle('umiPosterCrop',poster);
+      visual.style.backgroundImage=poster?'url('+JSON.stringify(this.currentSrc||this.src)+')':'';
+    };
     img.onerror=function(){this.onerror=null;this.src='assets/menu-tasting.jpeg'};
     visual.append(img);
     const copy=document.createElement('div');copy.className='umiDishLabel';const title=document.createElement('h3');
