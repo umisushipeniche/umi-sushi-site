@@ -1273,28 +1273,28 @@
     {
       "title_pt": "SASHIMI",
       "title_en": "SASHIMI",
-      "image": "assets/sashimi-blend.webp",
+      "image": "assets/menu-sashimi.jpeg",
       "description_pt": "Peixe fresco, cortes perfeitos",
       "description_en": "Fresh fish, perfectly sliced"
     },
     {
       "title_pt": "NIGIRI",
       "title_en": "NIGIRI",
-      "image": "assets/nigiri-blend.webp",
+      "image": "assets/menu-nigiri.jpeg",
       "description_pt": "Tradição em cada detalhe",
       "description_en": "Tradition in every detail"
     },
     {
       "title_pt": "URAMAKI",
       "title_en": "URAMAKI",
-      "image": "assets/uramaki-blend.webp",
+      "image": "assets/menu-uramaki.jpeg",
       "description_pt": "Combinações únicas de sabores",
       "description_en": "Distinctive flavour combinations"
     },
     {
       "title_pt": "GUNKAN",
       "title_en": "GUNKAN",
-      "image": "assets/gunkan-blend.webp",
+      "image": "assets/menu-gunkan.jpeg",
       "description_pt": "Criatividade sem limites",
       "description_en": "Creativity without limits"
     }
