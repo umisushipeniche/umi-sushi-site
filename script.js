@@ -50,7 +50,8 @@ function paintMenu(){
     visual.append(img);
     const copy=document.createElement('div');copy.className='umiDishLabel';const title=document.createElement('h3');
     title.textContent=item['title_'+lang]||item.title_pt||'';
-    copy.append(title);card.append(visual,copy);grid.append(card);
+    const description=document.createElement('p');description.className='umiDishDescription';description.textContent=item['description_'+lang]||({SASHIMI:lang==='pt'?'Peixe fresco, cortes perfeitos':'Fresh fish, perfectly sliced',NIGIRI:lang==='pt'?'Tradição em cada detalhe':'Tradition in every detail',URAMAKI:lang==='pt'?'Combinações únicas de sabores':'Distinctive flavour combinations',GUNKAN:lang==='pt'?'Criatividade sem limites':'Creativity without limits'})[item.title_pt]||'';
+    copy.append(title,description);card.append(visual,copy);grid.append(card);
   }
 }
 // Restaurant-local clock: Europe/Lisbon, including DST, regardless of visitor device timezone.
