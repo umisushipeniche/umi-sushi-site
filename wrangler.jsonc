@@ -15,5 +15,8 @@
       "binding": "UMI_CLICK_ANALYTICS",
       "dataset": "umi_site_clicks"
     }
-  ]
+  ],
+  "vars": {
+    "CONTACT_FROM_EMAIL": "UMI SUSHI <contacto@umisushipeniche.pt>"
+  }
 }
