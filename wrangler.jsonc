@@ -9,7 +9,17 @@
       "/api/*"
     ]
   },
-  "previews": {},
+  "previews": {
+    "vars": {
+      "CONTACT_FROM_EMAIL": "UMI SUSHI <contacto@umisushipeniche.pt>"
+    },
+    "analytics_engine_datasets": [
+      {
+        "binding": "UMI_CLICK_ANALYTICS",
+        "dataset": "umi_site_clicks"
+      }
+    ]
+  },
   "analytics_engine_datasets": [
     {
       "binding": "UMI_CLICK_ANALYTICS",
