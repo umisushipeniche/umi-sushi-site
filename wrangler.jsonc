@@ -2,6 +2,31 @@
   "name": "umi-sushi-site",
   "compatibility_date": "2026-10-17",
   "main": "src/worker.js",
-  "assets": { "directory": "./", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
-  "previews": {}
+  "assets": {
+    "directory": "./",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "previews": {
+    "vars": {
+      "CONTACT_FROM_EMAIL": "UMI SUSHI <contacto@umisushipeniche.pt>"
+    },
+    "analytics_engine_datasets": [
+      {
+        "binding": "UMI_CLICK_ANALYTICS",
+        "dataset": "umi_site_clicks"
+      }
+    ]
+  },
+  "analytics_engine_datasets": [
+    {
+      "binding": "UMI_CLICK_ANALYTICS",
+      "dataset": "umi_site_clicks"
+    }
+  ],
+  "vars": {
+    "CONTACT_FROM_EMAIL": "UMI SUSHI <contacto@umisushipeniche.pt>"
+  }
 }

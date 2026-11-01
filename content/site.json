@@ -115,9 +115,9 @@
       "number": "E13",
       "pt": "EDAMAME",
       "en": "Edamame Soybeans",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6035-1.jpg",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6035-1.png",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6035-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6035-1.png"
     },
     {
       "category": "cat03",
@@ -133,9 +133,9 @@
       "number": "E31",
       "pt": "SOPA DE MISO",
       "en": "Miso Soup",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6061-1.jpg",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6061-1.png",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6061-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6061-1.png"
     },
     {
       "category": "cat03",
@@ -169,9 +169,9 @@
       "number": "F13",
       "pt": "HÓSTIAS DE CAMARÃO",
       "en": "Prawn Crackers",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6154-1.jpg",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6154-1.png",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6154-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6154-1.png"
     },
     {
       "category": "cat05",
@@ -196,9 +196,9 @@
       "number": "S03",
       "pt": "SALMÃO TRADICIONAL *(20PCS)",
       "en": "Traditional Salmon Sushi Platter (20 pcs)",
-      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6066-1.jpg",
+      "image": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6066-1.png",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6066-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6066-1.png"
     },
     {
       "category": "cat05",
