@@ -504,7 +504,7 @@ html body #menu .dishGrid>.dish.featuredDish .umiDishVisual.umiPosterCrop{backgr
  html body header.top>.topActions{grid-column:2;grid-row:1;margin:0!important;justify-self:end}
  html body header.top nav{grid-column:1/-1;grid-row:2;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));justify-items:center;align-items:center;gap:5px!important;width:100%;max-width:100%;min-width:0;overflow:visible!important;padding:4px 0 0!important;margin:0!important}
  html body header.top nav a:not(.umiNavTakeaway){font-size:clamp(10px,2.75vw,13px)!important;letter-spacing:.015em!important;min-width:0;max-width:100%;white-space:nowrap}
- html body header.top nav .umiNavTakeaway{grid-column:1/-1;grid-row:2;justify-self:center;margin:4px 0 1px!important;padding:7px 16px!important;font-size:12px!important;min-height:35px}
+ html body header.top nav .umiNavTakeaway{grid-column:3/5;grid-row:2;justify-self:end;margin:4px 0 1px!important;padding:7px 16px!important;font-size:12px!important;min-height:35px}
  html body header.top nav .umiNavTakeaway::before{display:none}
 }
 @media(max-width:360px){html body header.top nav a:not(.umiNavTakeaway){font-size:10px!important}}
