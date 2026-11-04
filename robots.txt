@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://umisushipeniche.pt/sitemap.xml
