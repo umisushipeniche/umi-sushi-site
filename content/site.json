@@ -1605,19 +1605,6 @@
     },
     {
       "category": "cat02",
-      "number": "C51",
-      "pt": "GYOZAS 3PCS",
-      "en": "Gyoza Dumplings (3 pcs)",
-      "image": "assets/dishes/C51.webp",
-      "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6051-1.jpg",
-      "allergen_candidates": [
-        "gluten"
-      ],
-      "allergen_review_status": "pending"
-    },
-    {
-      "category": "cat02",
       "number": "E21",
       "pt": "CRYSTAL DUMPLING",
       "en": "Crystal Dumplings",
@@ -1637,6 +1624,19 @@
       "image": "assets/dishes/E22.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6058-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
+    },
+    {
+      "category": "cat02",
+      "number": "C51",
+      "pt": "GYOZAS 3PCS",
+      "en": "Gyoza Dumplings (3 pcs)",
+      "image": "assets/dishes/C51.webp",
+      "fallback_image": "assets/menu-tasting.jpeg",
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6051-1.jpg",
       "allergen_candidates": [
         "gluten"
       ],
