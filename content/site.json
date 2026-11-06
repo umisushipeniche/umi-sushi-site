@@ -117,7 +117,11 @@
       "en": "Edamame Soybeans",
       "image": "assets/dishes/E13.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6035-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6035-1.png",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat03",
@@ -126,7 +130,9 @@
       "en": "Wakame Seaweed Salad",
       "image": "assets/dishes/E14.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6036-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6036-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat03",
@@ -135,7 +141,11 @@
       "en": "Miso Soup",
       "image": "assets/dishes/E31.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6061-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6061-1.png",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat03",
@@ -144,7 +154,11 @@
       "en": "Wonton Soup",
       "image": "assets/dishes/E32.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6062-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6062-1.png",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat03",
@@ -153,7 +167,11 @@
       "en": "Shrimp Salad",
       "image": "assets/dishes/E41.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6063-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6063-1.png",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat03",
@@ -162,7 +180,11 @@
       "en": "Salmon Salad",
       "image": "assets/dishes/E42.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6064-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6064-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat03",
@@ -171,7 +193,11 @@
       "en": "Prawn Crackers",
       "image": "assets/dishes/F13.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6154-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6154-1.png",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat05",
@@ -180,7 +206,9 @@
       "en": "Mixed Sushi Platter (18 pcs)",
       "image": "assets/dishes/S01.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6008-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6008-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat05",
@@ -189,7 +217,9 @@
       "en": "Seared Sushi Platter (12 pcs)",
       "image": "assets/dishes/S02.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6065-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6065-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat05",
@@ -198,7 +228,11 @@
       "en": "Traditional Salmon Sushi Platter (20 pcs)",
       "image": "assets/dishes/S03.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6066-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6066-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat05",
@@ -207,7 +241,9 @@
       "en": "Vegan Sushi Platter (15 pcs)",
       "image": "assets/dishes/S04.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6364-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6364-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat06",
@@ -216,7 +252,11 @@
       "en": "Sashimi Salmon (4 pcs)",
       "image": "assets/dishes/S11.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6067-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6067-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat06",
@@ -225,7 +265,11 @@
       "en": "Sashimi Seared Salmon (4 pcs)",
       "image": "assets/dishes/S12.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6068-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6068-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat06",
@@ -234,7 +278,11 @@
       "en": "Sashimi Tuna (4 pcs)",
       "image": "assets/dishes/S13.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6069-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6069-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat06",
@@ -243,7 +291,11 @@
       "en": "Sashimi Seared Tuna (4 pcs)",
       "image": "assets/dishes/S14.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6070-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6070-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat06",
@@ -252,7 +304,11 @@
       "en": "Sashimi Octopus (4 pcs)",
       "image": "assets/dishes/S15.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6071-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6071-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat06",
@@ -261,7 +317,11 @@
       "en": "Sashimi Sea Bass (4 pcs)",
       "image": "assets/dishes/S16.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6072-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6072-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat06",
@@ -270,7 +330,11 @@
       "en": "Sashimi White Fish (4 pcs)",
       "image": "assets/dishes/S17.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6073-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6073-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat06",
@@ -279,7 +343,9 @@
       "en": "Okoku Sashimi Platter (16 pcs)",
       "image": "assets/dishes/S18.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6234-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6234-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat07",
@@ -288,7 +354,11 @@
       "en": "Nigiri Salmon (2 pcs)",
       "image": "assets/dishes/S21.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6074-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6074-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat07",
@@ -297,7 +367,11 @@
       "en": "Nigiri Seared Salmon (2 pcs)",
       "image": "assets/dishes/S22.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6075-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6075-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat07",
@@ -306,7 +380,11 @@
       "en": "Nigiri Tuna (2 pcs)",
       "image": "assets/dishes/S23.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6076-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6076-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat07",
@@ -315,7 +393,11 @@
       "en": "Nigiri Sea Bass (2 pcs)",
       "image": "assets/dishes/S24.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6077-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6077-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat07",
@@ -324,7 +406,11 @@
       "en": "Nigiri Shrimp (2 pcs)",
       "image": "assets/dishes/S25.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6078-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6078-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat07",
@@ -333,7 +419,11 @@
       "en": "Nigiri Grilled Salmon (2 pcs)",
       "image": "assets/dishes/S27.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6080-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6080-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat07",
@@ -342,7 +432,11 @@
       "en": "Nigiri Octopus (2 pcs)",
       "image": "assets/dishes/S28.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6081-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6081-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat07",
@@ -351,7 +445,11 @@
       "en": "Nigiri Butterfish (2 pcs)",
       "image": "assets/dishes/S29.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6232-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6232-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat07",
@@ -360,7 +458,9 @@
       "en": "Nigiri Avocado (2 pcs)",
       "image": "assets/dishes/S30.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6239-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6239-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat08",
@@ -369,7 +469,11 @@
       "en": "Hosomaki Salmon (4 pcs)",
       "image": "assets/dishes/S31.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6082-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6082-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat08",
@@ -378,7 +482,11 @@
       "en": "Hosomaki Tuna (4 pcs)",
       "image": "assets/dishes/S32.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6083-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6083-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat08",
@@ -387,7 +495,11 @@
       "en": "Hosomaki Tempura (4 pcs)",
       "image": "assets/dishes/S33.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6084-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6084-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat08",
@@ -396,7 +508,9 @@
       "en": "Hosomaki Avocado (4 pcs)",
       "image": "assets/dishes/S34.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6085-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6085-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat08",
@@ -405,7 +519,11 @@
       "en": "Hosomaki Prawn (4 pcs)",
       "image": "assets/dishes/S35.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6086-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6086-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat08",
@@ -414,7 +532,9 @@
       "en": "Hosomaki Cucumber (4 pcs)",
       "image": "assets/dishes/S36.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6087-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6087-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat08",
@@ -423,7 +543,11 @@
       "en": "Hosomaki Grilled Salmon Skin (4 pcs)",
       "image": "assets/dishes/S37.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6088-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6088-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat08",
@@ -432,7 +556,12 @@
       "en": "Maki Egg Salmon (4 pcs)",
       "image": "assets/dishes/S38.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6089-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6089-1.jpg",
+      "allergen_candidates": [
+        "fish",
+        "eggs"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat08",
@@ -441,7 +570,9 @@
       "en": "Large California Rolls (2 pcs)",
       "image": "assets/dishes/S39.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6090-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6090-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat08",
@@ -450,7 +581,9 @@
       "en": "Futomaki (2 pcs)",
       "image": "assets/dishes/S40.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6092-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6092-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat08",
@@ -459,7 +592,9 @@
       "en": "Fruit Rolls (2 pcs)",
       "image": "assets/dishes/S41.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6091-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6091-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat08",
@@ -468,7 +603,11 @@
       "en": "Coriander and Salmon Rolls (2 pcs)",
       "image": "assets/dishes/S42.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6270-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6270-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -477,7 +616,9 @@
       "en": "Uramaki Avocado (4 pcs)",
       "image": "assets/dishes/S51.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6093-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6093-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -486,7 +627,11 @@
       "en": "Uramaki Strawberry And Salmon (4 pcs)",
       "image": "assets/dishes/S52.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6094-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6094-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -495,7 +640,9 @@
       "en": "Crunch Uramaki (4 pcs)",
       "image": "assets/dishes/S53.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6095-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6095-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -504,7 +651,11 @@
       "en": "Crispy Cheese Uramaki (4 pcs)",
       "image": "assets/dishes/S54.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6096-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6096-1.png",
+      "allergen_candidates": [
+        "milk"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -513,7 +664,11 @@
       "en": "Uramaki Masago (4 pcs)",
       "image": "assets/dishes/S55.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6097-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6097-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -522,7 +677,11 @@
       "en": "Uramaki Ebi (4 pcs)",
       "image": "assets/dishes/S56.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6098-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6098-1.png",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -531,7 +690,11 @@
       "en": "Uramaki Topped With Salmon And Avocado Special (4 pcs)",
       "image": "assets/dishes/S57.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6099-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6099-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -540,7 +703,11 @@
       "en": "Uramaki Japanese Tofu (4 pcs)",
       "image": "assets/dishes/S58.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6100-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6100-1.png",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -549,7 +716,9 @@
       "en": "UMI Rolls (4 pcs)",
       "image": "assets/dishes/S59.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6101-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6101-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -558,7 +727,11 @@
       "en": "Uramaki Tuna And Avocado (4 pcs)",
       "image": "assets/dishes/S60.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6102-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6102-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -567,7 +740,11 @@
       "en": "Uramaki Tempura (4 pcs)",
       "image": "assets/dishes/S61.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6103-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6103-1.png",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -576,7 +753,11 @@
       "en": "Uramaki Salmon And Avocado (4 pcs)",
       "image": "assets/dishes/S62.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6104-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6104-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -585,7 +766,9 @@
       "en": "Uramaki Strawberry (4 pcs)",
       "image": "assets/dishes/S63.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6105-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6105-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -594,7 +777,11 @@
       "en": "Uramaki Salmon (4 pcs)",
       "image": "assets/dishes/S64.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6106-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6106-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -603,7 +790,11 @@
       "en": "Uramaki Seared Salmon (4 pcs)",
       "image": "assets/dishes/S65.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6107-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6107-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat09",
@@ -612,7 +803,9 @@
       "en": "Uramaki Mango (4 pcs)",
       "image": "assets/dishes/S66.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6402-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6402-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat10",
@@ -621,7 +814,11 @@
       "en": "Gunkan Salmon (2 pcs)",
       "image": "assets/dishes/S71.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6108-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6108-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat10",
@@ -630,7 +827,9 @@
       "en": "Gunkan Seared (2 pcs)",
       "image": "assets/dishes/S72.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6109-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6109-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat10",
@@ -639,7 +838,9 @@
       "en": "Gunkan Cucumber (2 pcs)",
       "image": "assets/dishes/S73.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6110-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6110-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat10",
@@ -648,7 +849,11 @@
       "en": "Gunkan Yuba (2 pcs)",
       "image": "assets/dishes/S74.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6111-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6111-1.png",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat10",
@@ -657,7 +862,11 @@
       "en": "Gunkan Yuba Wakame (2 pcs)",
       "image": "assets/dishes/S74A.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": ""
+      "reference_image_url": "",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat10",
@@ -666,7 +875,11 @@
       "en": "Gunkan Yuba Crab Sticks (2 pcs)",
       "image": "assets/dishes/S74B.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": ""
+      "reference_image_url": "",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat10",
@@ -675,7 +888,11 @@
       "en": "Gunkan-Maki Seared Salmon (2 pcs)",
       "image": "assets/dishes/S75.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6114-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6114-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat10",
@@ -684,7 +901,11 @@
       "en": "Gunkan-Maki Tuna (2 pcs)",
       "image": "assets/dishes/S75A.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": ""
+      "reference_image_url": "",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat10",
@@ -693,7 +914,9 @@
       "en": "Gunkan-Maki Wakame (2 pcs)",
       "image": "assets/dishes/S75B.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": ""
+      "reference_image_url": "",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat10",
@@ -702,7 +925,11 @@
       "en": "Gunkan-Maki Fish Roe (2 pcs)",
       "image": "assets/dishes/S75C.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": ""
+      "reference_image_url": "",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat11",
@@ -711,7 +938,9 @@
       "en": "Hot Hosomaki Fruit (4 pcs)",
       "image": "assets/dishes/S81.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6115-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6115-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat11",
@@ -720,7 +949,11 @@
       "en": "Hot Uramaki Salmon (4 pcs)",
       "image": "assets/dishes/S82.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6116-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6116-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat11",
@@ -729,7 +962,11 @@
       "en": "Hot Hosomaki Cream Cheese (4 pcs)",
       "image": "assets/dishes/S83.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6117-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6117-1.jpg",
+      "allergen_candidates": [
+        "milk"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat11",
@@ -738,7 +975,9 @@
       "en": "Futomaki Fried (2 pcs)",
       "image": "assets/dishes/S84.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6118-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6118-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat11",
@@ -747,7 +986,9 @@
       "en": "Rolo California Fried (4 pcs)",
       "image": "assets/dishes/S86.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6120-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6120-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat12",
@@ -756,7 +997,11 @@
       "en": "Temaki Salmon",
       "image": "assets/dishes/S91.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6122-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6122-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat12",
@@ -765,7 +1010,11 @@
       "en": "Temaki Tuna",
       "image": "assets/dishes/S92.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6231-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6231-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat12",
@@ -774,7 +1023,11 @@
       "en": "Temaki Ebi",
       "image": "assets/dishes/S93.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6124-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6124-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat12",
@@ -783,7 +1036,11 @@
       "en": "Temaki Tempura",
       "image": "assets/dishes/S94.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6125-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6125-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat12",
@@ -792,7 +1049,9 @@
       "en": "Temaki Vegetable",
       "image": "assets/dishes/S95.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6230-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6230-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat13",
@@ -801,7 +1060,11 @@
       "en": "Carpaccio Salmon",
       "image": "assets/dishes/S101.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6412-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6412-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat13",
@@ -810,7 +1073,9 @@
       "en": "Carpaccio Mix",
       "image": "assets/dishes/S102.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6413-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6413-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat14",
@@ -819,7 +1084,11 @@
       "en": "Taco Salmon",
       "image": "assets/dishes/S121.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6416-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6416-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat14",
@@ -828,7 +1097,11 @@
       "en": "Taco Tuna",
       "image": "assets/dishes/S122.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6417-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6417-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat14",
@@ -837,7 +1110,11 @@
       "en": "Taco Prawns",
       "image": "assets/dishes/S123.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6418-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6418-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat14",
@@ -846,7 +1123,11 @@
       "en": "Pani Puri Ball",
       "image": "assets/dishes/S131.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6421-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6421-1.png",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat15",
@@ -855,7 +1136,9 @@
       "en": "Mushrooms",
       "image": "assets/dishes/T01.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6126-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6126-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat15",
@@ -864,7 +1147,11 @@
       "en": "Shrimp",
       "image": "assets/dishes/T02.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6127-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6127-1.png",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat15",
@@ -873,7 +1160,11 @@
       "en": "King Prawns",
       "image": "assets/dishes/T03.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6128-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6128-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat15",
@@ -882,7 +1173,11 @@
       "en": "Clams",
       "image": "assets/dishes/T04.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6129-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6129-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat15",
@@ -891,7 +1186,11 @@
       "en": "Mussels",
       "image": "assets/dishes/T05.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6130-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6130-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat15",
@@ -900,7 +1199,9 @@
       "en": "Chicken",
       "image": "assets/dishes/T06.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6131-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6131-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat15",
@@ -909,7 +1210,11 @@
       "en": "Squid",
       "image": "assets/dishes/T07.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6132-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6132-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat15",
@@ -918,7 +1223,11 @@
       "en": "Grilled Salmon",
       "image": "assets/dishes/T08.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6133-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6133-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat15",
@@ -927,7 +1236,9 @@
       "en": "Zucchini and Onion",
       "image": "assets/dishes/T09.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6134-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6134-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat15",
@@ -936,7 +1247,9 @@
       "en": "Pork",
       "image": "assets/dishes/T10.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6135-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6135-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat15",
@@ -945,7 +1258,9 @@
       "en": "Beef",
       "image": "assets/dishes/T11.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6136-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6136-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat16",
@@ -954,7 +1269,9 @@
       "en": "Skewer Of Mushroom (2 pcs)",
       "image": "assets/dishes/T31.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6145-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6145-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat16",
@@ -963,7 +1280,9 @@
       "en": "Skewer Of Pork (2 pcs)",
       "image": "assets/dishes/T32.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6146-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6146-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat16",
@@ -972,7 +1291,9 @@
       "en": "Skewer Of Spicy Chicken (2 pcs)",
       "image": "assets/dishes/T33.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6148-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6148-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat16",
@@ -981,7 +1302,11 @@
       "en": "Skewer Of Shrimp (2 pcs)",
       "image": "assets/dishes/T34.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6149-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6149-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat01",
@@ -990,7 +1315,11 @@
       "en": "Stir-Fried Prawns",
       "image": "assets/dishes/C01.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6137-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6137-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat01",
@@ -999,7 +1328,11 @@
       "en": "Salt and Pepper Shrimp",
       "image": "assets/dishes/C02.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6138-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6138-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat01",
@@ -1008,7 +1341,9 @@
       "en": "Stir-Fried Vegetables",
       "image": "assets/dishes/C03.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6139-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6139-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat01",
@@ -1017,7 +1352,9 @@
       "en": "Spicy Stir-Fried Beef",
       "image": "assets/dishes/C04.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6140-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6140-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat01",
@@ -1026,7 +1363,11 @@
       "en": "Teriyaki Chicken",
       "image": "assets/dishes/C05.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6141-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6141-1.jpg",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat01",
@@ -1035,7 +1376,11 @@
       "en": "Scallops (2 pcs)",
       "image": "assets/dishes/C07.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6143-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6143-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat01",
@@ -1044,7 +1389,9 @@
       "en": "Sweet and Sour Pork",
       "image": "assets/dishes/C08.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6157-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6157-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1053,7 +1400,13 @@
       "en": "Almond-Crusted Shrimp Tempura (3 pcs)",
       "image": "assets/dishes/F01.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6052-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6052-1.jpg",
+      "allergen_candidates": [
+        "crustaceans",
+        "nuts",
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1062,7 +1415,12 @@
       "en": "Shrimp Tempura (3 pcs)",
       "image": "assets/dishes/F02.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6053-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6053-1.jpg",
+      "allergen_candidates": [
+        "crustaceans",
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1071,7 +1429,12 @@
       "en": "Breaded Prawns (3 pcs)",
       "image": "assets/dishes/F04.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6056-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6056-1.jpg",
+      "allergen_candidates": [
+        "crustaceans",
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1080,7 +1443,11 @@
       "en": "Fried Squid (4 pcs)",
       "image": "assets/dishes/F05.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6059-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6059-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1089,7 +1456,11 @@
       "en": "Almond-Crusted Fried Chicken",
       "image": "assets/dishes/F06.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6060-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6060-1.jpg",
+      "allergen_candidates": [
+        "nuts"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1098,7 +1469,11 @@
       "en": "Breaded Pork",
       "image": "assets/dishes/F07.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6144-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6144-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1107,7 +1482,11 @@
       "en": "Pumpkin Pastries (2 pcs)",
       "image": "assets/dishes/F08.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6147-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6147-1.png",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1116,7 +1495,11 @@
       "en": "Vegetable Spring Rolls (2 pcs)",
       "image": "assets/dishes/F09.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6150-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6150-1.png",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1125,7 +1508,11 @@
       "en": "Takoyaki (3 pcs)",
       "image": "assets/dishes/F10.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6151-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6151-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1134,7 +1521,12 @@
       "en": "Shrimp Spring Rolls (2 pcs)",
       "image": "assets/dishes/F11.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6152-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6152-1.png",
+      "allergen_candidates": [
+        "crustaceans",
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1143,7 +1535,11 @@
       "en": "Sesame Balls (3 pcs)",
       "image": "assets/dishes/F12.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6153-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6153-1.jpg",
+      "allergen_candidates": [
+        "sesame"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1152,7 +1548,9 @@
       "en": "Sausage Skewer",
       "image": "assets/dishes/F14.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6155-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6155-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1161,7 +1559,9 @@
       "en": "French Fries",
       "image": "assets/dishes/F15.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6156-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6156-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat04",
@@ -1170,7 +1570,11 @@
       "en": "Hoisin Duck",
       "image": "assets/dishes/F16.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6158-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6158-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat02",
@@ -1179,7 +1583,11 @@
       "en": "Gyoza Dumplings (3 pcs)",
       "image": "assets/dishes/C51.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6051-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6051-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat02",
@@ -1188,7 +1596,9 @@
       "en": "Steamed White Rice",
       "image": "assets/dishes/C52.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6159-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6159-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat02",
@@ -1197,7 +1607,9 @@
       "en": "Stir-Fried Thin Rice Noodles",
       "image": "assets/dishes/C53.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6160-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6160-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat02",
@@ -1206,7 +1618,9 @@
       "en": "Japanese Fried Rice",
       "image": "assets/dishes/C54.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6161-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6161-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat02",
@@ -1215,7 +1629,11 @@
       "en": "Yakisoba Stir-Fried Noodles",
       "image": "assets/dishes/C55.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6162-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6162-1.png",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat02",
@@ -1224,7 +1642,12 @@
       "en": "Sweet Egg Custard Buns (2 pcs)",
       "image": "assets/dishes/E11.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6033-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6033-1.jpg",
+      "allergen_candidates": [
+        "eggs",
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat02",
@@ -1233,7 +1656,11 @@
       "en": "Steamed Mantou Buns (2 pcs)",
       "image": "assets/dishes/E12.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6034-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6034-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat02",
@@ -1242,7 +1669,11 @@
       "en": "Crystal Dumplings",
       "image": "assets/dishes/E21.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6057-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6057-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     },
     {
       "category": "cat02",
@@ -1251,7 +1682,11 @@
       "en": "Shumai Dumplings (2 pcs)",
       "image": "assets/dishes/E22.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6058-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6058-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "pending"
     }
   ],
   "phone": "+351 965 777 779",
