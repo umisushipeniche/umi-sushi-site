@@ -54,7 +54,7 @@ body{
 .umiAllergenName{display:inline-block;font:12px/1.45 'DM Sans',sans-serif;color:#f0dec0;border:1px solid #8f754f;border-radius:4px;padding:4px 6px;max-width:100%;overflow-wrap:anywhere}
 .umiAllergenName[hidden]{display:none}
 .umiDishAllergens .umiAllergenName{flex-basis:100%}
-.umiVeganBadge{display:inline-flex;align-items:center;min-height:32px;border:1px solid #78b47d;background:#1b3924;color:#c5f0c6;border-radius:6px;padding:5px 9px;font:600 12px/1.2 'DM Sans',sans-serif;letter-spacing:.04em}
+.umiVegetarianBadge{display:inline-flex;align-items:center;min-height:32px;border:1px solid #78b47d;background:#1b3924;color:#c5f0c6;border-radius:6px;padding:5px 9px;font:600 12px/1.2 'DM Sans',sans-serif;letter-spacing:.04em}
 </style></head><body><header class="menuPageHeader"><a href="index.html#home" aria-label="UMI SUSHI"><img src="assets/umi-logo-original.png" alt="UMI SUSHI"></a><a class="back" href="index.html#home" id="back">← Voltar ao início</a><button id="language" type="button">EN</button></header><div class="menuIntro"><span class="eyebrow">UMI SUSHI · PENICHE</span><h1 id="heading">O NOSSO MENU</h1><p id="subheading">Explore os nossos pratos · Sem preços individuais</p><details class="umiAllergenGuide" id="allergenGuide"><summary id="allergenGuideTitle">ⓘ Guia de alergénios / Allergen guide</summary><div class="umiAllergenGuideContent"><p id="allergenGuideNotice">Toque nos símbolos para ver os nomes em português e inglês. As informações de cada prato estão a ser verificadas com a cozinha. Para alergias, confirme sempre com a equipa antes de encomendar.</p><div class="umiAllergenLegend" id="allergenLegend"></div></div></details></div><main class="menuContainer"><div class="menuTools"><input id="search" type="search" placeholder="Pesquisar pratos ou códigos..." aria-label="Pesquisar pratos"><div class="menuCategories" id="categories"></div></div><div class="menuCards" id="cards"></div></main><footer class="menuFooter">© UMI SUSHI PENICHE · <a href="index.html#booking">RESERVAS</a></footer><script>
 (()=>{'use strict';const $=id=>document.getElementById(id);let lang=localStorage.getItem('umi-lang')==='en'?'en':'pt',data={dishes:[],categories:[]},cat='all',syncing=false;const navOffset=()=>($('categories').getBoundingClientRect().bottom||140)+18;const ALLERGENS={
  gluten:{pt:'Cereais que contêm glúten',en:'Cereals containing gluten',icon:'🌾'},
@@ -99,8 +99,8 @@ function renderDishAllergens(d){
  const preview=getLocalReview(d);
  const reviewed=preview!==null||d.allergen_review_status==='confirmed'&&Array.isArray(d.allergens);
  const keys=(preview!==null?preview.allergens:Array.isArray(d.allergens)&&d.allergen_review_status==='confirmed'?d.allergens:[]).filter(k=>Object.hasOwn(ALLERGENS,k));
- const vegan=preview!==null?preview.vegan===true:d.allergen_review_status==='confirmed'&&d.vegan===true;
- if(vegan){const badge=document.createElement('span');badge.className='umiVeganBadge';badge.textContent='🌱 VEGAN';badge.title='Vegano / Vegan — ingredientes confirmados pela equipa / ingredients reviewed by staff';row.append(badge)}
+ const vegetarian=preview!==null?(preview.vegetarian===true||(preview.vegetarian===undefined&&preview.vegan===true)):(d.allergen_review_status==='confirmed'&&(d.vegetarian===true||d.vegan===true));
+ if(vegetarian){const badge=document.createElement('span');badge.className='umiVegetarianBadge';badge.textContent='🌱 VEGETARIAN';badge.title='Vegetariano / Vegetarian — ingredientes confirmados pela equipa / ingredients reviewed by staff';row.append(badge)}
  if(reviewed&&keys.length){for(const k of keys)row.append(makeAllergenIcon(k))}
  else{
    const item=document.createElement('span');item.className='umiAllergenItem';
