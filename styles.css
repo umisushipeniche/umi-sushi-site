@@ -823,3 +823,18 @@ html[lang="pt"] body .umiCompactFooter #mapLink::before{content:"Localização"!
  html body .umiCompactFooter #addressText{line-height:1.2!important}
  html body .umiCompactFooter .umiFooterBottom{padding-top:5px!important;gap:1px!important;line-height:1.2!important}
 }
+
+
+/* Mobile navigation only: bring four labels closer without changing other header elements */
+@media(max-width:600px){
+ html body header.top nav{
+  grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  width:min(100%,360px)!important;
+  max-width:360px!important;
+  justify-self:center!important;
+  column-gap:2px!important;
+ }
+ html body header.top nav .umiNavTakeaway{
+  justify-self:end!important;
+ }
+}
