@@ -585,3 +585,22 @@ html body .umiCompactFooter .umiFooterBottom a{font-size:11px!important}
  html body .umiCompactFooter .umiFooterMain{grid-template-columns:minmax(0,1fr)!important;max-width:390px!important}
  html body .umiCompactFooter .umiFooterBottom{max-width:390px!important}
 }
+
+
+/* V3 footer: reduce vertical footprint, retain approved font sizes */
+@media(min-width:1101px){
+ html body .umiCompactFooter{padding-top:14px!important;padding-bottom:8px!important}
+ html body .umiCompactFooter .umiFooterMain{max-width:1360px!important;grid-template-columns:minmax(140px,1fr) minmax(180px,1.1fr) minmax(230px,1.4fr) minmax(180px,1.15fr)!important;row-gap:5px!important;column-gap:22px!important;padding-bottom:10px!important}
+ html body .umiCompactFooter .umiFooterBottom{max-width:1360px!important;padding-top:8px!important;margin-top:0!important}
+ html body .umiCompactFooter .footerItem span:not(.footerIcon),html body .umiCompactFooter .footerItem small,html body .umiCompactFooter #hoursText,html body .umiCompactFooter #addressText{line-height:1.35!important}
+}
+@media(min-width:561px) and (max-width:1100px){
+ html body .umiCompactFooter{padding-top:16px!important;padding-bottom:9px!important}
+ html body .umiCompactFooter .umiFooterMain{row-gap:10px!important;padding-bottom:12px!important}
+ html body .umiCompactFooter .umiFooterBottom{padding-top:8px!important}
+}
+@media(max-width:560px){
+ html body .umiCompactFooter{padding-top:18px!important;padding-bottom:10px!important}
+ html body .umiCompactFooter .umiFooterMain{gap:10px!important;padding-bottom:12px!important}
+ html body .umiCompactFooter .umiFooterBottom{padding-top:9px!important}
+}
