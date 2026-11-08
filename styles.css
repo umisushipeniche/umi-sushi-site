@@ -604,3 +604,18 @@ html body .umiCompactFooter .umiFooterBottom a{font-size:11px!important}
  html body .umiCompactFooter .umiFooterMain{gap:10px!important;padding-bottom:12px!important}
  html body .umiCompactFooter .umiFooterBottom{padding-top:9px!important}
 }
+
+
+/* V3 footer typography: gold headings, white details */
+html body .umiCompactFooter .footerHours>span:last-child>span:first-child,
+html body .umiCompactFooter .umiFooterPhoneButton>span:last-child,
+html body .umiCompactFooter #mapLink::before{color:#d5b06b!important}
+html body .umiCompactFooter #mapLink{position:relative;align-items:flex-start!important}
+html body .umiCompactFooter #mapLink::before{content:"Localização";display:block;position:absolute;left:0;top:-19px;font-size:13px;font-weight:600}
+html body .umiCompactFooter #mapLink .footerIcon{display:none!important}
+html body .umiCompactFooter #mapLink #addressText{color:#f3eee7!important}
+html body .umiCompactFooter #hoursText,
+html body .umiCompactFooter .umiFooterPhoneButton small{color:#f3eee7!important}
+html body .umiCompactFooter .footerSocial a{color:#d5b06b!important}
+html body .umiCompactFooter .umiFooterPhoneWrap{margin-top:0}
+html body .umiCompactFooter #mapLink{margin-top:18px}
