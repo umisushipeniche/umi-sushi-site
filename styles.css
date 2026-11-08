@@ -716,3 +716,15 @@ html body .umiCompactFooter .footerSocial{margin-top:0!important}
   margin:0!important;align-self:start!important;
  }
 }
+
+
+/* Footer option A: compact direct-call contacts with brand-color WhatsApp */
+html body .umiCompactFooter .umiFooterPhoneButton{cursor:pointer!important;text-decoration:none!important}
+html body .umiCompactFooter .umiFooterPhoneButton>span:last-child{color:var(--umi-footer-gold,#d5b06b)!important}
+html body .umiCompactFooter .umiFooterPhoneButton small{color:#f3eee7!important}
+html body .umiCompactFooter .umiFooterPhoneChoices{display:none!important}
+html body .umiCompactFooter .footerSocial .footerWhatsApp{border:0!important;width:23px!important;height:23px!important;background:transparent!important}
+html body .umiCompactFooter .footerSocial .footerWhatsApp svg{width:21px!important;height:21px!important}
+@media(max-width:560px){
+ html body .umiCompactFooter .footerSocial{margin-top:49px!important;gap:8px!important}
+}
