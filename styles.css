@@ -655,3 +655,34 @@ html body .umiCompactFooter .footerSocial a svg{width:14px!important;height:14px
  html body .umiCompactFooter .umiFooterPhoneWrap{grid-column:4!important;grid-row:1!important;align-self:start!important}
  html body .umiCompactFooter .footerSocial{grid-column:4!important;grid-row:2!important;justify-content:flex-start!important;margin-left:31px!important;margin-top:0!important;align-self:start!important}
 }
+
+
+/* V3 compact footer for desktop and mobile, preserve font sizes */
+html body .umiCompactFooter{padding-top:9px!important;padding-bottom:5px!important}
+html body .umiCompactFooter .umiFooterMain{padding-bottom:7px!important;row-gap:0!important;align-items:center!important}
+html body .umiCompactFooter .umiFooterBottom{padding-top:5px!important;margin-top:0!important}
+html body .umiCompactFooter #hoursText{line-height:1.22!important;white-space:pre-line!important}
+html body .umiCompactFooter #addressText{line-height:1.25!important}
+html body .umiCompactFooter .footerItem small{line-height:1.25!important}
+html body .umiCompactFooter .footerSocial{margin-top:0!important}
+@media(min-width:1101px){
+ html body .umiCompactFooter .umiFooterMain{grid-template-rows:auto auto!important;row-gap:0!important}
+ html body .umiCompactFooter #mapLink{padding-top:17px!important}
+ html body .umiCompactFooter #mapLink::before{top:0!important}
+ html body .umiCompactFooter .footerHours{align-self:center!important}
+ html body .umiCompactFooter .footerSocial{margin-top:-2px!important}
+}
+@media(min-width:561px) and (max-width:1100px){
+ html body .umiCompactFooter .umiFooterMain{row-gap:6px!important;padding-bottom:8px!important}
+}
+@media(max-width:560px){
+ html body .umiCompactFooter{padding:12px 16px 7px!important}
+ html body .umiCompactFooter .umiFooterMain{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px 14px!important;max-width:430px!important;padding-bottom:8px!important;align-items:start!important}
+ html body .umiCompactFooter .footerBrand{grid-column:1!important;grid-row:1!important;margin:0!important}
+ html body .umiCompactFooter #mapLink{grid-column:1/-1!important;grid-row:2!important;margin-top:0!important;padding-top:17px!important}
+ html body .umiCompactFooter #mapLink::before{left:31px!important;top:0!important}
+ html body .umiCompactFooter .footerHours{grid-column:1/-1!important;grid-row:3!important}
+ html body .umiCompactFooter .umiFooterPhoneWrap{grid-column:2!important;grid-row:1!important}
+ html body .umiCompactFooter .footerSocial{grid-column:2!important;grid-row:2!important;margin-left:0!important;align-self:start!important}
+ html body .umiCompactFooter .umiFooterBottom{padding-top:6px!important;gap:3px!important}
+}
