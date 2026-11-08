@@ -802,3 +802,24 @@ html[lang="pt"] body .umiCompactFooter #mapLink::before{content:"Localização"!
 
 /* Desktop footer: lift logo slightly to align visually with column headings */
 @media(min-width:1101px){html body .umiCompactFooter .footerBrand{transform:translateY(-8px)!important}}
+
+
+/* Mobile-only footer height reduction: no font-size changes or overlapping controls */
+@media(max-width:560px){
+ html body .umiCompactFooter{padding:8px 14px 5px!important}
+ html body .umiCompactFooter .umiFooterMain{
+  grid-template-columns:minmax(0,0.95fr) minmax(0,1.15fr)!important;
+  column-gap:10px!important;row-gap:5px!important;
+  padding-bottom:5px!important;
+ }
+ html body .umiCompactFooter .footerBrand{align-self:start!important;margin:0!important}
+ html body .umiCompactFooter .footerBrand img{width:39px!important;height:39px!important}
+ html body .umiCompactFooter .umiFooterPhoneWrap{margin:0!important}
+ html body .umiCompactFooter .footerSocial{margin:43px 0 0 31px!important;gap:7px!important}
+ html body .umiCompactFooter #mapLink{padding-top:15px!important;margin:0!important}
+ html body .umiCompactFooter #mapLink::before{top:0!important}
+ html body .umiCompactFooter .footerHours{margin:0!important}
+ html body .umiCompactFooter #hoursText{line-height:1.18!important}
+ html body .umiCompactFooter #addressText{line-height:1.2!important}
+ html body .umiCompactFooter .umiFooterBottom{padding-top:5px!important;gap:1px!important;line-height:1.2!important}
+}
