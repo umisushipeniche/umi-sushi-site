@@ -794,3 +794,8 @@ html body .umiCompactFooter .footerSocial #footerWhatsappIcon svg{width:21px!imp
   max-width:900px!important;padding-top:8px!important;
  }
 }
+
+
+/* Translate CSS-generated footer location label consistently on every breakpoint */
+html[lang="en"] body .umiCompactFooter #mapLink::before{content:"Location"!important}
+html[lang="pt"] body .umiCompactFooter #mapLink::before{content:"Localização"!important}
