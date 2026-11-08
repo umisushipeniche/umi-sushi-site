@@ -619,3 +619,19 @@ html body .umiCompactFooter .umiFooterPhoneButton small{color:#f3eee7!important}
 html body .umiCompactFooter .footerSocial a{color:#d5b06b!important}
 html body .umiCompactFooter .umiFooterPhoneWrap{margin-top:0}
 html body .umiCompactFooter #mapLink{margin-top:18px}
+
+
+/* V3 footer: consistent icon size and shared muted-gold palette */
+html body .umiCompactFooter{--umi-footer-gold:#d5b06b}
+html body .umiCompactFooter .footerIcon,
+html body .umiCompactFooter .footerIcon svg,
+html body .umiCompactFooter .umiMapPin,
+html body .umiCompactFooter .umiMapPin svg{width:21px!important;height:21px!important;min-width:21px!important;font-size:21px!important;color:var(--umi-footer-gold)!important;stroke:currentColor}
+html body .umiCompactFooter .footerSocial a{width:29px!important;height:29px!important;border:1.5px solid var(--umi-footer-gold)!important;color:var(--umi-footer-gold)!important;font-size:17px!important}
+html body .umiCompactFooter .footerSocial a svg{width:18px!important;height:18px!important;stroke:currentColor!important}
+html body .umiCompactFooter .footerHours>span:last-child>span:first-child,
+html body .umiCompactFooter .umiFooterPhoneButton>span:last-child,
+html body .umiCompactFooter #mapLink::before{color:var(--umi-footer-gold)!important}
+html body .umiCompactFooter #mapLink .footerIcon{display:inline-flex!important}
+html body .umiCompactFooter #mapLink{margin-top:0!important;align-items:center!important}
+html body .umiCompactFooter #mapLink::before{display:none!important}
