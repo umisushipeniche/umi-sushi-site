@@ -728,3 +728,17 @@ html body .umiCompactFooter .footerSocial .footerWhatsApp svg{width:21px!importa
 @media(max-width:560px){
  html body .umiCompactFooter .footerSocial{margin-top:49px!important;gap:8px!important}
 }
+
+
+/* Final compact footer contact alignment: social icons under number on all screens */
+html body .umiCompactFooter .footerSocial{display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-start!important;gap:8px!important}
+html body .umiCompactFooter .footerSocial #facebookLink{order:1!important}
+html body .umiCompactFooter .footerSocial #instagramLink{order:2!important}
+html body .umiCompactFooter .footerSocial #footerWhatsappIcon{order:3!important;border:0!important;background:transparent!important;box-shadow:none!important}
+html body .umiCompactFooter .footerSocial #footerWhatsappIcon svg{width:21px!important;height:21px!important}
+@media(max-width:560px){
+ html body .umiCompactFooter .umiFooterMain{grid-template-rows:auto auto auto!important}
+ html body .umiCompactFooter .footerSocial{grid-column:2!important;grid-row:1!important;justify-self:start!important;align-self:start!important;margin:49px 0 0 31px!important;position:relative!important;z-index:1!important}
+ html body .umiCompactFooter #mapLink{grid-column:1/-1!important;grid-row:2!important}
+ html body .umiCompactFooter .footerHours{grid-column:1/-1!important;grid-row:3!important}
+}
