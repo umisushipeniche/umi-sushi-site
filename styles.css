@@ -686,3 +686,33 @@ html body .umiCompactFooter .footerSocial{margin-top:0!important}
  html body .umiCompactFooter .footerSocial{grid-column:2!important;grid-row:2!important;margin-left:0!important;align-self:start!important}
  html body .umiCompactFooter .umiFooterBottom{padding-top:6px!important;gap:3px!important}
 }
+
+
+/* Mobile footer: keep social icons immediately below phone, never overlap address */
+@media(max-width:560px){
+ html body .umiCompactFooter .umiFooterMain{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) minmax(0,1.15fr)!important;
+  grid-template-rows:auto auto auto!important;
+  column-gap:12px!important;
+  row-gap:11px!important;
+  align-items:start!important;
+ }
+ html body .umiCompactFooter .footerBrand{grid-column:1!important;grid-row:1!important;align-self:start!important}
+ html body .umiCompactFooter .umiFooterPhoneWrap{grid-column:2!important;grid-row:1!important;align-self:start!important}
+ html body .umiCompactFooter .footerSocial{
+  grid-column:2!important;grid-row:1!important;
+  align-self:start!important;justify-self:start!important;
+  margin:57px 0 0 31px!important;
+  position:relative!important;z-index:1!important;
+ }
+ html body .umiCompactFooter #mapLink{
+  grid-column:1/-1!important;grid-row:2!important;
+  margin:0!important;padding-top:18px!important;
+  align-self:start!important;
+ }
+ html body .umiCompactFooter .footerHours{
+  grid-column:1/-1!important;grid-row:3!important;
+  margin:0!important;align-self:start!important;
+ }
+}
