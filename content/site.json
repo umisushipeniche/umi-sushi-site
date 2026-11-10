@@ -52,14 +52,14 @@
       "caption_en": "UMI SUSHI atmosphere 7"
     },
     {
-      "image": "assets/ambiente/umi-ambiente-08.webp",
-      "caption_pt": "Ambiente UMI SUSHI 8",
-      "caption_en": "UMI SUSHI atmosphere 8"
-    },
-    {
       "image": "assets/ambiente/umi-ambiente-09.webp",
       "caption_pt": "Ambiente UMI SUSHI 9",
       "caption_en": "UMI SUSHI atmosphere 9"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-08.webp",
+      "caption_pt": "Ambiente UMI SUSHI 8",
+      "caption_en": "UMI SUSHI atmosphere 8"
     }
   ],
   "categories": [
