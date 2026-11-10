@@ -838,3 +838,9 @@ html[lang="pt"] body .umiCompactFooter #mapLink::before{content:"Localização"!
   justify-self:end!important;
  }
 }
+
+
+/* UMI Ambiente gallery: visually hide scrollbar and image captions; keep horizontal navigation. */
+html body #space #gallery{scrollbar-width:none!important;-ms-overflow-style:none!important;}
+html body #space #gallery::-webkit-scrollbar{display:none!important;width:0!important;height:0!important;}
+html body #space #gallery figcaption{display:none!important;}
