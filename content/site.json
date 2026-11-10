@@ -17,14 +17,49 @@
   "hours_en": "Tuesday to Sunday: 12:00–15:00 and 19:00–23:00.\nClosed on Mondays. Except on special dates.",
   "gallery": [
     {
-      "image": "assets/umi-hero.png",
-      "caption_pt": "O nosso espaço",
-      "caption_en": "Our restaurant"
+      "image": "assets/ambiente/umi-ambiente-01.webp",
+      "caption_pt": "Ambiente UMI SUSHI 1",
+      "caption_en": "UMI SUSHI atmosphere 1"
     },
     {
-      "image": "assets/umi-space-02.jpeg",
-      "caption_pt": "Ambiente UMI",
-      "caption_en": "UMI atmosphere"
+      "image": "assets/ambiente/umi-ambiente-02.webp",
+      "caption_pt": "Ambiente UMI SUSHI 2",
+      "caption_en": "UMI SUSHI atmosphere 2"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-03.webp",
+      "caption_pt": "Ambiente UMI SUSHI 3",
+      "caption_en": "UMI SUSHI atmosphere 3"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-04.webp",
+      "caption_pt": "Ambiente UMI SUSHI 4",
+      "caption_en": "UMI SUSHI atmosphere 4"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-05.webp",
+      "caption_pt": "Ambiente UMI SUSHI 5",
+      "caption_en": "UMI SUSHI atmosphere 5"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-06.webp",
+      "caption_pt": "Ambiente UMI SUSHI 6",
+      "caption_en": "UMI SUSHI atmosphere 6"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-07.webp",
+      "caption_pt": "Ambiente UMI SUSHI 7",
+      "caption_en": "UMI SUSHI atmosphere 7"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-08.webp",
+      "caption_pt": "Ambiente UMI SUSHI 8",
+      "caption_en": "UMI SUSHI atmosphere 8"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-09.webp",
+      "caption_pt": "Ambiente UMI SUSHI 9",
+      "caption_en": "UMI SUSHI atmosphere 9"
     }
   ],
   "categories": [
