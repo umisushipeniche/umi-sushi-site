@@ -1,0 +1,12 @@
+/* Independent event poster overlay. Mobile-first and non-invasive. */
+#umiEventOverlay[hidden]{display:none!important}
+#umiEventOverlay{position:fixed;inset:0;z-index:99999;background:rgba(10,9,8,.83);display:flex;align-items:center;justify-content:center;padding:max(16px,env(safe-area-inset-top)) 14px max(16px,env(safe-area-inset-bottom));box-sizing:border-box}
+#umiEventPanel{position:relative;background:#151411;border:1px solid #c7a16b;border-radius:14px;box-shadow:0 20px 80px #000b;width:min(94vw,650px);max-height:calc(100dvh - 30px);display:flex;flex-direction:column;overflow:hidden;box-sizing:border-box}
+#umiEventHead{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;color:#f3ddbb;font-family:Arial,sans-serif}
+#umiEventTitle{font-size:clamp(16px,2.6vw,21px);font-weight:700;line-height:1.25;margin:0}
+#umiEventClose{appearance:none;background:#33291c;border:1px solid #bd965f;color:#fff4df;border-radius:50%;width:42px;height:42px;flex:none;font-size:28px;line-height:1;cursor:pointer;touch-action:manipulation}
+#umiEventClose:focus-visible{outline:3px solid #fff;outline-offset:2px}
+#umiEventBody{overflow-y:auto;overscroll-behavior:contain;min-height:0;scrollbar-width:thin;scrollbar-color:#8f754c transparent}
+#umiEventImage{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+#umiEventOverlay .umiEventFooter{padding:11px 16px;background:#151411;color:#ddc4a0;font:13px/1.4 Arial,sans-serif;text-align:center}
+@media(max-width:480px){#umiEventOverlay{padding:8px}#umiEventPanel{width:100%;max-height:calc(100dvh - 16px)}#umiEventHead{padding:9px 12px}#umiEventClose{width:42px;height:42px}}
