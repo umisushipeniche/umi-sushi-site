@@ -95,9 +95,12 @@ export async function voucherApi(request,env,url){
   const update=action==="redeem"
     ?env.VOUCHER_DB.prepare(sql).bind(stamp,stamp,code,day())
     :env.VOUCHER_DB.prepare(sql).bind(stamp,stamp,code);
-  const result=await update.run();
-  if(result.meta?.changes!==1)return J({error:"Voucher not found, already used, cancelled, or expired"},409);
-  await env.VOUCHER_DB.prepare("INSERT INTO voucher_events(voucher_code,action,actor_email,occurred_at) VALUES (?,?,?,?)").bind(code,action==="redeem"?"redeemed":"cancelled",actor,stamp).run();
+  // Batch is transactional in D1: the state change and audit event commit together.
+  // The INSERT SELECT writes no audit event if the conditional UPDATE did not change the voucher.
+  const audit=env.VOUCHER_DB.prepare("INSERT INTO voucher_events(voucher_code,action,actor_email,occurred_at) SELECT code,?,?,? FROM vouchers WHERE code=? AND status=? AND updated_at=?").bind(action==="redeem"?"redeemed":"cancelled",actor,stamp,code,status,stamp);
+  const results=await env.VOUCHER_DB.batch([update,audit]);
+  if(results[0]?.meta?.changes!==1)return J({error:"Voucher not found, already used, cancelled, or expired"},409);
+  if(results[1]?.meta?.changes!==1)return J({error:"Audit log unavailable; contact administrator"},503);
   return J({ok:true,code,status});
  }catch(e){console.error("Voucher database operation failed");return J({error:"Voucher service unavailable"},503)}
 }
