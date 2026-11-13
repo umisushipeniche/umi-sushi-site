@@ -21,6 +21,13 @@
         "binding": "UMI_CLICK_ANALYTICS",
         "dataset": "umi_site_clicks"
       }
+    ],
+    "d1_databases": [
+      {
+        "binding": "VOUCHER_DB",
+        "database_name": "umi-vouchers-v3",
+        "database_id": "bd8b607d-ae43-4550-a835-60689a53e284"
+      }
     ]
   },
   "analytics_engine_datasets": [
