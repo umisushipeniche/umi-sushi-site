@@ -13,7 +13,8 @@
   },
   "previews": {
     "vars": {
-      "CONTACT_FROM_EMAIL": "UMI SUSHI <contacto@umisushipeniche.pt>"
+      "CONTACT_FROM_EMAIL": "UMI SUSHI <contacto@umisushipeniche.pt>",
+      "VOUCHER_ADMIN_EMAIL": "umisushi.peniche@gmail.com"
     },
     "analytics_engine_datasets": [
       {
