@@ -13,22 +13,12 @@
   },
   "previews": {
     "vars": {
-      "CONTACT_FROM_EMAIL": "UMI SUSHI <contacto@umisushipeniche.pt>",
-      "VOUCHER_ADMIN_EMAIL": "umisushi.peniche@gmail.com",
-      "VOUCHER_ACCESS_AUD": "e34b9919a1b1299fd6c41b8052906ea7b9424d72ace53ead0a5e9d673b7880c",
-      "VOUCHER_ACCESS_TEAM_DOMAIN": "patient-glade-f507.cloudflareaccess.com"
+      "CONTACT_FROM_EMAIL": "UMI SUSHI <contacto@umisushipeniche.pt>"
     },
     "analytics_engine_datasets": [
       {
         "binding": "UMI_CLICK_ANALYTICS",
         "dataset": "umi_site_clicks"
-      }
-    ],
-    "d1_databases": [
-      {
-        "binding": "VOUCHER_DB",
-        "database_name": "umi-vouchers-v3",
-        "database_id": "bd8b607d-ae43-4550-a835-60689a53e284"
       }
     ]
   },
