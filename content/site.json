@@ -156,7 +156,12 @@
       "allergen_candidates": [
         "soy"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "soy"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-12T16:16:17.716Z"
     },
     {
       "category": "cat03",
@@ -167,7 +172,12 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6036-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-12T16:16:36.619Z"
     },
     {
       "category": "cat03",
@@ -180,7 +190,12 @@
       "allergen_candidates": [
         "soy"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "soy"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T17:55:31.704Z"
     },
     {
       "category": "cat03",
@@ -193,7 +208,12 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:55:41.884Z"
     },
     {
       "category": "cat03",
@@ -206,7 +226,12 @@
       "allergen_candidates": [
         "crustaceans"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:55:55.828Z"
     },
     {
       "category": "cat03",
@@ -219,7 +244,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:54:11.186Z"
     },
     {
       "category": "cat03",
@@ -232,7 +262,12 @@
       "allergen_candidates": [
         "crustaceans"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:52:39.526Z"
     },
     {
       "category": "cat05",
@@ -243,7 +278,15 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6008-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:55:06.695Z"
     },
     {
       "category": "cat05",
@@ -254,7 +297,12 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6065-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:54:26.767Z"
     },
     {
       "category": "cat05",
@@ -267,7 +315,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:54:41.268Z"
     },
     {
       "category": "cat05",
@@ -278,7 +331,10 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6364-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T17:54:52.433Z"
     },
     {
       "category": "cat06",
@@ -291,7 +347,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:56:13.706Z"
     },
     {
       "category": "cat06",
@@ -304,7 +365,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:56:16.486Z"
     },
     {
       "category": "cat06",
@@ -317,7 +383,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:56:19.803Z"
     },
     {
       "category": "cat06",
@@ -330,7 +401,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:56:24.037Z"
     },
     {
       "category": "cat06",
@@ -343,7 +419,13 @@
       "allergen_candidates": [
         "molluscs"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:56:46.207Z"
     },
     {
       "category": "cat06",
@@ -356,7 +438,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:56:50.150Z"
     },
     {
       "category": "cat06",
@@ -369,7 +456,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:57:10.303Z"
     },
     {
       "category": "cat06",
@@ -380,7 +472,13 @@
       "fallback_image": "assets/menu-sashimi.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6234-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:57:22.264Z"
     },
     {
       "category": "cat07",
@@ -393,7 +491,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:57:37.074Z"
     },
     {
       "category": "cat07",
@@ -406,7 +509,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:57:39.949Z"
     },
     {
       "category": "cat07",
@@ -419,7 +527,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:57:43.425Z"
     },
     {
       "category": "cat07",
@@ -432,7 +545,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:57:49.126Z"
     },
     {
       "category": "cat07",
@@ -445,7 +563,12 @@
       "allergen_candidates": [
         "crustaceans"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:58:07.122Z"
     },
     {
       "category": "cat07",
@@ -458,7 +581,13 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:58:12.768Z"
     },
     {
       "category": "cat07",
@@ -471,7 +600,12 @@
       "allergen_candidates": [
         "molluscs"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:58:18.805Z"
     },
     {
       "category": "cat07",
@@ -484,7 +618,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:58:23.364Z"
     },
     {
       "category": "cat07",
@@ -495,7 +634,10 @@
       "fallback_image": "assets/menu-nigiri.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6239-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T17:58:28.390Z"
     },
     {
       "category": "cat08",
@@ -508,7 +650,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:58:42.870Z"
     },
     {
       "category": "cat08",
@@ -521,7 +668,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:58:47.825Z"
     },
     {
       "category": "cat08",
@@ -534,7 +686,13 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:59:00.411Z"
     },
     {
       "category": "cat08",
@@ -545,7 +703,10 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6085-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T17:59:06.166Z"
     },
     {
       "category": "cat08",
@@ -558,7 +719,12 @@
       "allergen_candidates": [
         "crustaceans"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:59:11.157Z"
     },
     {
       "category": "cat08",
@@ -569,7 +735,10 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6087-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T17:59:17.764Z"
     },
     {
       "category": "cat08",
@@ -582,7 +751,13 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:59:27.686Z"
     },
     {
       "category": "cat08",
@@ -596,7 +771,14 @@
         "fish",
         "eggs"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "eggs",
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:59:41.722Z"
     },
     {
       "category": "cat08",
@@ -607,7 +789,13 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6090-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:01:59.980Z"
     },
     {
       "category": "cat08",
@@ -618,7 +806,13 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6092-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:02:20.886Z"
     },
     {
       "category": "cat08",
@@ -629,7 +823,10 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6091-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:02:33.295Z"
     },
     {
       "category": "cat08",
@@ -642,7 +839,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:03:08.903Z"
     },
     {
       "category": "cat09",
@@ -653,7 +855,12 @@
       "fallback_image": "assets/menu-uramaki.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6093-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:03:38.803Z"
     },
     {
       "category": "cat09",
@@ -666,7 +873,14 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:04:11.335Z"
     },
     {
       "category": "cat09",
@@ -677,7 +891,14 @@
       "fallback_image": "assets/menu-uramaki.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6095-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:04:26.942Z"
     },
     {
       "category": "cat09",
@@ -690,7 +911,13 @@
       "allergen_candidates": [
         "milk"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:04:39.114Z"
     },
     {
       "category": "cat09",
@@ -703,7 +930,15 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:04:50.149Z"
     },
     {
       "category": "cat09",
@@ -716,7 +951,15 @@
       "allergen_candidates": [
         "crustaceans"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "eggs",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:06:10.555Z"
     },
     {
       "category": "cat09",
@@ -729,7 +972,15 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:08:37.299Z"
     },
     {
       "category": "cat09",
@@ -742,7 +993,13 @@
       "allergen_candidates": [
         "soy"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "soy",
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:06:54.329Z"
     },
     {
       "category": "cat09",
@@ -753,7 +1010,14 @@
       "fallback_image": "assets/menu-uramaki.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6101-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:07:57.485Z"
     },
     {
       "category": "cat09",
@@ -766,7 +1030,15 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:08:14.997Z"
     },
     {
       "category": "cat09",
@@ -779,7 +1051,15 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:09:04.487Z"
     },
     {
       "category": "cat09",
@@ -792,7 +1072,14 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:09:17.887Z"
     },
     {
       "category": "cat09",
@@ -803,7 +1090,12 @@
       "fallback_image": "assets/menu-uramaki.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6105-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:09:28.046Z"
     },
     {
       "category": "cat09",
@@ -816,7 +1108,14 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:09:57.630Z"
     },
     {
       "category": "cat09",
@@ -829,7 +1128,15 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:10:25.970Z"
     },
     {
       "category": "cat09",
@@ -840,7 +1147,12 @@
       "fallback_image": "assets/menu-uramaki.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6402-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:10:33.130Z"
     },
     {
       "category": "cat10",
@@ -853,7 +1165,13 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:10:51.412Z"
     },
     {
       "category": "cat10",
@@ -864,7 +1182,12 @@
       "fallback_image": "assets/menu-gunkan.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6109-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:10:57.413Z"
     },
     {
       "category": "cat10",
@@ -875,7 +1198,13 @@
       "fallback_image": "assets/menu-gunkan.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6110-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:11:06.775Z"
     },
     {
       "category": "cat10",
@@ -888,7 +1217,15 @@
       "allergen_candidates": [
         "soy"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "soy",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:11:21.136Z"
     },
     {
       "category": "cat10",
@@ -901,7 +1238,13 @@
       "allergen_candidates": [
         "soy"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "soy",
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:11:42.854Z"
     },
     {
       "category": "cat10",
@@ -914,7 +1257,14 @@
       "allergen_candidates": [
         "soy"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "soy",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:12:52.210Z"
     },
     {
       "category": "cat10",
@@ -927,7 +1277,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:13:09.504Z"
     },
     {
       "category": "cat10",
@@ -940,7 +1295,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:13:13.346Z"
     },
     {
       "category": "cat10",
@@ -951,7 +1311,12 @@
       "fallback_image": "assets/menu-gunkan.jpeg",
       "reference_image_url": "",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:13:24.573Z"
     },
     {
       "category": "cat10",
@@ -964,7 +1329,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:13:28.482Z"
     },
     {
       "category": "cat11",
@@ -975,7 +1345,15 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6115-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:14:23.944Z"
     },
     {
       "category": "cat11",
@@ -988,7 +1366,14 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:14:35.356Z"
     },
     {
       "category": "cat11",
@@ -1001,7 +1386,15 @@
       "allergen_candidates": [
         "milk"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:14:47.590Z"
     },
     {
       "category": "cat11",
@@ -1012,7 +1405,13 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6118-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:15:03.911Z"
     },
     {
       "category": "cat11",
@@ -1023,7 +1422,14 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6120-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:15:21.425Z"
     },
     {
       "category": "cat12",
@@ -1036,7 +1442,13 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:15:28.951Z"
     },
     {
       "category": "cat12",
@@ -1049,7 +1461,13 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:15:37.941Z"
     },
     {
       "category": "cat12",
@@ -1062,7 +1480,13 @@
       "allergen_candidates": [
         "crustaceans"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:15:44.705Z"
     },
     {
       "category": "cat12",
@@ -1075,7 +1499,14 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:15:51.572Z"
     },
     {
       "category": "cat12",
@@ -1086,7 +1517,12 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6230-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:15:56.914Z"
     },
     {
       "category": "cat13",
@@ -1099,7 +1535,13 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "soy"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:16:17.334Z"
     },
     {
       "category": "cat13",
@@ -1110,7 +1552,13 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6413-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "soy"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:16:28.613Z"
     },
     {
       "category": "cat14",
@@ -1123,7 +1571,14 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:17:47.410Z"
     },
     {
       "category": "cat14",
@@ -1136,7 +1591,14 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:17:43.301Z"
     },
     {
       "category": "cat14",
@@ -1149,7 +1611,14 @@
       "allergen_candidates": [
         "crustaceans"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:17:38.590Z"
     },
     {
       "category": "cat14",
@@ -1162,7 +1631,14 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:17:34.939Z"
     },
     {
       "category": "cat15",
@@ -1173,7 +1649,10 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6126-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:19:51.097Z"
     },
     {
       "category": "cat15",
@@ -1186,7 +1665,12 @@
       "allergen_candidates": [
         "crustaceans"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:46.106Z"
     },
     {
       "category": "cat15",
@@ -1199,7 +1683,12 @@
       "allergen_candidates": [
         "crustaceans"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:41.187Z"
     },
     {
       "category": "cat15",
@@ -1212,7 +1701,12 @@
       "allergen_candidates": [
         "molluscs"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:36.677Z"
     },
     {
       "category": "cat15",
@@ -1225,7 +1719,12 @@
       "allergen_candidates": [
         "molluscs"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:32.102Z"
     },
     {
       "category": "cat15",
@@ -1236,7 +1735,10 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6131-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:10.857Z"
     },
     {
       "category": "cat15",
@@ -1249,7 +1751,12 @@
       "allergen_candidates": [
         "molluscs"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:24.697Z"
     },
     {
       "category": "cat15",
@@ -1262,7 +1769,12 @@
       "allergen_candidates": [
         "fish"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:59.662Z"
     },
     {
       "category": "cat15",
@@ -1273,7 +1785,10 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6134-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:20:05.071Z"
     },
     {
       "category": "cat15",
@@ -1284,7 +1799,10 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6135-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:20:10.097Z"
     },
     {
       "category": "cat15",
@@ -1295,7 +1813,10 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6136-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:20:12.500Z"
     },
     {
       "category": "cat16",
@@ -1306,7 +1827,12 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6145-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:20:21.441Z"
     },
     {
       "category": "cat16",
@@ -1317,7 +1843,12 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6146-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:20:29.053Z"
     },
     {
       "category": "cat16",
@@ -1328,7 +1859,12 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6148-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:20:36.470Z"
     },
     {
       "category": "cat16",
@@ -1341,7 +1877,13 @@
       "allergen_candidates": [
         "crustaceans"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:20:43.638Z"
     },
     {
       "category": "cat01",
@@ -1354,7 +1896,12 @@
       "allergen_candidates": [
         "crustaceans"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:37:31.104Z"
     },
     {
       "category": "cat01",
@@ -1367,7 +1914,12 @@
       "allergen_candidates": [
         "crustaceans"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:37:33.607Z"
     },
     {
       "category": "cat01",
@@ -1378,7 +1930,10 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6139-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:37:42.596Z"
     },
     {
       "category": "cat01",
@@ -1389,7 +1944,12 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6140-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:37:48.673Z"
     },
     {
       "category": "cat01",
@@ -1402,7 +1962,14 @@
       "allergen_candidates": [
         "soy"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "soy",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:38:01.578Z"
     },
     {
       "category": "cat01",
@@ -1415,7 +1982,13 @@
       "allergen_candidates": [
         "molluscs"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "soy",
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:38:24.858Z"
     },
     {
       "category": "cat01",
@@ -1426,7 +1999,13 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6157-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:38:33.033Z"
     },
     {
       "category": "cat04",
@@ -1441,7 +2020,14 @@
         "nuts",
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "nuts"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:38:44.532Z"
     },
     {
       "category": "cat04",
@@ -1455,7 +2041,13 @@
         "crustaceans",
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:38:48.149Z"
     },
     {
       "category": "cat04",
@@ -1469,7 +2061,13 @@
         "crustaceans",
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:39:00.610Z"
     },
     {
       "category": "cat04",
@@ -1482,7 +2080,14 @@
       "allergen_candidates": [
         "molluscs"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "eggs",
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:48:32.134Z"
     },
     {
       "category": "cat04",
@@ -1495,7 +2100,13 @@
       "allergen_candidates": [
         "nuts"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "nuts"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:39:22.139Z"
     },
     {
       "category": "cat04",
@@ -1508,7 +2119,12 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:48:48.702Z"
     },
     {
       "category": "cat04",
@@ -1521,7 +2137,13 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:48:55.410Z"
     },
     {
       "category": "cat04",
@@ -1534,7 +2156,12 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:49:00.302Z"
     },
     {
       "category": "cat04",
@@ -1547,7 +2174,13 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:49:09.255Z"
     },
     {
       "category": "cat04",
@@ -1561,7 +2194,13 @@
         "crustaceans",
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:49:12.633Z"
     },
     {
       "category": "cat04",
@@ -1574,7 +2213,13 @@
       "allergen_candidates": [
         "sesame"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:49:22.838Z"
     },
     {
       "category": "cat04",
@@ -1585,7 +2230,10 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6155-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:49:47.668Z"
     },
     {
       "category": "cat04",
@@ -1596,7 +2244,10 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6156-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:49:50.748Z"
     },
     {
       "category": "cat04",
@@ -1609,7 +2260,12 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:49:56.082Z"
     },
     {
       "category": "cat02",
@@ -1623,7 +2279,13 @@
         "eggs",
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "eggs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:50:02.484Z"
     },
     {
       "category": "cat02",
@@ -1636,7 +2298,12 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:50:08.044Z"
     },
     {
       "category": "cat02",
@@ -1649,7 +2316,13 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:50:21.220Z"
     },
     {
       "category": "cat02",
@@ -1662,7 +2335,13 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:50:29.867Z"
     },
     {
       "category": "cat02",
@@ -1675,7 +2354,12 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:50:41.395Z"
     },
     {
       "category": "cat02",
@@ -1686,7 +2370,12 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6159-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:50:48.801Z"
     },
     {
       "category": "cat02",
@@ -1697,7 +2386,12 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6160-1.png",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "eggs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:50:59.040Z"
     },
     {
       "category": "cat02",
@@ -1708,7 +2402,12 @@
       "fallback_image": "assets/menu-tasting.jpeg",
       "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6161-1.jpg",
       "allergen_candidates": [],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "eggs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:51:02.844Z"
     },
     {
       "category": "cat02",
@@ -1721,7 +2420,13 @@
       "allergen_candidates": [
         "gluten"
       ],
-      "allergen_review_status": "pending"
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "eggs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:51:10.279Z"
     }
   ],
   "phone": "+351 965 777 779",
