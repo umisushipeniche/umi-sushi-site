@@ -55,6 +55,11 @@ body{
 .umiAllergenName[hidden]{display:none}
 .umiDishAllergens .umiAllergenName{flex-basis:100%}
 .umiVegetarianBadge{display:inline-flex;align-items:center;min-height:32px;border:1px solid #78b47d;background:#1b3924;color:#c5f0c6;border-radius:6px;padding:5px 9px;font:600 12px/1.2 'DM Sans',sans-serif;letter-spacing:.04em}
+.umiDishLabels{display:flex;flex-wrap:wrap;align-items:center;gap:5px}
+.umiSpicyBadge{display:inline-flex;align-items:center;min-height:32px;padding:5px 9px;border:1px solid #bb6d4b;border-radius:6px;background:#3e211b;color:#ffdbbe;font:600 12px/1.2 'DM Sans',sans-serif;letter-spacing:.02em}
+.umiSoyIcon{font:bold 12px/1 'DM Sans',Arial,sans-serif;letter-spacing:-.03em;min-width:32px}
+.umiDishAllergens:empty{display:none}
+
 </style></head><body><header class="menuPageHeader"><a href="index.html#home" aria-label="UMI SUSHI"><img src="assets/umi-logo-original.png" alt="UMI SUSHI"></a><a class="back" href="index.html#home" id="back">← Voltar ao início</a><button id="language" type="button">EN</button></header><div class="menuIntro"><span class="eyebrow">UMI SUSHI · PENICHE</span><h1 id="heading">O NOSSO MENU</h1><p id="subheading">Explore os nossos pratos · Sem preços individuais</p><details class="umiAllergenGuide" id="allergenGuide"><summary id="allergenGuideTitle">ⓘ Guia de alergénios / Allergen guide</summary><div class="umiAllergenGuideContent"><p id="allergenGuideNotice">Toque nos símbolos para ver os nomes em português e inglês. As informações de cada prato estão a ser verificadas com a cozinha. Para alergias, confirme sempre com a equipa antes de encomendar.</p><div class="umiAllergenLegend" id="allergenLegend"></div></div></details></div><main class="menuContainer"><div class="menuTools"><input id="search" type="search" placeholder="Pesquisar pratos ou códigos..." aria-label="Pesquisar pratos"><div class="menuCategories" id="categories"></div></div><div class="menuCards" id="cards"></div></main><footer class="menuFooter">© UMI SUSHI PENICHE · <a href="index.html#booking">RESERVAS</a></footer><script>
 (()=>{'use strict';const $=id=>document.getElementById(id);let lang=localStorage.getItem('umi-lang')==='en'?'en':'pt',data={dishes:[],categories:[]},cat='all',syncing=false;const navOffset=()=>($('categories').getBoundingClientRect().bottom||140)+18;const ALLERGENS={
  gluten:{pt:'Cereais que contêm glúten',en:'Cereals containing gluten',icon:'🌾'},
@@ -62,7 +67,7 @@ body{
  eggs:{pt:'Ovos',en:'Eggs',icon:'🥚'},
  fish:{pt:'Peixe',en:'Fish',icon:'🐟'},
  peanuts:{pt:'Amendoins',en:'Peanuts',icon:'🥜'},
- soy:{pt:'Soja',en:'Soybeans',icon:'🫘'},
+ soy:{pt:'Soja',en:'Soybeans',icon:'SO'},
  milk:{pt:'Leite',en:'Milk',icon:'🥛'},
  nuts:{pt:'Frutos de casca rija',en:'Tree nuts',icon:'🌰'},
  celery:{pt:'Aipo',en:'Celery',icon:'🥬'},
@@ -75,7 +80,7 @@ body{
 function makeAllergenIcon(key){
  const a=ALLERGENS[key];if(!a)return null;
  const wrap=document.createElement('span');wrap.className='umiAllergenItem';
- const btn=document.createElement('button');btn.type='button';btn.className='umiAllergenIcon';btn.textContent=a.icon;btn.setAttribute('aria-label',a.pt+' / '+a.en);btn.setAttribute('aria-expanded','false');btn.title=a.pt+' / '+a.en;
+ const btn=document.createElement('button');btn.type='button';btn.className='umiAllergenIcon';btn.textContent=a.icon;if(key==='soy')btn.classList.add('umiSoyIcon');btn.setAttribute('aria-label',a.pt+' / '+a.en);btn.setAttribute('aria-expanded','false');btn.title=a.pt+' / '+a.en;
  const name=document.createElement('span');name.className='umiAllergenName';name.hidden=true;name.textContent=a.pt+' / '+a.en;
  btn.onclick=()=>{name.hidden=!name.hidden;btn.setAttribute('aria-expanded',String(!name.hidden))};wrap.append(btn,name);return wrap;
 }
@@ -102,12 +107,16 @@ function renderDishAllergens(d){
  const reviewed=preview!==null||d.allergen_review_status==='confirmed'&&Array.isArray(d.allergens);
  const keys=(preview!==null?preview.allergens:Array.isArray(d.allergens)&&d.allergen_review_status==='confirmed'?d.allergens:[]).filter(k=>Object.hasOwn(ALLERGENS,k));
  const vegetarian=preview!==null?(preview.vegetarian===true||(preview.vegetarian===undefined&&preview.vegan===true)):(d.allergen_review_status==='confirmed'&&(d.vegetarian===true||d.vegan===true));
- if(vegetarian){const badge=document.createElement('span');badge.className='umiVegetarianBadge';badge.textContent='🌱 VEGETARIAN';badge.title='Vegetariano / Vegetarian — ingredientes confirmados pela equipa / ingredients reviewed by staff';row.append(badge)}
+ const spiceLevel=['mild','spicy','extra_spicy'].includes(d.spicy_level)?d.spicy_level:null;
+ const labels={mild:{pt:'PICANTE SUAVE',en:'MILD',icon:'🌶'},spicy:{pt:'PICANTE',en:'SPICY',icon:'🌶🌶'},extra_spicy:{pt:'MUITO PICANTE',en:'EXTRA SPICY',icon:'🌶🌶🌶'}};
+ const spice=spiceLevel&&labels[spiceLevel];
+ if(vegetarian){const badge=document.createElement('span');badge.className='umiVegetarianBadge';badge.textContent='🌱 '+(lang==='pt'?'VEGETARIANO':'VEGETARIAN');badge.title='Vegetariano / Vegetarian — ingredientes confirmados pela equipa / ingredients reviewed by staff';row.append(badge)}
+ if(spice){const badge=document.createElement('span');badge.className='umiSpicyBadge';badge.textContent=spice.icon+' '+spice[lang];badge.title=spice.pt+' / '+spice.en;row.append(badge)}
  if(reviewed&&keys.length){for(const k of keys)row.append(makeAllergenIcon(k))}
- else{
+ else if(!reviewed){
    const item=document.createElement('span');item.className='umiAllergenItem';
    const btn=document.createElement('button');btn.type='button';btn.className='umiAllergenIcon';
-   btn.textContent=reviewed?'✓':'?';
+   btn.textContent='?';
    btn.setAttribute('aria-label',reviewed?(lang==='pt'?'Revisto: sem alergénios declarados':'Reviewed: no declared allergens'):(lang==='pt'?'Alergénios por confirmar':'Allergens not yet verified'));btn.setAttribute('aria-expanded','false');
    const note=document.createElement('span');note.className='umiAllergenName';note.hidden=true;
    note.textContent=reviewed?'Revisto: sem alergénios declarados / Reviewed: no declared allergens (confirmar risco de contacto cruzado / check cross-contact risk)':'Alergénios por confirmar / Allergens not yet verified';
