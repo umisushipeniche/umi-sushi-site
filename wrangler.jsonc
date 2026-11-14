@@ -14,7 +14,9 @@
   "previews": {
     "vars": {
       "CONTACT_FROM_EMAIL": "UMI SUSHI <contacto@umisushipeniche.pt>",
-      "VOUCHER_ADMIN_EMAIL": "umisushi.peniche@gmail.com"
+      "VOUCHER_ADMIN_EMAIL": "umisushi.peniche@gmail.com",
+      "VOUCHER_ACCESS_AUD": "e34b9919a1b1299fd6c41b8052906ea7b9424d72ace53ead0a5e9d673b7880c",
+      "VOUCHER_ACCESS_TEAM_DOMAIN": "patient-glade-f507.cloudflareaccess.com"
     },
     "analytics_engine_datasets": [
       {
