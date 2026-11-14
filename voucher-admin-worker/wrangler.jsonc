@@ -1,0 +1,27 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "umi-voucher-admin-v3",
+  "main": "./index.js",
+  "compatibility_date": "2026-11-14",
+  "workers_dev": true,
+  "rules": [
+    {
+      "type": "Text",
+      "globs": [
+        "**/*.html",
+        "**/*.txt"
+      ],
+      "fallthrough": true
+    }
+  ],
+  "vars": {
+    "VOUCHER_ADMIN_EMAIL": "umisushi.peniche@gmail.com"
+  },
+  "d1_databases": [
+    {
+      "binding": "VOUCHER_DB",
+      "database_name": "umi-vouchers-v3",
+      "database_id": "bd8b607d-ae43-4550-a835-60689a53e284"
+    }
+  ]
+}
