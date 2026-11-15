@@ -1864,7 +1864,8 @@
         "gluten"
       ],
       "vegetarian": false,
-      "allergen_reviewed_at": "2026-11-14T18:20:36.470Z"
+      "allergen_reviewed_at": "2026-11-14T18:20:36.470Z",
+      "spicy_level": "mild"
     },
     {
       "category": "cat16",
@@ -1949,7 +1950,8 @@
         "gluten"
       ],
       "vegetarian": false,
-      "allergen_reviewed_at": "2026-11-14T18:37:48.673Z"
+      "allergen_reviewed_at": "2026-11-14T18:37:48.673Z",
+      "spicy_level": "spicy"
     },
     {
       "category": "cat01",
