@@ -1,0 +1,34 @@
+/* UMI SUSHI V3 — menu icon system, based on the supplied gold-on-black reference. */
+:root{--umi-icon-gold:#ecc58a;--umi-icon-border:#c89b58;--umi-icon-ink:#0f1010}
+.umiAllergenGuide{max-width:1050px;margin:22px auto 0;text-align:center}
+.umiAllergenGuide>summary{display:inline-flex;align-items:center;gap:9px;padding:12px 23px;border:1px solid var(--umi-icon-border);border-radius:7px;color:#f0cf99;background:#121210;cursor:pointer;list-style:none;font:600 13px/1.35 'DM Sans',Arial,sans-serif;letter-spacing:.025em}
+.umiAllergenGuide>summary::-webkit-details-marker{display:none}
+.umiAllergenGuide>summary:hover,.umiAllergenGuide>summary:focus-visible{background:#2b241b;outline:2px solid #ecc58a;outline-offset:2px}
+.umiAllergenGuide[open]>summary{background:linear-gradient(120deg,#f3d59c,#c99950);color:#1a1510;border-color:#f2d69e}
+.umiAllergenGuideContent{margin-top:17px;padding:clamp(16px,3vw,34px);border:1px solid #b48b4e;border-radius:20px;background:linear-gradient(145deg,#121110,#0b0b0b 75%);box-shadow:0 22px 55px #0008;text-align:center}
+.umiAllergenGuideContent>p{font:13px/1.7 'DM Sans',Arial,sans-serif;color:#d2c2a9;max-width:750px;margin:0 auto 26px}
+.umiAllergenLegend{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(12px,2vw,27px);align-items:start}
+.umiGuideBadge{min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:0;color:#f2e5ce}
+.umiGuideButton{display:flex;justify-content:center;align-items:center;width:84px;height:78px;border:1.7px solid var(--umi-icon-gold);border-radius:22px;background:radial-gradient(ellipse at 50% 0,#282019 0,#101010 68%);box-shadow:inset 0 1px 0 #e8c28340,0 7px 16px #0005;color:var(--umi-icon-gold);cursor:default;padding:13px}
+.umiGuideButton .umiGlyph{width:100%;height:100%;display:block;overflow:visible}
+.umiGuidePt{display:block;font:600 14px/1.28 'DM Sans',Arial,sans-serif;color:#f6efe3;margin-top:9px;overflow-wrap:anywhere}
+.umiGuideEn{display:block;font:italic 13px/1.3 Georgia,serif;color:#e7d2ac;margin-top:2px;overflow-wrap:anywhere}
+.umiOtherAllergens{grid-column:1/-1;border-top:1px solid #8b6b445e;margin-top:3px;padding-top:15px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(12px,2vw,27px)}
+.umiOtherAllergensHeading{grid-column:1/-1;color:#d5b987;font:600 12px/1.5 'DM Sans',Arial,sans-serif;letter-spacing:.08em;text-align:left;margin:0 0 1px}
+.umiOtherAllergens .umiGuideButton{width:68px;height:64px;border-radius:18px}
+.umiOtherAllergens .umiGuidePt{font-size:13px}.umiOtherAllergens .umiGuideEn{font-size:12px}
+/* Small gold pictograms appear next to each menu code, as in the supplied U14 example. */
+.umiCodeAllergens{display:flex;align-items:center;flex-wrap:wrap;gap:5px;min-height:28px}
+.umiCodeAllergens>small{margin-right:6px;color:#e3c38b;flex:none;font-weight:600;font-size:13px}
+.umiAllergenItem{position:relative;display:inline-flex;align-items:center;flex:none}
+.umiCodeAllergens .umiAllergenIcon{display:inline-flex;align-items:center;justify-content:center;width:27px;min-width:27px;height:27px;min-height:27px;box-sizing:border-box;padding:3px;border:1px solid var(--umi-icon-gold);border-radius:8px;background:rgba(12,12,12,.85);color:var(--umi-icon-gold);cursor:pointer;font:700 15px/1 Arial,sans-serif;transition:background .18s,border-color .18s}
+.umiCodeAllergens .umiAllergenIcon .umiGlyph{width:100%;height:100%;display:block;flex:none;overflow:visible}
+.umiCodeAllergens .umiAllergenIcon:hover,.umiCodeAllergens .umiAllergenIcon[aria-expanded="true"]{background:#342819;border-color:#f8dbab}
+.umiAllergenIcon:focus-visible{outline:2px solid #fff1c7;outline-offset:2px}
+.umiCodeAllergens .umiAllergenName{position:absolute;z-index:22;top:calc(100% + 6px);left:0;max-width:min(260px,75vw);min-width:125px;width:max-content;display:block;border:1px solid #c69d62;border-radius:5px;background:#221a14;color:#f3e5ce;box-shadow:0 8px 23px #000a;padding:7px 9px;font:12px/1.45 'DM Sans',Arial,sans-serif;white-space:normal;text-align:left}
+.umiCodeAllergens .umiAllergenName[hidden]{display:none}
+.umiCodeAllergens .umiUnknownIcon{color:#f0d8b5;border-style:dashed}
+.umiDishLabels:empty,.umiDishAllergens:empty{display:none}
+@media(max-width:760px){.umiAllergenLegend{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 10px}.umiOtherAllergens{grid-template-columns:repeat(3,minmax(0,1fr))}.umiGuideButton{width:70px;height:68px;border-radius:18px;padding:10px}.umiGuidePt{font-size:12px}.umiGuideEn{font-size:12px}.umiAllergenGuideContent{border-radius:15px}}
+@media(max-width:440px){.umiAllergenLegend{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 7px}.umiGuideButton{width:63px;height:61px;border-radius:16px;padding:9px}.umiGuidePt{font-size:11.5px}.umiGuideEn{font-size:11px}.umiOtherAllergens .umiGuideButton{width:59px;height:58px}.umiCodeAllergens{gap:4px}.umiCodeAllergens>small{font-size:12px;margin-right:3px}.umiCodeAllergens .umiAllergenIcon{width:25px;min-width:25px;height:25px;min-height:25px;padding:3px;border-radius:7px}}
+@media(prefers-reduced-motion:reduce){.umiCodeAllergens .umiAllergenIcon{transition:none}}
