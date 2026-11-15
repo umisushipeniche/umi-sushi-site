@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#F0C98B" stroke-linecap="round" stroke-linejoin="round">
-<!-- Reference: slim diagonal double peanut-shell, two clearly joined ovals -->
-<g transform="rotate(43 32 32)">
-<path d="M32 7C23 7 18 12 18 22C18 28 21 31 24 33C20 37 18 42 20 49C22 56 27 58 32 58C40 58 45 52 45 44C45 39 42 35 39 32C43 28 46 24 45 19C45 11 40 7 32 7Z" stroke-width="4.1"/>
-<path d="M23 17C27 10 36 9 41 18M23 45C23 54 37 57 41 46" stroke-width="2.5"/>
-<path d="M32 12V28M25 18L37 27M39 17L27 28M23 43L37 52M40 40L27 53M32 38V53" stroke-width="2.4"/>
-<path d="M24 33C28 30 35 30 40 33" stroke-width="3.3"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(43 32 32)"><path d="M32 5 C24 5 22 12 23 20 C23 25 27 28 29 32 C26 36 23 39 23 45 C23 53 26 59 33 59 C40 59 43 52 42 45 C42 39 38 35 36 32 C39 28 42 25 42 19 C42 11 39 5 32 5Z" fill="#E5BC81" stroke="#F7DBA7" stroke-width="2.6"/><path d="M25 14L36 8M24 23L40 13M27 30L41 23M26 40L40 35M25 48L40 43M28 55L42 50M30 58L40 53" stroke="#8D5F33" stroke-width="1.8"/><path d="M26 9L40 26M24 20L35 31M25 39L40 52M24 48L32 58" stroke="#9E7040" stroke-width="1.8"/><path d="M28 32Q33 30 37 32M28 35Q33 37 37 35" stroke="#69421F" stroke-width="1.6"/></g></svg>
