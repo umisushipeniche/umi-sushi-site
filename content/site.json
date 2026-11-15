@@ -420,10 +420,7 @@
         "molluscs"
       ],
       "allergen_review_status": "confirmed",
-      "allergens": [
-        "fish",
-        "molluscs"
-      ],
+      "allergens": ["molluscs"],
       "vegetarian": false,
       "allergen_reviewed_at": "2026-11-14T17:56:46.207Z"
     },
