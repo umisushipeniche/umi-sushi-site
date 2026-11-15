@@ -116,6 +116,27 @@ function makeAllergenIcon(key){
  const name=document.createElement('span');name.className='umiAllergenName';name.hidden=true;name.textContent=a.pt+' / '+a.en;
  btn.onclick=()=>{name.hidden=!name.hidden;btn.setAttribute('aria-expanded',String(!name.hidden))};wrap.append(btn,name);return wrap;
 }
+// Keep at most one label visible. A tap outside or on another icon dismisses it.
+document.addEventListener('click',e=>{
+ const activeButton=e.target.closest('.umiAllergenItem > button[aria-expanded]');
+ const activeItem=activeButton?.closest('.umiAllergenItem');
+ for(const item of document.querySelectorAll('.umiAllergenItem')){
+   if(item===activeItem&&activeButton.getAttribute('aria-expanded')==='true')continue;
+   const button=item.querySelector('button[aria-expanded]');
+   const label=item.querySelector('.umiAllergenName');
+   if(label)label.hidden=true;
+   if(button)button.setAttribute('aria-expanded','false');
+ }
+});
+document.addEventListener('keydown',e=>{
+ if(e.key!=='Escape')return;
+ for(const item of document.querySelectorAll('.umiAllergenItem')){
+   const button=item.querySelector('button[aria-expanded]');
+   const label=item.querySelector('.umiAllergenName');
+   if(label)label.hidden=true;
+   if(button)button.setAttribute('aria-expanded','false');
+ }
+});
 function renderAllergenLegend(){
  const list=$('allergenLegend');if(!list)return;list.replaceChildren();
  for(const key of Object.keys(ALLERGENS))list.append(makeAllergenIcon(key));
