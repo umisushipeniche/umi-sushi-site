@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#F0CA8C" stroke-linecap="round" stroke-linejoin="round">
+<!-- Reference: open fan of scallop-shell ribs, gold outline, tiny lower hinge -->
+<path d="M31 52C20 51 13 42 8 33C6 29 8 25 12 23C13 18 17 15 22 16C25 12 30 11 33 14C38 11 44 14 45 18C50 18 54 23 53 27C56 31 53 37 49 41C44 48 39 51 31 52Z" stroke-width="3.2"/>
+<path d="M31 50L13 26M31 50L20 19M31 50L28 15M31 50L35 15M31 50L43 20M31 50L50 27" stroke-width="3" />
+<path d="M23 49L24 54H40L41 49" stroke-width="2.6"/>
+<path d="M25 53C29 56 35 56 39 53" stroke-width="2.4"/>
+</svg>

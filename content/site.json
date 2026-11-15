@@ -17,14 +17,49 @@
   "hours_en": "Tuesday to Sunday: 12:00–15:00 and 19:00–23:00.\nClosed on Mondays. Except on special dates.",
   "gallery": [
     {
-      "image": "assets/umi-hero.png",
-      "caption_pt": "O nosso espaço",
-      "caption_en": "Our restaurant"
+      "image": "assets/ambiente/umi-ambiente-01.webp",
+      "caption_pt": "Ambiente UMI SUSHI 1",
+      "caption_en": "UMI SUSHI atmosphere 1"
     },
     {
-      "image": "assets/umi-space-02.jpeg",
-      "caption_pt": "Ambiente UMI",
-      "caption_en": "UMI atmosphere"
+      "image": "assets/ambiente/umi-ambiente-02.webp",
+      "caption_pt": "Ambiente UMI SUSHI 2",
+      "caption_en": "UMI SUSHI atmosphere 2"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-03.webp",
+      "caption_pt": "Ambiente UMI SUSHI 3",
+      "caption_en": "UMI SUSHI atmosphere 3"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-04.webp",
+      "caption_pt": "Ambiente UMI SUSHI 4",
+      "caption_en": "UMI SUSHI atmosphere 4"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-05.webp",
+      "caption_pt": "Ambiente UMI SUSHI 5",
+      "caption_en": "UMI SUSHI atmosphere 5"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-06.webp",
+      "caption_pt": "Ambiente UMI SUSHI 6",
+      "caption_en": "UMI SUSHI atmosphere 6"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-07.webp",
+      "caption_pt": "Ambiente UMI SUSHI 7",
+      "caption_en": "UMI SUSHI atmosphere 7"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-09.webp",
+      "caption_pt": "Ambiente UMI SUSHI 9",
+      "caption_en": "UMI SUSHI atmosphere 9"
+    },
+    {
+      "image": "assets/ambiente/umi-ambiente-08.webp",
+      "caption_pt": "Ambiente UMI SUSHI 8",
+      "caption_en": "UMI SUSHI atmosphere 8"
     }
   ],
   "categories": [
@@ -117,7 +152,16 @@
       "en": "Edamame Soybeans",
       "image": "assets/dishes/E13.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6035-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6035-1.png",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "soy"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-12T16:16:17.716Z"
     },
     {
       "category": "cat03",
@@ -126,7 +170,14 @@
       "en": "Wakame Seaweed Salad",
       "image": "assets/dishes/E14.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6036-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6036-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-12T16:16:36.619Z"
     },
     {
       "category": "cat03",
@@ -135,7 +186,16 @@
       "en": "Miso Soup",
       "image": "assets/dishes/E31.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6061-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6061-1.png",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "soy"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T17:55:31.704Z"
     },
     {
       "category": "cat03",
@@ -144,7 +204,16 @@
       "en": "Wonton Soup",
       "image": "assets/dishes/E32.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6062-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6062-1.png",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:55:41.884Z"
     },
     {
       "category": "cat03",
@@ -153,7 +222,16 @@
       "en": "Shrimp Salad",
       "image": "assets/dishes/E41.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6063-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6063-1.png",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:55:55.828Z"
     },
     {
       "category": "cat03",
@@ -162,7 +240,16 @@
       "en": "Salmon Salad",
       "image": "assets/dishes/E42.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6064-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6064-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:54:11.186Z"
     },
     {
       "category": "cat03",
@@ -171,7 +258,16 @@
       "en": "Prawn Crackers",
       "image": "assets/dishes/F13.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6154-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6154-1.png",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:52:39.526Z"
     },
     {
       "category": "cat05",
@@ -180,7 +276,17 @@
       "en": "Mixed Sushi Platter (18 pcs)",
       "image": "assets/dishes/S01.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6008-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6008-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:55:06.695Z"
     },
     {
       "category": "cat05",
@@ -189,7 +295,14 @@
       "en": "Seared Sushi Platter (12 pcs)",
       "image": "assets/dishes/S02.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6065-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6065-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:54:26.767Z"
     },
     {
       "category": "cat05",
@@ -198,7 +311,16 @@
       "en": "Traditional Salmon Sushi Platter (20 pcs)",
       "image": "assets/dishes/S03.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6066-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6066-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:54:41.268Z"
     },
     {
       "category": "cat05",
@@ -207,7 +329,12 @@
       "en": "Vegan Sushi Platter (15 pcs)",
       "image": "assets/dishes/S04.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6364-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6364-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T17:54:52.433Z"
     },
     {
       "category": "cat06",
@@ -216,7 +343,16 @@
       "en": "Sashimi Salmon (4 pcs)",
       "image": "assets/dishes/S11.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6067-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6067-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:56:13.706Z"
     },
     {
       "category": "cat06",
@@ -225,7 +361,16 @@
       "en": "Sashimi Seared Salmon (4 pcs)",
       "image": "assets/dishes/S12.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6068-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6068-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:56:16.486Z"
     },
     {
       "category": "cat06",
@@ -234,7 +379,16 @@
       "en": "Sashimi Tuna (4 pcs)",
       "image": "assets/dishes/S13.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6069-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6069-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:56:19.803Z"
     },
     {
       "category": "cat06",
@@ -243,7 +397,16 @@
       "en": "Sashimi Seared Tuna (4 pcs)",
       "image": "assets/dishes/S14.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6070-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6070-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:56:24.037Z"
     },
     {
       "category": "cat06",
@@ -252,7 +415,17 @@
       "en": "Sashimi Octopus (4 pcs)",
       "image": "assets/dishes/S15.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6071-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6071-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:56:46.207Z"
     },
     {
       "category": "cat06",
@@ -261,7 +434,16 @@
       "en": "Sashimi Sea Bass (4 pcs)",
       "image": "assets/dishes/S16.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6072-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6072-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:56:50.150Z"
     },
     {
       "category": "cat06",
@@ -270,7 +452,16 @@
       "en": "Sashimi White Fish (4 pcs)",
       "image": "assets/dishes/S17.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6073-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6073-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:57:10.303Z"
     },
     {
       "category": "cat06",
@@ -279,7 +470,15 @@
       "en": "Okoku Sashimi Platter (16 pcs)",
       "image": "assets/dishes/S18.webp",
       "fallback_image": "assets/menu-sashimi.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6234-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6234-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:57:22.264Z"
     },
     {
       "category": "cat07",
@@ -288,7 +487,16 @@
       "en": "Nigiri Salmon (2 pcs)",
       "image": "assets/dishes/S21.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6074-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6074-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:57:37.074Z"
     },
     {
       "category": "cat07",
@@ -297,7 +505,16 @@
       "en": "Nigiri Seared Salmon (2 pcs)",
       "image": "assets/dishes/S22.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6075-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6075-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:57:39.949Z"
     },
     {
       "category": "cat07",
@@ -306,7 +523,16 @@
       "en": "Nigiri Tuna (2 pcs)",
       "image": "assets/dishes/S23.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6076-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6076-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:57:43.425Z"
     },
     {
       "category": "cat07",
@@ -315,7 +541,16 @@
       "en": "Nigiri Sea Bass (2 pcs)",
       "image": "assets/dishes/S24.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6077-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6077-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:57:49.126Z"
     },
     {
       "category": "cat07",
@@ -324,7 +559,16 @@
       "en": "Nigiri Shrimp (2 pcs)",
       "image": "assets/dishes/S25.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6078-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6078-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:58:07.122Z"
     },
     {
       "category": "cat07",
@@ -333,7 +577,17 @@
       "en": "Nigiri Grilled Salmon (2 pcs)",
       "image": "assets/dishes/S27.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6080-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6080-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:58:12.768Z"
     },
     {
       "category": "cat07",
@@ -342,7 +596,16 @@
       "en": "Nigiri Octopus (2 pcs)",
       "image": "assets/dishes/S28.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6081-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6081-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:58:18.805Z"
     },
     {
       "category": "cat07",
@@ -351,7 +614,16 @@
       "en": "Nigiri Butterfish (2 pcs)",
       "image": "assets/dishes/S29.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6232-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6232-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:58:23.364Z"
     },
     {
       "category": "cat07",
@@ -360,7 +632,12 @@
       "en": "Nigiri Avocado (2 pcs)",
       "image": "assets/dishes/S30.webp",
       "fallback_image": "assets/menu-nigiri.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6239-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6239-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T17:58:28.390Z"
     },
     {
       "category": "cat08",
@@ -369,7 +646,16 @@
       "en": "Hosomaki Salmon (4 pcs)",
       "image": "assets/dishes/S31.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6082-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6082-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:58:42.870Z"
     },
     {
       "category": "cat08",
@@ -378,7 +664,16 @@
       "en": "Hosomaki Tuna (4 pcs)",
       "image": "assets/dishes/S32.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6083-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6083-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:58:47.825Z"
     },
     {
       "category": "cat08",
@@ -387,7 +682,17 @@
       "en": "Hosomaki Tempura (4 pcs)",
       "image": "assets/dishes/S33.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6084-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6084-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:59:00.411Z"
     },
     {
       "category": "cat08",
@@ -396,7 +701,12 @@
       "en": "Hosomaki Avocado (4 pcs)",
       "image": "assets/dishes/S34.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6085-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6085-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T17:59:06.166Z"
     },
     {
       "category": "cat08",
@@ -405,7 +715,16 @@
       "en": "Hosomaki Prawn (4 pcs)",
       "image": "assets/dishes/S35.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6086-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6086-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:59:11.157Z"
     },
     {
       "category": "cat08",
@@ -414,7 +733,12 @@
       "en": "Hosomaki Cucumber (4 pcs)",
       "image": "assets/dishes/S36.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6087-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6087-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T17:59:17.764Z"
     },
     {
       "category": "cat08",
@@ -423,7 +747,17 @@
       "en": "Hosomaki Grilled Salmon Skin (4 pcs)",
       "image": "assets/dishes/S37.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6088-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6088-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:59:27.686Z"
     },
     {
       "category": "cat08",
@@ -432,7 +766,19 @@
       "en": "Maki Egg Salmon (4 pcs)",
       "image": "assets/dishes/S38.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6089-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6089-1.jpg",
+      "allergen_candidates": [
+        "fish",
+        "eggs"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "eggs",
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T17:59:41.722Z"
     },
     {
       "category": "cat08",
@@ -441,7 +787,15 @@
       "en": "Large California Rolls (2 pcs)",
       "image": "assets/dishes/S39.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6090-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6090-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:01:59.980Z"
     },
     {
       "category": "cat08",
@@ -450,7 +804,15 @@
       "en": "Futomaki (2 pcs)",
       "image": "assets/dishes/S40.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6092-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6092-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:02:20.886Z"
     },
     {
       "category": "cat08",
@@ -459,7 +821,12 @@
       "en": "Fruit Rolls (2 pcs)",
       "image": "assets/dishes/S41.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6091-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6091-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:02:33.295Z"
     },
     {
       "category": "cat08",
@@ -468,7 +835,16 @@
       "en": "Coriander and Salmon Rolls (2 pcs)",
       "image": "assets/dishes/S42.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6270-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6270-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:03:08.903Z"
     },
     {
       "category": "cat09",
@@ -477,7 +853,14 @@
       "en": "Uramaki Avocado (4 pcs)",
       "image": "assets/dishes/S51.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6093-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6093-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:03:38.803Z"
     },
     {
       "category": "cat09",
@@ -486,7 +869,18 @@
       "en": "Uramaki Strawberry And Salmon (4 pcs)",
       "image": "assets/dishes/S52.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6094-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6094-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:04:11.335Z"
     },
     {
       "category": "cat09",
@@ -495,7 +889,16 @@
       "en": "Crunch Uramaki (4 pcs)",
       "image": "assets/dishes/S53.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6095-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6095-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:04:26.942Z"
     },
     {
       "category": "cat09",
@@ -504,7 +907,17 @@
       "en": "Crispy Cheese Uramaki (4 pcs)",
       "image": "assets/dishes/S54.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6096-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6096-1.png",
+      "allergen_candidates": [
+        "milk"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:04:39.114Z"
     },
     {
       "category": "cat09",
@@ -513,7 +926,19 @@
       "en": "Uramaki Masago (4 pcs)",
       "image": "assets/dishes/S55.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6097-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6097-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:04:50.149Z"
     },
     {
       "category": "cat09",
@@ -522,7 +947,19 @@
       "en": "Uramaki Ebi (4 pcs)",
       "image": "assets/dishes/S56.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6098-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6098-1.png",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "eggs",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:06:10.555Z"
     },
     {
       "category": "cat09",
@@ -531,7 +968,19 @@
       "en": "Uramaki Topped With Salmon And Avocado Special (4 pcs)",
       "image": "assets/dishes/S57.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6099-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6099-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:08:37.299Z"
     },
     {
       "category": "cat09",
@@ -540,7 +989,17 @@
       "en": "Uramaki Japanese Tofu (4 pcs)",
       "image": "assets/dishes/S58.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6100-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6100-1.png",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "soy",
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:06:54.329Z"
     },
     {
       "category": "cat09",
@@ -549,7 +1008,16 @@
       "en": "UMI Rolls (4 pcs)",
       "image": "assets/dishes/S59.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6101-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6101-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:07:57.485Z"
     },
     {
       "category": "cat09",
@@ -558,7 +1026,19 @@
       "en": "Uramaki Tuna And Avocado (4 pcs)",
       "image": "assets/dishes/S60.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6102-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6102-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:08:14.997Z"
     },
     {
       "category": "cat09",
@@ -567,7 +1047,19 @@
       "en": "Uramaki Tempura (4 pcs)",
       "image": "assets/dishes/S61.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6103-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6103-1.png",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:09:04.487Z"
     },
     {
       "category": "cat09",
@@ -576,7 +1068,18 @@
       "en": "Uramaki Salmon And Avocado (4 pcs)",
       "image": "assets/dishes/S62.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6104-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6104-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:09:17.887Z"
     },
     {
       "category": "cat09",
@@ -585,7 +1088,14 @@
       "en": "Uramaki Strawberry (4 pcs)",
       "image": "assets/dishes/S63.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6105-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6105-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:09:28.046Z"
     },
     {
       "category": "cat09",
@@ -594,7 +1104,18 @@
       "en": "Uramaki Salmon (4 pcs)",
       "image": "assets/dishes/S64.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6106-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6106-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:09:57.630Z"
     },
     {
       "category": "cat09",
@@ -603,7 +1124,19 @@
       "en": "Uramaki Seared Salmon (4 pcs)",
       "image": "assets/dishes/S65.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6107-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6107-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:10:25.970Z"
     },
     {
       "category": "cat09",
@@ -612,7 +1145,14 @@
       "en": "Uramaki Mango (4 pcs)",
       "image": "assets/dishes/S66.webp",
       "fallback_image": "assets/menu-uramaki.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6402-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6402-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:10:33.130Z"
     },
     {
       "category": "cat10",
@@ -621,7 +1161,17 @@
       "en": "Gunkan Salmon (2 pcs)",
       "image": "assets/dishes/S71.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6108-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6108-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:10:51.412Z"
     },
     {
       "category": "cat10",
@@ -630,7 +1180,14 @@
       "en": "Gunkan Seared (2 pcs)",
       "image": "assets/dishes/S72.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6109-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6109-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:10:57.413Z"
     },
     {
       "category": "cat10",
@@ -639,7 +1196,15 @@
       "en": "Gunkan Cucumber (2 pcs)",
       "image": "assets/dishes/S73.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6110-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6110-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:11:06.775Z"
     },
     {
       "category": "cat10",
@@ -648,7 +1213,19 @@
       "en": "Gunkan Yuba (2 pcs)",
       "image": "assets/dishes/S74.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6111-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6111-1.png",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "soy",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:11:21.136Z"
     },
     {
       "category": "cat10",
@@ -657,7 +1234,17 @@
       "en": "Gunkan Yuba Wakame (2 pcs)",
       "image": "assets/dishes/S74A.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": ""
+      "reference_image_url": "",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "soy",
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:11:42.854Z"
     },
     {
       "category": "cat10",
@@ -666,7 +1253,18 @@
       "en": "Gunkan Yuba Crab Sticks (2 pcs)",
       "image": "assets/dishes/S74B.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": ""
+      "reference_image_url": "",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "soy",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:12:52.210Z"
     },
     {
       "category": "cat10",
@@ -675,7 +1273,16 @@
       "en": "Gunkan-Maki Seared Salmon (2 pcs)",
       "image": "assets/dishes/S75.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6114-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6114-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:13:09.504Z"
     },
     {
       "category": "cat10",
@@ -684,7 +1291,16 @@
       "en": "Gunkan-Maki Tuna (2 pcs)",
       "image": "assets/dishes/S75A.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": ""
+      "reference_image_url": "",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:13:13.346Z"
     },
     {
       "category": "cat10",
@@ -693,7 +1309,14 @@
       "en": "Gunkan-Maki Wakame (2 pcs)",
       "image": "assets/dishes/S75B.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": ""
+      "reference_image_url": "",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:13:24.573Z"
     },
     {
       "category": "cat10",
@@ -702,7 +1325,16 @@
       "en": "Gunkan-Maki Fish Roe (2 pcs)",
       "image": "assets/dishes/S75C.webp",
       "fallback_image": "assets/menu-gunkan.jpeg",
-      "reference_image_url": ""
+      "reference_image_url": "",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:13:28.482Z"
     },
     {
       "category": "cat11",
@@ -711,7 +1343,17 @@
       "en": "Hot Hosomaki Fruit (4 pcs)",
       "image": "assets/dishes/S81.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6115-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6115-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:14:23.944Z"
     },
     {
       "category": "cat11",
@@ -720,7 +1362,18 @@
       "en": "Hot Uramaki Salmon (4 pcs)",
       "image": "assets/dishes/S82.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6116-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6116-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:14:35.356Z"
     },
     {
       "category": "cat11",
@@ -729,7 +1382,19 @@
       "en": "Hot Hosomaki Cream Cheese (4 pcs)",
       "image": "assets/dishes/S83.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6117-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6117-1.jpg",
+      "allergen_candidates": [
+        "milk"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:14:47.590Z"
     },
     {
       "category": "cat11",
@@ -738,7 +1403,15 @@
       "en": "Futomaki Fried (2 pcs)",
       "image": "assets/dishes/S84.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6118-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6118-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:15:03.911Z"
     },
     {
       "category": "cat11",
@@ -747,7 +1420,16 @@
       "en": "Rolo California Fried (4 pcs)",
       "image": "assets/dishes/S86.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6120-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6120-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:15:21.425Z"
     },
     {
       "category": "cat12",
@@ -756,7 +1438,17 @@
       "en": "Temaki Salmon",
       "image": "assets/dishes/S91.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6122-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6122-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:15:28.951Z"
     },
     {
       "category": "cat12",
@@ -765,7 +1457,17 @@
       "en": "Temaki Tuna",
       "image": "assets/dishes/S92.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6231-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6231-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:15:37.941Z"
     },
     {
       "category": "cat12",
@@ -774,7 +1476,17 @@
       "en": "Temaki Ebi",
       "image": "assets/dishes/S93.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6124-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6124-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:15:44.705Z"
     },
     {
       "category": "cat12",
@@ -783,7 +1495,18 @@
       "en": "Temaki Tempura",
       "image": "assets/dishes/S94.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6125-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6125-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:15:51.572Z"
     },
     {
       "category": "cat12",
@@ -792,7 +1515,14 @@
       "en": "Temaki Vegetable",
       "image": "assets/dishes/S95.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6230-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6230-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:15:56.914Z"
     },
     {
       "category": "cat13",
@@ -801,7 +1531,17 @@
       "en": "Carpaccio Salmon",
       "image": "assets/dishes/S101.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6412-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6412-1.png",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "soy"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:16:17.334Z"
     },
     {
       "category": "cat13",
@@ -810,7 +1550,15 @@
       "en": "Carpaccio Mix",
       "image": "assets/dishes/S102.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6413-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6413-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish",
+        "soy"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:16:28.613Z"
     },
     {
       "category": "cat14",
@@ -819,7 +1567,18 @@
       "en": "Taco Salmon",
       "image": "assets/dishes/S121.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6416-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6416-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:17:47.410Z"
     },
     {
       "category": "cat14",
@@ -828,7 +1587,18 @@
       "en": "Taco Tuna",
       "image": "assets/dishes/S122.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6417-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6417-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:17:43.301Z"
     },
     {
       "category": "cat14",
@@ -837,7 +1607,18 @@
       "en": "Taco Prawns",
       "image": "assets/dishes/S123.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6418-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6418-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:17:38.590Z"
     },
     {
       "category": "cat14",
@@ -846,7 +1627,18 @@
       "en": "Pani Puri Ball",
       "image": "assets/dishes/S131.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6421-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6421-1.png",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "fish",
+        "milk"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:17:34.939Z"
     },
     {
       "category": "cat15",
@@ -855,7 +1647,12 @@
       "en": "Mushrooms",
       "image": "assets/dishes/T01.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6126-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6126-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:19:51.097Z"
     },
     {
       "category": "cat15",
@@ -864,7 +1661,16 @@
       "en": "Shrimp",
       "image": "assets/dishes/T02.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6127-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6127-1.png",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:46.106Z"
     },
     {
       "category": "cat15",
@@ -873,7 +1679,16 @@
       "en": "King Prawns",
       "image": "assets/dishes/T03.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6128-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6128-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:41.187Z"
     },
     {
       "category": "cat15",
@@ -882,7 +1697,16 @@
       "en": "Clams",
       "image": "assets/dishes/T04.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6129-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6129-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:36.677Z"
     },
     {
       "category": "cat15",
@@ -891,7 +1715,16 @@
       "en": "Mussels",
       "image": "assets/dishes/T05.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6130-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6130-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:32.102Z"
     },
     {
       "category": "cat15",
@@ -900,7 +1733,12 @@
       "en": "Chicken",
       "image": "assets/dishes/T06.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6131-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6131-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:10.857Z"
     },
     {
       "category": "cat15",
@@ -909,7 +1747,16 @@
       "en": "Squid",
       "image": "assets/dishes/T07.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6132-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6132-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:24.697Z"
     },
     {
       "category": "cat15",
@@ -918,7 +1765,16 @@
       "en": "Grilled Salmon",
       "image": "assets/dishes/T08.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6133-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6133-1.jpg",
+      "allergen_candidates": [
+        "fish"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "fish"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:19:59.662Z"
     },
     {
       "category": "cat15",
@@ -927,7 +1783,12 @@
       "en": "Zucchini and Onion",
       "image": "assets/dishes/T09.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6134-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6134-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:20:05.071Z"
     },
     {
       "category": "cat15",
@@ -936,7 +1797,12 @@
       "en": "Pork",
       "image": "assets/dishes/T10.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6135-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6135-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:20:10.097Z"
     },
     {
       "category": "cat15",
@@ -945,7 +1811,12 @@
       "en": "Beef",
       "image": "assets/dishes/T11.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6136-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6136-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:20:12.500Z"
     },
     {
       "category": "cat16",
@@ -954,7 +1825,14 @@
       "en": "Skewer Of Mushroom (2 pcs)",
       "image": "assets/dishes/T31.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6145-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6145-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:20:21.441Z"
     },
     {
       "category": "cat16",
@@ -963,7 +1841,14 @@
       "en": "Skewer Of Pork (2 pcs)",
       "image": "assets/dishes/T32.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6146-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6146-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:20:29.053Z"
     },
     {
       "category": "cat16",
@@ -972,7 +1857,15 @@
       "en": "Skewer Of Spicy Chicken (2 pcs)",
       "image": "assets/dishes/T33.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6148-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6148-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:20:36.470Z",
+      "spicy_level": "mild"
     },
     {
       "category": "cat16",
@@ -981,7 +1874,17 @@
       "en": "Skewer Of Shrimp (2 pcs)",
       "image": "assets/dishes/T34.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6149-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6149-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:20:43.638Z"
     },
     {
       "category": "cat01",
@@ -990,7 +1893,16 @@
       "en": "Stir-Fried Prawns",
       "image": "assets/dishes/C01.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6137-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6137-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:37:31.104Z"
     },
     {
       "category": "cat01",
@@ -999,7 +1911,16 @@
       "en": "Salt and Pepper Shrimp",
       "image": "assets/dishes/C02.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6138-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6138-1.jpg",
+      "allergen_candidates": [
+        "crustaceans"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:37:33.607Z"
     },
     {
       "category": "cat01",
@@ -1008,7 +1929,12 @@
       "en": "Stir-Fried Vegetables",
       "image": "assets/dishes/C03.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6139-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6139-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:37:42.596Z"
     },
     {
       "category": "cat01",
@@ -1017,7 +1943,15 @@
       "en": "Spicy Stir-Fried Beef",
       "image": "assets/dishes/C04.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6140-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6140-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:37:48.673Z",
+      "spicy_level": "spicy"
     },
     {
       "category": "cat01",
@@ -1026,7 +1960,18 @@
       "en": "Teriyaki Chicken",
       "image": "assets/dishes/C05.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6141-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6141-1.jpg",
+      "allergen_candidates": [
+        "soy"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "soy",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:38:01.578Z"
     },
     {
       "category": "cat01",
@@ -1035,7 +1980,17 @@
       "en": "Scallops (2 pcs)",
       "image": "assets/dishes/C07.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6143-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6143-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "soy",
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:38:24.858Z"
     },
     {
       "category": "cat01",
@@ -1044,7 +1999,15 @@
       "en": "Sweet and Sour Pork",
       "image": "assets/dishes/C08.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6157-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6157-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:38:33.033Z"
     },
     {
       "category": "cat04",
@@ -1053,7 +2016,20 @@
       "en": "Almond-Crusted Shrimp Tempura (3 pcs)",
       "image": "assets/dishes/F01.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6052-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6052-1.jpg",
+      "allergen_candidates": [
+        "crustaceans",
+        "nuts",
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans",
+        "nuts"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:38:44.532Z"
     },
     {
       "category": "cat04",
@@ -1062,7 +2038,18 @@
       "en": "Shrimp Tempura (3 pcs)",
       "image": "assets/dishes/F02.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6053-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6053-1.jpg",
+      "allergen_candidates": [
+        "crustaceans",
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:38:48.149Z"
     },
     {
       "category": "cat04",
@@ -1071,7 +2058,18 @@
       "en": "Breaded Prawns (3 pcs)",
       "image": "assets/dishes/F04.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6056-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6056-1.jpg",
+      "allergen_candidates": [
+        "crustaceans",
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:39:00.610Z"
     },
     {
       "category": "cat04",
@@ -1080,7 +2078,18 @@
       "en": "Fried Squid (4 pcs)",
       "image": "assets/dishes/F05.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6059-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6059-1.jpg",
+      "allergen_candidates": [
+        "molluscs"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "eggs",
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:48:32.134Z"
     },
     {
       "category": "cat04",
@@ -1089,7 +2098,17 @@
       "en": "Almond-Crusted Fried Chicken",
       "image": "assets/dishes/F06.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6060-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6060-1.jpg",
+      "allergen_candidates": [
+        "nuts"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "nuts"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:39:22.139Z"
     },
     {
       "category": "cat04",
@@ -1098,7 +2117,16 @@
       "en": "Breaded Pork",
       "image": "assets/dishes/F07.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6144-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6144-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:48:48.702Z"
     },
     {
       "category": "cat04",
@@ -1107,7 +2135,17 @@
       "en": "Pumpkin Pastries (2 pcs)",
       "image": "assets/dishes/F08.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6147-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6147-1.png",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:48:55.410Z"
     },
     {
       "category": "cat04",
@@ -1116,7 +2154,16 @@
       "en": "Vegetable Spring Rolls (2 pcs)",
       "image": "assets/dishes/F09.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6150-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6150-1.png",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:49:00.302Z"
     },
     {
       "category": "cat04",
@@ -1125,7 +2172,17 @@
       "en": "Takoyaki (3 pcs)",
       "image": "assets/dishes/F10.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6151-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6151-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "molluscs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:49:09.255Z"
     },
     {
       "category": "cat04",
@@ -1134,7 +2191,18 @@
       "en": "Shrimp Spring Rolls (2 pcs)",
       "image": "assets/dishes/F11.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6152-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6152-1.png",
+      "allergen_candidates": [
+        "crustaceans",
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:49:12.633Z"
     },
     {
       "category": "cat04",
@@ -1143,7 +2211,17 @@
       "en": "Sesame Balls (3 pcs)",
       "image": "assets/dishes/F12.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6153-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6153-1.jpg",
+      "allergen_candidates": [
+        "sesame"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "sesame"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:49:22.838Z"
     },
     {
       "category": "cat04",
@@ -1152,7 +2230,12 @@
       "en": "Sausage Skewer",
       "image": "assets/dishes/F14.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6155-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6155-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:49:47.668Z"
     },
     {
       "category": "cat04",
@@ -1161,7 +2244,12 @@
       "en": "French Fries",
       "image": "assets/dishes/F15.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6156-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6156-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:49:50.748Z"
     },
     {
       "category": "cat04",
@@ -1170,7 +2258,16 @@
       "en": "Hoisin Duck",
       "image": "assets/dishes/F16.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6158-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6158-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:49:56.082Z"
     },
     {
       "category": "cat02",
@@ -1179,7 +2276,18 @@
       "en": "Sweet Egg Custard Buns (2 pcs)",
       "image": "assets/dishes/E11.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6033-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6033-1.jpg",
+      "allergen_candidates": [
+        "eggs",
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "eggs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:50:02.484Z"
     },
     {
       "category": "cat02",
@@ -1188,7 +2296,16 @@
       "en": "Steamed Mantou Buns (2 pcs)",
       "image": "assets/dishes/E12.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6034-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6034-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": true,
+      "allergen_reviewed_at": "2026-11-14T18:50:08.044Z"
     },
     {
       "category": "cat02",
@@ -1197,7 +2314,17 @@
       "en": "Crystal Dumplings",
       "image": "assets/dishes/E21.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6057-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6057-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:50:21.220Z"
     },
     {
       "category": "cat02",
@@ -1206,7 +2333,17 @@
       "en": "Shumai Dumplings (2 pcs)",
       "image": "assets/dishes/E22.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6058-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6058-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "crustaceans"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:50:29.867Z"
     },
     {
       "category": "cat02",
@@ -1215,7 +2352,16 @@
       "en": "Gyoza Dumplings (3 pcs)",
       "image": "assets/dishes/C51.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6051-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6051-1.jpg",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:50:41.395Z"
     },
     {
       "category": "cat02",
@@ -1224,7 +2370,14 @@
       "en": "Steamed White Rice",
       "image": "assets/dishes/C52.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6159-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6159-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "sesame"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:50:48.801Z"
     },
     {
       "category": "cat02",
@@ -1233,7 +2386,14 @@
       "en": "Stir-Fried Thin Rice Noodles",
       "image": "assets/dishes/C53.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6160-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6160-1.png",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "eggs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:50:59.040Z"
     },
     {
       "category": "cat02",
@@ -1242,7 +2402,14 @@
       "en": "Japanese Fried Rice",
       "image": "assets/dishes/C54.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6161-1.jpg"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6161-1.jpg",
+      "allergen_candidates": [],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "eggs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:51:02.844Z"
     },
     {
       "category": "cat02",
@@ -1251,7 +2418,17 @@
       "en": "Yakisoba Stir-Fried Noodles",
       "image": "assets/dishes/C55.webp",
       "fallback_image": "assets/menu-tasting.jpeg",
-      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6162-1.png"
+      "reference_image_url": "https://pos-en-node.oss-us-east-1.aliyuncs.com/{B3160416-D50A-11EF-9745-CC28AA44B9FC}/6162-1.png",
+      "allergen_candidates": [
+        "gluten"
+      ],
+      "allergen_review_status": "confirmed",
+      "allergens": [
+        "gluten",
+        "eggs"
+      ],
+      "vegetarian": false,
+      "allergen_reviewed_at": "2026-11-14T18:51:10.279Z"
     }
   ],
   "phone": "+351 965 777 779",
