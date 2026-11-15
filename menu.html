@@ -105,17 +105,31 @@ body{
 .umiTextAllergen{width:auto!important;max-width:none!important;min-width:26px!important;min-height:26px!important;padding:3px 5px!important;font:600 10px/1.15 'DM Sans',sans-serif!important}
 .umiCodeAllergens .umiTextAllergen{width:auto!important}
 @media(max-width:620px){.umiAllergenLegend .umiAllergenIcon{width:50px;height:50px;padding:8px}.umiAllergenLegend{gap:9px}.umiCodeAllergens .umiAllergenIcon,.umiCodeAllergens .umiVegetarianBadge,.umiCodeAllergens .umiSpicyBadge{width:24px!important;min-width:24px!important;height:24px!important;min-height:24px!important}}
+
+/* V3 legend: 4 custom labels + 14 EU allergens with persistent bilingual captions */
+html,body{max-width:100%;overflow-x:clip}
+.menuIntro,.menuContainer,.menuTools,.menuCards{box-sizing:border-box;min-width:0}
+.umiAllergenGuide{width:min(100%,1020px);max-width:1020px}
+.umiAllergenGuideContent{background:#12110f!important;border:1px solid #b68a54!important;border-radius:14px;padding:clamp(12px,2vw,24px);color:#f2e5d0;text-align:center}
+.umiAllergenGuideContent>p{color:#e5d4bb!important;font-size:13px!important;line-height:1.7!important;opacity:1!important;max-width:850px;margin:0 auto 20px!important}
+.umiAllergenLegend{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr));align-items:start;justify-items:center;gap:22px 8px!important}
+.umiGuideItem{display:flex;flex-direction:column;align-items:center;gap:5px;min-width:0;width:100%;text-align:center}
+.umiGuideFrame{width:64px;height:64px;padding:10px;box-sizing:border-box;border:1.5px solid #e0ad65;border-radius:14px;background:#15110e;display:flex;align-items:center;justify-content:center}
+.umiGuideFrame img{width:100%;height:100%;object-fit:contain;display:block}
+.umiGuidePt{color:#f4e4cb;font:600 12px/1.3 'DM Sans',sans-serif;overflow-wrap:anywhere}
+.umiGuideEn{color:#cfb892;font:italic 11px/1.3 'DM Sans',sans-serif;overflow-wrap:anywhere}
+@media(max-width:650px){.umiAllergenLegend{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 6px!important}.umiGuideFrame{width:55px;height:55px;padding:9px}.umiGuidePt{font-size:11px}.umiGuideEn{font-size:10px}.umiAllergenGuideContent{padding:12px}.menuIntro{padding-left:10px;padding-right:10px}}
 </style></head><body><header class="menuPageHeader"><a href="index.html#home" aria-label="UMI SUSHI"><img src="assets/umi-logo-original.png" alt="UMI SUSHI"></a><a class="back" href="index.html#home" id="back">← Voltar ao início</a><button id="language" type="button">EN</button></header><div class="menuIntro"><span class="eyebrow">UMI SUSHI · PENICHE</span><h1 id="heading">O NOSSO MENU</h1><p id="subheading">Explore os nossos pratos · Sem preços individuais</p><details class="umiAllergenGuide" id="allergenGuide"><summary id="allergenGuideTitle">ⓘ Guia de alergénios / Allergen guide</summary><div class="umiAllergenGuideContent"><p id="allergenGuideNotice">Toque nos símbolos para ver os nomes em português e inglês. As informações de cada prato estão a ser verificadas com a cozinha. Para alergias, confirme sempre com a equipa antes de encomendar.</p><div class="umiAllergenLegend" id="allergenLegend"></div></div></details></div><main class="menuContainer"><div class="menuTools"><input id="search" type="search" placeholder="Pesquisar pratos ou códigos..." aria-label="Pesquisar pratos"><div class="menuCategories" id="categories"></div></div><div class="menuCards" id="cards"></div></main><footer class="menuFooter">© UMI SUSHI PENICHE · <a href="index.html#booking">RESERVAS</a></footer><script>
 (()=>{'use strict';const $=id=>document.getElementById(id);let lang=localStorage.getItem('umi-lang')==='en'?'en':'pt',data={dishes:[],categories:[]},cat='all',syncing=false;const navOffset=()=>($('categories').getBoundingClientRect().bottom||140)+18;const ALLERGENS={
- gluten:{pt:'Cereais que contêm glúten',en:'Cereals containing gluten',icon:'🌾'},
+ gluten:{pt:'Cereais que contêm glúten',en:'Cereals containing gluten',icon:'assets/icons/gluten.svg'},
  crustaceans:{pt:'Crustáceos',en:'Crustaceans',icon:'assets/icons/crustaceans.svg'},
  eggs:{pt:'Ovos',en:'Eggs',icon:'assets/icons/egg.svg'},
  fish:{pt:'Peixe',en:'Fish',icon:'assets/icons/fish.svg'},
- peanuts:{pt:'Amendoins',en:'Peanuts',icon:'assets/icons/peanuts.svg'},
+ peanuts:{pt:'Amendoins',en:'Peanuts',icon:'assets/icons/nuts.svg'},
  soy:{pt:'Soja',en:'Soybeans',icon:'assets/icons/soy.svg'},
  milk:{pt:'Leite',en:'Milk',icon:'assets/icons/milk.svg'},
  nuts:{pt:'Frutos de casca rija',en:'Tree nuts',icon:'🌰'},
- celery:{pt:'Aipo',en:'Celery',icon:'🥬'},
+ celery:{pt:'Aipo',en:'Celery',icon:'assets/icons/celery.svg'},
  mustard:{pt:'Mostarda',en:'Mustard',icon:'assets/icons/mustard.svg'},
  sesame:{pt:'Sementes de sésamo',en:'Sesame seeds',icon:'assets/icons/sesame.svg'},
  sulphites:{pt:'Dióxido de enxofre e sulfitos',en:'Sulphur dioxide and sulphites',icon:'assets/icons/sulphites.svg'},
@@ -153,16 +167,17 @@ document.addEventListener('keydown',e=>{
 });
 function renderAllergenLegend(){
  const list=$('allergenLegend');if(!list)return;list.replaceChildren();
- const addGuideMark=(file,pt,en)=>{const wrap=document.createElement('span');wrap.className='umiAllergenItem umiGuideTag';const btn=document.createElement('button');btn.type='button';btn.className='umiAllergenIcon';btn.setAttribute('aria-label',bilingualLabel(pt,en));btn.setAttribute('aria-expanded','false');const img=document.createElement('img');img.src='assets/icons/'+file+'.svg';img.alt='';img.className='umiGoldIconImage';btn.append(img);const name=document.createElement('span');name.className='umiAllergenName';name.hidden=true;name.textContent=bilingualLabel(pt,en);btn.onclick=()=>{name.hidden=!name.hidden;btn.setAttribute('aria-expanded',String(!name.hidden))};wrap.append(btn,name);list.append(wrap)};
- addGuideMark('vegetarian','Vegetariano','Vegetarian');
- addGuideMark('mild','Picante Suave','Mild Spicy');
- addGuideMark('spicy','Picante','Spicy');
- addGuideMark('extra_spicy','Muito Picante','Extra Spicy');
- for(const key of ['soy','fish','crustaceans','eggs','milk','peanuts','sesame','mustard','molluscs','sulphites','lupin'])list.append(makeAllergenIcon(key));
- $('allergenGuideTitle').textContent=lang==='pt'?'ⓘ Guia de alergénios':'ⓘ Allergen guide';
- $('allergenGuideNotice').textContent=lang==='pt'
- ?'Toque nos símbolos para ver os nomes em português e inglês. Os alergénios apresentados foram revistos pela equipa. Em caso de alergias, consulte sempre a equipa sobre ingredientes e contacto cruzado.'
- :'Tap the symbols to see their Portuguese and English names. Displayed allergens have been reviewed by the team. If you have allergies, always ask staff about ingredients and cross-contact.';
+ const items=[
+ ['vegetarian','Vegetariano','Vegetarian'],['mild','Picante Suave','Mild Spicy'],['spicy','Picante','Spicy'],['extra_spicy','Muito Picante','Extra Spicy'],
+ ['soy','Soja','Soybeans'],['fish','Peixe','Fish'],['crustaceans','Crustáceos','Crustaceans'],['egg','Ovo','Egg'],
+ ['milk','Leite','Milk'],['peanuts','Amendoins','Peanuts'],['sesame','Sésamo','Sesame'],['mustard','Mostarda','Mustard'],
+ ['molluscs','Moluscos','Molluscs'],['sulphites','Sulfitos','Sulphites'],['lupin','Tremoço','Lupin'],
+ ['gluten','Cereais com glúten','Cereals containing gluten'],['nuts','Frutos de casca rija','Tree nuts'],['celery','Aipo','Celery']];
+ for(const [file,pt,en] of items){const item=document.createElement('div');item.className='umiGuideItem';
+ const frame=document.createElement('div');frame.className='umiGuideFrame';const img=document.createElement('img');img.src='assets/icons/'+file+'.svg';img.alt='';img.setAttribute('aria-hidden','true');frame.append(img);
+ const p=document.createElement('strong');p.className='umiGuidePt';p.textContent=pt;const e=document.createElement('em');e.className='umiGuideEn';e.textContent=en;item.append(frame,p,e);list.append(item)}
+ $('allergenGuideTitle').textContent=lang==='pt'?'ⓘ Guia de ícones e alergénios':'ⓘ Icon and allergen guide';
+ $('allergenGuideNotice').textContent=lang==='pt'?'4 etiquetas informativas e 14 alergénios. Em caso de alergias, consulte a equipa sobre ingredientes e contacto cruzado.':'4 informational tags and 14 allergens. If you have allergies, ask the team about ingredients and cross-contact.';
 }
 function getLocalReview(d){
  // Published, confirmed dish data always takes precedence over old browser previews.
