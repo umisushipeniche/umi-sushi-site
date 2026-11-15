@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f1cf93" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 26C20 16 33 14 48 19 35 19 22 23 10 26Z" fill="#f5d49a" stroke-width="1"/><path d="M23 29c12-9 24-4 25 7 1 8-8 15-18 11l-6-8 8-7" fill="#edc68b" stroke-width="1.2"/><path d="M35 25c5 6 8 12 6 20M27 28c6 5 9 12 8 17" stroke="#352417" stroke-width="2"/><path d="M44 28 57 17m-10 15 13-6M47 38l12 4M28 42l-5 11M35 46v10" stroke-width="2"/><circle cx="15" cy="25" r="1.7" fill="#28190e" stroke="none"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f3cf92" stroke-linecap="round" stroke-linejoin="round">
+<!-- Curved prawn, curled tail, segmented body, feelers and legs -->
+<path d="M15 22C22 12 36 11 46 19C55 26 54 41 44 47C36 53 26 50 23 43C20 36 24 30 30 29C37 27 43 33 41 39" fill="#edc58b" stroke-width="2.2"/>
+<path d="M15 22C19 18 24 16 29 16L25 24C21 25 18 25 15 22Z" fill="#f8dba5" stroke-width="1.4"/>
+<path d="M29 16C33 16 37 17 40 20L34 29L25 24Z" fill="#e4b477" stroke-width="1.2"/>
+<path d="M40 20C45 23 48 28 48 32L38 34L34 29Z" fill="#f7d59a" stroke-width="1.2"/>
+<path d="M48 32C48 39 44 43 40 45L34 38L38 34Z" fill="#e5b576" stroke-width="1.2"/>
+<path d="M40 45C34 48 28 45 26 41L34 38Z" fill="#f4d098" stroke-width="1.2"/>
+<path d="M26 41L19 45L22 37L15 39L19 32L26 34" fill="#e7b779" stroke-width="1.4"/>
+<path d="M16 22C10 19 7 15 5 12M15 22C10 23 6 24 3 28M13 20C9 14 9 10 10 7" stroke-width="1.6"/>
+<path d="M34 47L31 55M39 47L40 56M44 44L50 51M48 39L57 43M49 32L58 33" stroke-width="1.7"/>
+<circle cx="18.5" cy="20.5" r="1.7" fill="#21150b" stroke="none"/>
+</svg>
