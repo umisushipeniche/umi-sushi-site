@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f1cf93" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 13c8-5 18 0 17 10 10 2 12 13 5 19-6 6-12 3-15 0-9 8-21 2-18-9-6-8 1-17 11-20Z" fill="#ebc17b" stroke-width="1.5"/><path d="M17 29c8-2 11 2 13 8m-6-20c8 4 9 9 5 15m11-4c-8 4-12 8-11 14m-13-6 6-5" stroke="#654422" stroke-width="2.5"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f2ce92" stroke-linecap="round" stroke-linejoin="round">
+<!-- Clear double-lobed peanut shell, narrow middle and crisscrossed surface -->
+<path d="M22 8C12 8 7 18 11 27C13 32 18 34 20 34C14 40 16 49 22 54C28 59 38 56 43 49C48 43 45 36 41 32C47 26 47 18 40 12C35 7 28 7 22 8Z" fill="#ecc285" stroke-width="2.6"/>
+<path d="M13 19L29 10M12 28L39 13M19 35L44 23M20 48L43 34M28 55L44 44" stroke="#a47240" stroke-width="2"/>
+<path d="M19 10L43 31M12 19L43 46M13 29L35 55M25 9L46 25" stroke="#a47240" stroke-width="2"/>
+<path d="M19 33C25 29 34 29 41 32" stroke="#f8dfb6" stroke-width="2.5"/>
+<path d="M19 33C24 37 33 38 40 34" stroke="#7d502c" stroke-width="1.5"/>
+</svg>
