@@ -67,6 +67,14 @@ body{
 .umiCodeAllergens .umiSoyIcon{min-width:23px;font-size:10px;letter-spacing:-.02em}
 .umiCodeAllergens .umiAllergenName:not([hidden]){position:absolute;top:calc(100% + 5px);left:0;z-index:12;min-width:110px;width:max-content;max-width:min(240px,70vw);background:#241d16;box-shadow:0 6px 16px #000a}
 .umiDishLabels{margin-top:9px;gap:5px}
+/* Clickable small dietary/spice symbols expose their names on touch and keyboard. */
+.umiCodeAllergens .umiInfoBadgeItem{position:relative}
+.umiCodeAllergens .umiInfoBadgeItem .umiVegetarianBadge,
+.umiCodeAllergens .umiInfoBadgeItem .umiSpicyBadge{appearance:none;-webkit-appearance:none;cursor:pointer}
+.umiCodeAllergens .umiInfoBadgeItem .umiVegetarianBadge:focus-visible,
+.umiCodeAllergens .umiInfoBadgeItem .umiSpicyBadge:focus-visible{outline:2px solid #fff1c7;outline-offset:2px}
+.umiCodeAllergens .umiInfoBadgeItem .umiVegetarianBadge[aria-expanded="true"],
+.umiCodeAllergens .umiInfoBadgeItem .umiSpicyBadge[aria-expanded="true"]{filter:brightness(1.2)}
 /* All dish markers share the code row; V is deliberately distinct from lupin 🌱. */
 .umiCodeAllergens .umiVegetarianBadge,.umiCodeAllergens .umiSpicyBadge{
  display:inline-flex;align-items:center;justify-content:center;
@@ -134,8 +142,17 @@ function renderDishAllergens(d){
  const spiceLevel=['mild','spicy','extra_spicy'].includes(d.spicy_level)?d.spicy_level:null;
  const labels={mild:{pt:'PICANTE SUAVE',en:'MILD',icon:'🌶'},spicy:{pt:'PICANTE',en:'SPICY',icon:'🌶🌶'},extra_spicy:{pt:'MUITO PICANTE',en:'EXTRA SPICY',icon:'🌶🌶🌶'}};
  const spice=spiceLevel&&labels[spiceLevel];
- if(vegetarian){const badge=document.createElement('span');badge.className='umiVegetarianBadge';badge.textContent='V';badge.setAttribute('aria-label','Vegetariano / Vegetarian');badge.title='Vegetariano / Vegetarian — ingredientes confirmados pela equipa / ingredients reviewed by staff';row.append(badge)}
- if(spice){const badge=document.createElement('span');badge.className='umiSpicyBadge';badge.textContent=spice.icon;badge.setAttribute('aria-label',spice.pt+' / '+spice.en);badge.title=spice.pt+' / '+spice.en;row.append(badge)}
+ // Dietary and spice labels are clickable just like allergen icons, including on iPhone.
+ function addInfoBadge(className,symbol,label){
+   const wrap=document.createElement('span');wrap.className='umiAllergenItem umiInfoBadgeItem';
+   const badge=document.createElement('button');badge.type='button';badge.className=className;
+   badge.textContent=symbol;badge.setAttribute('aria-label',label);badge.setAttribute('aria-expanded','false');
+   const note=document.createElement('span');note.className='umiAllergenName';note.hidden=true;note.textContent=label;
+   badge.addEventListener('click',()=>{note.hidden=!note.hidden;badge.setAttribute('aria-expanded',String(!note.hidden))});
+   wrap.append(badge,note);row.append(wrap);
+ }
+ if(vegetarian)addInfoBadge('umiVegetarianBadge','V','Vegetariano / Vegetarian');
+ if(spice)addInfoBadge('umiSpicyBadge',spice.icon,spice.pt+' / '+spice.en);
  if(reviewed&&keys.length){for(const k of keys)row.append(makeAllergenIcon(k))}
  else if(!reviewed){
    const item=document.createElement('span');item.className='umiAllergenItem';
