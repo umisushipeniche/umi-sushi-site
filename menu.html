@@ -199,11 +199,11 @@ document.addEventListener('keydown',e=>{
 function renderAllergenLegend(){
  const list=$('allergenLegend');if(!list)return;list.replaceChildren();
  const items=[
- ['vegetarian','Vegetariano','Vegetarian'],['mild','Picante Suave','Mild Spicy'],['spicy','Picante','Spicy'],['extra_spicy','Muito Picante','Extra Spicy'],
  ['soy','Soja','Soybeans'],['fish','Peixe','Fish'],['crustaceans','Crustáceos','Crustaceans'],['egg','Ovo','Egg'],
  ['milk','Leite','Milk'],['peanuts','Amendoins','Peanuts'],['sesame','Sésamo','Sesame'],['mustard','Mostarda','Mustard'],
  ['molluscs','Moluscos','Molluscs'],['sulphites','Sulfitos','Sulphites'],['lupin','Tremoço','Lupin'],
- ['gluten','Cereais com glúten','Cereals containing gluten'],['nuts','Frutos de casca rija','Tree nuts'],['celery','Aipo','Celery']];
+ ['gluten','Cereais com glúten','Cereals containing gluten'],['nuts','Frutos de casca rija','Tree nuts'],['celery','Aipo','Celery'],
+ ['vegetarian','Vegetariano','Vegetarian'],['mild','Picante Suave','Mild Spicy'],['spicy','Picante','Spicy'],['extra_spicy','Muito Picante','Extra Spicy']];
  for(const [file,pt,en] of items){
   const item=document.createElement('span');item.className='umiAllergenItem umiMiniGuideItem';
   const button=document.createElement('button');button.type='button';button.className='umiAllergenIcon umiMiniGuideButton';
