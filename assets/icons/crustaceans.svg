@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-<!-- Reference: horizontal prawn pointing left, segmented curved body and curled tail -->
-<path d="M7 27C18 17 35 15 47 22C57 28 57 43 46 49C38 53 30 50 30 44C30 39 34 36 39 37C42 38 43 41 41 43" fill="#F2D099" stroke="#E9BF80" stroke-width="1.4" stroke-linejoin="round"/>
-<path d="M8 27C17 24 26 23 34 24C25 27 16 28 8 27Z" fill="#F9DEA9"/>
-<path d="M10 21C23 14 39 13 48 16" stroke="#F2CC8D" stroke-width="2" stroke-linecap="round"/>
-<path d="M13 18C25 12 37 11 44 12" stroke="#E7B97B" stroke-width="1.7" stroke-linecap="round"/>
-<circle cx="17" cy="25" r="2" fill="#17120B"/>
-<path d="M32 20L31 34M39 21L38 36M46 24L44 39M51 29L48 40" stroke="#3A2618" stroke-width="2.5" stroke-linecap="round"/>
-<path d="M30 34L25 40L27 46M35 35L31 41L34 46M40 36L38 42L41 47" stroke="#E7B979" stroke-width="2" stroke-linecap="round"/>
-<path d="M42 47C47 47 49 43 49 40L54 43L49 51L40 53L42 47Z" fill="#E7B979"/>
-<path d="M11 29L5 33M13 30L7 36" stroke="#DDB06E" stroke-width="1.4"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round"><g stroke="#F2D19B"><path d="M12 25 C22 17 36 17 44 24 C51 30 49 39 43 44 C36 50 29 47 29 41" fill="#E9BE7E" stroke-width="2"/><path d="M12 25 L5 22 L8 28 L14 29 Z" fill="#F3D5A2" stroke-width="1.2"/><path d="M13 23 Q25 18 35 20 Q28 22 17 27 Z" fill="#F6D8A5"/><path d="M13 22 Q8 13 4 12 M14 22 Q7 19 2 20 M14 24 Q5 28 2 33" stroke-width="1.4"/><path d="M22 20 Q28 26 25 34 L30 39 L37 36 Q39 28 33 21Z" fill="#F0C88D"/><path d="M33 21 Q41 21 44 25 L40 35 L37 36 Q39 28 33 21Z" fill="#E0AD6E"/><path d="M44 25 Q49 30 47 35 L40 40 L40 35Z" fill="#F4D39E"/><path d="M47 35 Q46 42 40 45 L35 41 L40 40Z" fill="#DBA765"/><path d="M40 45 Q34 48 30 43 L33 39 L35 41Z" fill="#EDC282"/><path d="M31 44 L24 50 L27 43 L20 46 L25 39" fill="#F0CA90"/><path d="M25 34 L21 41 M30 38 L27 46 M37 40 L36 49 M43 42 L44 49" stroke-width="1.8"/><path d="M23 22 L21 32 M31 22 L30 35 M39 25 L38 36" stroke="#664021" stroke-width="1.8"/><circle cx="15.4" cy="24" r="1.5" fill="#21160e" stroke="none"/><path d="M29 41 C31 54 42 54 48 46" stroke-width="1.4"/></g></svg>
