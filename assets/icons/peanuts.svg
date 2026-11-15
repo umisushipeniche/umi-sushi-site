@@ -1,8 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f2ce92" stroke-linecap="round" stroke-linejoin="round">
-<!-- Clear double-lobed peanut shell, narrow middle and crisscrossed surface -->
-<path d="M22 8C12 8 7 18 11 27C13 32 18 34 20 34C14 40 16 49 22 54C28 59 38 56 43 49C48 43 45 36 41 32C47 26 47 18 40 12C35 7 28 7 22 8Z" fill="#ecc285" stroke-width="2.6"/>
-<path d="M13 19L29 10M12 28L39 13M19 35L44 23M20 48L43 34M28 55L44 44" stroke="#a47240" stroke-width="2"/>
-<path d="M19 10L43 31M12 19L43 46M13 29L35 55M25 9L46 25" stroke="#a47240" stroke-width="2"/>
-<path d="M19 33C25 29 34 29 41 32" stroke="#f8dfb6" stroke-width="2.5"/>
-<path d="M19 33C24 37 33 38 40 34" stroke="#7d502c" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#F0C98B" stroke-linecap="round" stroke-linejoin="round">
+<!-- Reference: slim diagonal double peanut-shell, two clearly joined ovals -->
+<g transform="rotate(43 32 32)">
+<path d="M32 7C23 7 18 12 18 22C18 28 21 31 24 33C20 37 18 42 20 49C22 56 27 58 32 58C40 58 45 52 45 44C45 39 42 35 39 32C43 28 46 24 45 19C45 11 40 7 32 7Z" stroke-width="4.1"/>
+<path d="M23 17C27 10 36 9 41 18M23 45C23 54 37 57 41 46" stroke-width="2.5"/>
+<path d="M32 12V28M25 18L37 27M39 17L27 28M23 43L37 52M40 40L27 53M32 38V53" stroke-width="2.4"/>
+<path d="M24 33C28 30 35 30 40 33" stroke-width="3.3"/>
+</g>
 </svg>
