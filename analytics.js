@@ -13,7 +13,7 @@
     ['#facebookLink','facebook'],
     ['#galleryPrev','gallery_previous'],
     ['#galleryNext','gallery_next'],
-    ['a[href="menu.html"]','full_menu'],
+    ['a[href="/menu"]','full_menu'],
     ['a[href="#booking"]','booking_section'],
     ['a[href="#menu"]','menu_section'],
     ['a[data-t="navContact"]','contact_dialog']
