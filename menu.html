@@ -109,11 +109,12 @@ body{
  lupin:{pt:'Tremoço',en:'Lupin',icon:'🌱'},
  molluscs:{pt:'Moluscos',en:'Molluscs',icon:'🐚'}
 };
+function bilingualLabel(pt,en){return lang==='pt'?pt+' / '+en:en+' / '+pt}
 function makeAllergenIcon(key){
  const a=ALLERGENS[key];if(!a)return null;
  const wrap=document.createElement('span');wrap.className='umiAllergenItem';
- const btn=document.createElement('button');btn.type='button';btn.className='umiAllergenIcon';btn.textContent=a.icon;if(key==='soy')btn.classList.add('umiSoyIcon');btn.setAttribute('aria-label',a.pt+' / '+a.en);btn.setAttribute('aria-expanded','false');btn.title=a.pt+' / '+a.en;
- const name=document.createElement('span');name.className='umiAllergenName';name.hidden=true;name.textContent=a.pt+' / '+a.en;
+ const btn=document.createElement('button');btn.type='button';btn.className='umiAllergenIcon';btn.textContent=a.icon;if(key==='soy')btn.classList.add('umiSoyIcon');btn.setAttribute('aria-label',bilingualLabel(a.pt,a.en));btn.setAttribute('aria-expanded','false');btn.title=bilingualLabel(a.pt,a.en);
+ const name=document.createElement('span');name.className='umiAllergenName';name.hidden=true;name.textContent=bilingualLabel(a.pt,a.en);
  btn.onclick=()=>{name.hidden=!name.hidden;btn.setAttribute('aria-expanded',String(!name.hidden))};wrap.append(btn,name);return wrap;
 }
 // Keep at most one label visible. A tap outside or on another icon dismisses it.
@@ -172,8 +173,8 @@ function renderDishAllergens(d){
    badge.addEventListener('click',()=>{note.hidden=!note.hidden;badge.setAttribute('aria-expanded',String(!note.hidden))});
    wrap.append(badge,note);row.append(wrap);
  }
- if(vegetarian)addInfoBadge('umiVegetarianBadge','V','Vegetariano / Vegetarian');
- if(spice)addInfoBadge('umiSpicyBadge',spice.icon,spice.pt+' / '+spice.en);
+ if(vegetarian)addInfoBadge('umiVegetarianBadge','V',bilingualLabel('Vegetariano','Vegetarian'));
+ if(spice)addInfoBadge('umiSpicyBadge',spice.icon,bilingualLabel(spice.pt,spice.en));
  if(reviewed&&keys.length){for(const k of keys)row.append(makeAllergenIcon(k))}
  else if(!reviewed){
    const item=document.createElement('span');item.className='umiAllergenItem';
@@ -181,7 +182,7 @@ function renderDishAllergens(d){
    btn.textContent='?';
    btn.setAttribute('aria-label',reviewed?(lang==='pt'?'Revisto: sem alergénios declarados':'Reviewed: no declared allergens'):(lang==='pt'?'Alergénios por confirmar':'Allergens not yet verified'));btn.setAttribute('aria-expanded','false');
    const note=document.createElement('span');note.className='umiAllergenName';note.hidden=true;
-   note.textContent=reviewed?'Revisto: sem alergénios declarados / Reviewed: no declared allergens (confirmar risco de contacto cruzado / check cross-contact risk)':'Alergénios por confirmar / Allergens not yet verified';
+   note.textContent=reviewed?bilingualLabel('Revisto: sem alergénios declarados (confirmar risco de contacto cruzado)','Reviewed: no declared allergens (check cross-contact risk)'):bilingualLabel('Alergénios por confirmar','Allergens not yet verified');
    btn.onclick=()=>{note.hidden=!note.hidden;btn.setAttribute('aria-expanded',String(!note.hidden))};
    item.append(btn,note);row.append(item);
  }
