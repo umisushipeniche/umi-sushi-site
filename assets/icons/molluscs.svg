@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f1cf93" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 49C8 28 18 16 32 16s24 12 25 33H7Z" fill="#f0cc91" stroke-width="2"/><path d="M32 17v31M21 20l7 28M43 20l-7 28M13 31l12 17M51 31 39 48" stroke="#332115" stroke-width="3"/><path d="M7 49h50" stroke="#e9bf80" stroke-width="3"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#f3cf92" stroke-linecap="round" stroke-linejoin="round">
+<!-- Fan-shaped scallop shell, clearly articulated ribs and scalloped upper edge -->
+<path d="M10 49C5 46 7 39 11 36C8 30 13 25 18 24C18 18 24 14 29 16C33 11 40 14 42 19C49 17 54 23 52 29C59 33 58 42 53 49H10Z" fill="#eac083" stroke-width="2.3"/>
+<path d="M32 17L32 49M23 19L29 49M16 25L26 49M12 34L22 49M41 20L35 49M49 26L39 49M53 36L43 49" stroke="#61401f" stroke-width="2.2"/>
+<path d="M8 49H55L51 54H12Z" fill="#f5d4a0" stroke-width="2"/>
+<path d="M15 49L10 44M48 49L54 44" stroke-width="1.5"/>
+</svg>
