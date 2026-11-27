@@ -1,8 +1,8 @@
-.seasonNotice{background:#5b370f;color:#fff1d9}
+.seasonNotice{background:#e1bd81;color:#231d19}
 .seasonNotice[hidden],.seasonNotice [hidden]{display:none}
 .seasonNotice summary{display:flex;align-items:center;justify-content:space-between;gap:8px 20px;flex-wrap:wrap;min-height:48px;padding:10px 6%;font-size:14px;font-weight:700;cursor:pointer;list-style:none}
 .seasonNotice summary::-webkit-details-marker{display:none}
-.seasonNotice summary:focus-visible{outline:2px solid #fff1d9;outline-offset:-4px}
+.seasonNotice summary:focus-visible{outline:2px solid #231d19;outline-offset:-4px}
 .seasonAction{text-decoration:underline;text-underline-offset:.2em}
 .seasonDetails{background:#211910;padding:16px 6% 24px;color:#fff1d9;font-size:16px}
 .seasonDetails ul{padding-inline-start:22px;margin:0 auto 18px;max-width:560px;line-height:1.65}
