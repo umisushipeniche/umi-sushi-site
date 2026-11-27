@@ -844,3 +844,16 @@ html[lang="pt"] body .umiCompactFooter #mapLink::before{content:"Localização"!
 html body #space #gallery{scrollbar-width:none!important;-ms-overflow-style:none!important;}
 html body #space #gallery::-webkit-scrollbar{display:none!important;width:0!important;height:0!important;}
 html body #space #gallery figcaption{display:none!important;}
+
+/* V3 homepage: keep the seasonal notice, hero actions and visit details in order. */
+html body header.top{position:relative!important;background:#151310!important}
+.heroVisit{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 22px;padding:18px 6%;background:#181614;color:#fff1d9;font-size:15px}
+.heroVisit p{margin:3px 0 0;color:#ddcfbb;white-space:pre-line;line-height:1.45}
+.heroVisit a{display:inline-flex;align-items:center;min-height:44px;color:#f2ca84;font-weight:700;text-decoration:underline;text-underline-offset:.2em}
+@media(max-width:600px){
+  html body main#home>.hero{height:clamp(370px,53svh,480px);min-height:0}
+  html body main#home>.hero .heroCopy{top:auto;bottom:8%;transform:none}
+  html body main#home>.hero .heroActions .btn{min-height:44px;font-size:clamp(11px,3.2vw,14px);padding-inline:10px;text-align:center}
+  .heroVisit{padding-block:14px}
+  .floatingReserva{display:none!important}
+}
