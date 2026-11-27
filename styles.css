@@ -845,11 +845,11 @@ html body #space #gallery{scrollbar-width:none!important;-ms-overflow-style:none
 html body #space #gallery::-webkit-scrollbar{display:none!important;width:0!important;height:0!important;}
 html body #space #gallery figcaption{display:none!important;}
 
-/* V3 homepage: keep the seasonal notice above the hero. */
-html body header.top{position:relative!important;background:#151310!important}
+/* Keep the transparent navigation over the hero, below the seasonal notice. */
+.homeShell{position:relative}
 @media(max-width:600px){
   html body main#home>.hero{height:clamp(370px,53svh,480px);min-height:0}
   html body main#home>.hero .heroCopy{top:auto;bottom:8%;transform:none}
   html body main#home>.hero .heroActions .btn{min-height:44px;font-size:clamp(11px,3.2vw,14px);padding-inline:10px;text-align:center}
-  .floatingReserva{display:none!important}
+  .floatingReserva{top:max(20vh,205px)!important}
 }
