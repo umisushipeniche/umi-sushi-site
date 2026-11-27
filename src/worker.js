@@ -42,7 +42,7 @@ const RECIPIENT='umisushi.peniche@gmail.com';
 const json=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 // Stable UMI takeaway entrypoint. Change TAKEAWAY_REDIRECT_URL when the provider changes.
-const DEFAULT_TAKEAWAY_REDIRECT_URL="https://pud.gostar.pro/go/?rid=52742&tid=-2&h5sty=5&preview=1&tpl_id=537";
+const DEFAULT_TAKEAWAY_REDIRECT_URL="https://emenu5.compop.vip/v5r/Home?rid=52742&tid=-1&et=2&h5sty=5";
 function takeawayRedirect(request, env) {
   if (request.method !== 'GET' && request.method !== 'HEAD')
     return new Response('Method Not Allowed', {status:405, headers:{Allow:'GET, HEAD', 'Cache-Control':'no-store'}});
