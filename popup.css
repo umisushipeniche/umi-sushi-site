@@ -13,7 +13,10 @@
 
 /* V3 mobile-only: keep the Christmas hours poster fully visible without oversized scrolling. */
 @media(max-width:480px){
-  #umiEventPanel{max-height:calc(100dvh - 16px)}
+  #umiEventPanel{width:min(82vw,330px);max-height:72dvh}
+  #umiEventHead{padding:8px 10px;gap:8px}
+  #umiEventTitle{font-size:14px;line-height:1.25}
   #umiEventBody{display:flex;align-items:center;justify-content:center;overflow-y:auto}
-  #umiEventImage{width:auto;max-width:100%;height:auto;max-height:60dvh;object-fit:contain;margin:0 auto}
+  #umiEventImage{width:auto;max-width:100%;height:auto;max-height:44dvh;object-fit:contain;margin:0 auto}
+  #umiEventOverlay .umiEventFooter{padding:6px 10px;font-size:11px}
 }
